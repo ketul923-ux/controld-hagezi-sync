@@ -1,6 +1,5 @@
 #  ControlD HaGeZi Sync
 
-[![GitHub stars](https://img.shields.io/github/stars/0x11DFE/controld-hagezi-sync?style=flat-square)](https://github.com/0x11DFE/controld-hagezi-sync/stargazers)
 [![License](https://img.shields.io/github/license/0x11DFE/controld-hagezi-sync?style=flat-square)](https://github.com/0x11DFE/controld-hagezi-sync/blob/main/LICENSE)
 [![Language](https://img.shields.io/badge/language-Bash-4EAA25?style=flat-square&logo=gnu-bash)](https://www.gnu.org/software/bash/)
 [![GitHub Actions](https://img.shields.io/github/actions/workflow/status/0x11DFE/controld-hagezi-sync/sync.yml?style=flat-square&label=CI)](https://github.com/0x11DFE/controld-hagezi-sync/actions/workflows/sync.yml)
@@ -30,13 +29,6 @@ Automatically sync HaGeZi DNS blocklists to your ControlD profiles via the Contr
 | **GitHub Actions summary + Local experience** | ✅ Rich markdown (freshness, rule counts) + Excellent CLI | ⚠️ Basic logs + Good Python script | ⚠️ Good (counts) + Good (binary/Makefile) | ❌ Minimal + Container/CLI-focused |
 
 **Bottom line:** If you want a lightweight, transparent script where you can define *different* blocklists for *different* family members or devices using plain profile names -- and preview changes before they go live -- with automatic resilience against GitHub outages -- this is the one.
-
-## Star History
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="star-history-dark.svg">
-  <img alt="Star history" src="star-history.svg">
-</picture>
 
 ---
 
