@@ -25,7 +25,7 @@ dry_run = false
 
 [profiles]
 # Exact names of your ControlD profiles (case-sensitive).
-names = ["Kids", "Friends", "Adults"]
+names = ["Privacy and Security Profile", "VPN-Replacement Profile - Mine", "VPN-Replacement Profile - Olivia", "VPN-Replacement Profile - Router"]
 
 # =============================================================================
 # FOLDER DEFINITIONS
@@ -35,10 +35,8 @@ names = ["Kids", "Friends", "Adults"]
 # =============================================================================
 
 [folders]
-"Badware Hoster"         = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/badware-hoster-folder.json"
-"Most Abused TLDs"       = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/spam-tlds-combined-folder.json"
-"No Safesearch Support"  = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/nosafesearch-folder.json"
-"META Tracker Allow"     = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/meta-tracker-allow-folder.json"
+"Spam TLDs light"         = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/spam-tlds-light-folder.json"
+"Spam IDNs"         = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/spam-idns-folder.json"
 
 # =============================================================================
 # PROFILE → FOLDER MAPPINGS
@@ -48,6 +46,7 @@ names = ["Kids", "Friends", "Adults"]
 # =============================================================================
 
 [profile_folders]
-Kids    = ["Badware Hoster", "Most Abused TLDs", "No Safesearch Support"]
-Friends = ["Badware Hoster", "Most Abused TLDs", "META Tracker Allow"]
-Adults  = ["Badware Hoster", "Most Abused TLDs", "META Tracker Allow"]
+Privacy and Security Profile    = ["Spam TLDs light", "Spam IDNs"]
+VPN-Replacement Profile - Mine = ["Spam TLDs light", "Spam IDNs"]
+VPN-Replacement Profile - Olivia  = ["Spam TLDs light", "Spam IDNs"]
+VPN-Replacement Profile - Router  = ["Spam TLDs light", "Spam IDNs"]
