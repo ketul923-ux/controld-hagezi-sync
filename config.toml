@@ -35,8 +35,31 @@ names = ["Privacy and Security Profile", "VPN-Replacement Profile - Mine", "VPN-
 # =============================================================================
 
 [folders]
-"Spam TLDs light"         = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/spam-tlds-light-folder.json"
-"Spam IDNs"         = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/spam-idns-folder.json"
+#GitHub
+"Apple Private Relay Block"        = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/apple-private-relay-allow-folder.json"
+"Badware Hoster"                   = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/badware-hoster-folder.json"
+"META Tracker Allow"               = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/meta-tracker-allow-folder.json"
+"Microsoft Allow"                  = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/microsoft-allow-folder.json"
+"Native Tracker Amazon"            = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/native-tracker-amazon-folder.json"
+"Native Tracker Apple"             = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/native-tracker-apple-folder.json"
+"Native Tracker Huawei"            = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/native-tracker-huawei-folder.json"
+"Native Tracker LG webOS"          = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/native-tracker-lgwebos-folder.json"
+"Native Tracker Microsoft"         = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/native-tracker-microsoft-folder.json"
+"Native Tracker Oppo Realme"       = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/native-tracker-oppo-realme-folder.json"
+"Native Tracker Roku"              = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/native-tracker-roku-folder.json"
+"Native Tracker Samsung"           = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/native-tracker-samsung-folder.json"
+"Native Tracker TikTok Aggressive" = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/native-tracker-tiktok-aggressive-folder.json"
+"Native Tracker TikTok"            = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/native-tracker-tiktok-folder.json"
+"Native Tracker Vivo"              = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/native-tracker-vivo-folder.json"
+"Native Tracker Xiaomi"            = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/native-tracker-xiaomi-folder.json"
+"No Safesearch Support"            = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/nosafesearch-folder.json"
+"Referral Allow"                   = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/referral-allow-folder.json"
+"Spam IDNs"                        = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/spam-idns-folder.json"
+"Spam TLDs Allow"                  = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/spam-tlds-allow-folder.json"
+"Most Abused TLDs"                 = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/spam-tlds-combined-folder.json"
+"Spam TLDs Combined"               = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/spam-tlds-folder.json"
+"Spam TLDs Light"                  = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/spam-tlds-light-folder.json"
+"Ultimate Known Issues Allow"      = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/ultimate-known_issues-allow-folder.json"
 
 # =============================================================================
 # PROFILE → FOLDER MAPPINGS
@@ -46,7 +69,7 @@ names = ["Privacy and Security Profile", "VPN-Replacement Profile - Mine", "VPN-
 # =============================================================================
 
 [profile_folders]
-Privacy and Security Profile    = ["Spam TLDs light", "Spam IDNs"]
-VPN-Replacement Profile - Mine = ["Spam TLDs light", "Spam IDNs"]
-VPN-Replacement Profile - Olivia  = ["Spam TLDs light", "Spam IDNs"]
-VPN-Replacement Profile - Router  = ["Spam TLDs light", "Spam IDNs"]
+Privacy and Security Profile    = ["Apple Private Relay Block", "Native Tracker Amazon", "Native Tracker Apple", "Native Tracker Huawei", "Native Tracker LG webOS", "Native Tracker Microsoft", "Native Tracker Oppo Realme", "Native Tracker Roku", "Native Tracker Samsung", "Native Tracker TikTok Aggressive", "Native Tracker Vivo", "Native Tracker Xiaomi", "No Safesearch Support", "Spam IDNs", "Spam TLDs Combined"]
+VPN-Replacement Profile - Mine = ["Apple Private Relay Block", "Native Tracker Amazon", "Native Tracker Apple", "Native Tracker Huawei", "Native Tracker LG webOS", "Native Tracker Microsoft", "Native Tracker Oppo Realme", "Native Tracker Roku", "Native Tracker Samsung", "Native Tracker TikTok Aggressive", "Native Tracker Vivo", "Native Tracker Xiaomi", "No Safesearch Support", "Spam IDNs", "Spam TLDs Combined"]
+VPN-Replacement Profile - Olivia  = ["Apple Private Relay Block", "Native Tracker Amazon", "Native Tracker Apple", "Native Tracker Huawei", "Native Tracker LG webOS", "Native Tracker Microsoft", "Native Tracker Oppo Realme", "Native Tracker Roku", "Native Tracker Samsung", "Native Tracker TikTok Aggressive", "Native Tracker Vivo", "Native Tracker Xiaomi", "No Safesearch Support", "Spam IDNs", "Spam TLDs Combined"]
+VPN-Replacement Profile - Router  = ["Apple Private Relay Block", "Native Tracker Amazon", "Native Tracker Apple", "Native Tracker Huawei", "Native Tracker LG webOS", "Native Tracker Microsoft", "Native Tracker Oppo Realme", "Native Tracker Roku", "Native Tracker Samsung", "Native Tracker TikTok Aggressive", "Native Tracker Vivo", "Native Tracker Xiaomi", "No Safesearch Support", "Spam IDNs", "Spam TLDs Combined"]
