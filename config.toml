@@ -9,11 +9,11 @@
 # Your ControlD API Write Token.
 # Get it from: https://controld.com/dashboard/api
 # You can also leave this empty and use the CONTROLD_API_TOKEN env var.
-api_token = ""
+api_token = "CONTROLD_API_TOKEN"
 
 # Uncomment to skip the upstream freshness report at the end of each sync run.
 # This avoids unauthenticated GitHub API calls (60 req/hr limit) — useful for CI.
-# show_freshness = false
+show_freshness = false
 
 # Set to true to preview changes without modifying anything.
 dry_run = false
@@ -60,6 +60,7 @@ names = ["Privacy and Security Profile", "VPN-Replacement Profile - Mine", "VPN-
 "Most Abused TLDs"                 = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/spam-tlds-folder.json"
 "Spam TLDs Light"                  = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/spam-tlds-light-folder.json"
 "Ultimate Known Issues Allow"      = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/ultimate-known_issues-allow-folder.json"
+"Adobe Telemetry"                  = "https://raw.githubusercontent.com/ignaciocastro/a-dove-is-dumb/main/hagezi.json"
 
 # =============================================================================
 # PROFILE → FOLDER MAPPINGS
@@ -69,7 +70,7 @@ names = ["Privacy and Security Profile", "VPN-Replacement Profile - Mine", "VPN-
 # =============================================================================
 
 [profile_folders]
-"Privacy and Security Profile"    = ["Native Tracker Amazon", "Native Tracker Apple", "Native Tracker Huawei", "Native Tracker LG webOS", "Native Tracker Microsoft", "Native Tracker Oppo Realme", "Native Tracker Roku", "Native Tracker Samsung", "Native Tracker TikTok Aggressive", "Native Tracker Vivo", "Native Tracker Xiaomi", "No Safesearch Support", "Spam TLDs Combined"]
-"VPN-Replacement Profile - Mine" = ["Native Tracker Amazon", "Native Tracker Apple", "Native Tracker Huawei", "Native Tracker LG webOS", "Native Tracker Microsoft", "Native Tracker Oppo Realme", "Native Tracker Roku", "Native Tracker Samsung", "Native Tracker TikTok Aggressive", "Native Tracker Vivo", "Native Tracker Xiaomi", "No Safesearch Support", "Spam TLDs Combined"]
-"VPN-Replacement Profile - Olivia"  = ["Native Tracker Amazon", "Native Tracker Apple", "Native Tracker Huawei", "Native Tracker LG webOS", "Native Tracker Microsoft", "Native Tracker Oppo Realme", "Native Tracker Roku", "Native Tracker Samsung", "Native Tracker TikTok Aggressive", "Native Tracker Vivo", "Native Tracker Xiaomi", "No Safesearch Support", "Spam TLDs Combined"]
-"VPN-Replacement Profile - Router"  = ["Native Tracker Amazon", "Native Tracker Apple", "Native Tracker Huawei", "Native Tracker LG webOS", "Native Tracker Microsoft", "Native Tracker Oppo Realme", "Native Tracker Roku", "Native Tracker Samsung", "Native Tracker TikTok Aggressive", "Native Tracker Vivo", "Native Tracker Xiaomi", "No Safesearch Support", "Spam TLDs Combined"]
+"Privacy and Security Profile"    = ["Native Tracker Amazon", "Native Tracker Apple", "Native Tracker Huawei", "Native Tracker LG webOS", "Native Tracker Microsoft", "Native Tracker Oppo Realme", "Native Tracker Roku", "Native Tracker Samsung", "Native Tracker TikTok Aggressive", "Native Tracker Vivo", "Native Tracker Xiaomi", "No Safesearch Support", "Spam TLDs Combined", "Adobe Telemetry"]
+"VPN-Replacement Profile - Mine" = ["Native Tracker Amazon", "Native Tracker Apple", "Native Tracker Huawei", "Native Tracker LG webOS", "Native Tracker Microsoft", "Native Tracker Oppo Realme", "Native Tracker Roku", "Native Tracker Samsung", "Native Tracker TikTok Aggressive", "Native Tracker Vivo", "Native Tracker Xiaomi", "No Safesearch Support", "Spam TLDs Combined", "Adobe Telemetry"]
+"VPN-Replacement Profile - Olivia"  = ["Native Tracker Amazon", "Native Tracker Apple", "Native Tracker Huawei", "Native Tracker LG webOS", "Native Tracker Microsoft", "Native Tracker Oppo Realme", "Native Tracker Roku", "Native Tracker Samsung", "Native Tracker TikTok Aggressive", "Native Tracker Vivo", "Native Tracker Xiaomi", "No Safesearch Support", "Spam TLDs Combined", "Adobe Telemetry"]
+"VPN-Replacement Profile - Router"  = ["Native Tracker Amazon", "Native Tracker Apple", "Native Tracker Huawei", "Native Tracker LG webOS", "Native Tracker Microsoft", "Native Tracker Oppo Realme", "Native Tracker Roku", "Native Tracker Samsung", "Native Tracker TikTok Aggressive", "Native Tracker Vivo", "Native Tracker Xiaomi", "No Safesearch Support", "Spam TLDs Combined", "Adobe Telemetry"]
