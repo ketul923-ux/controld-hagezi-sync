@@ -8,7 +8,7 @@ on:
       profile:
         description: 'Profile to sync (leave empty for all)'
         required: false
-        default: ''
+        default: '["Privacy and Security Profile", "VPN-Replacement Profile - Mine", "VPN-Replacement Profile - Olivia", "VPN-Replacement Profile - Router"]'
       dry_run:
         description: 'Dry run (preview only)'
         type: boolean
@@ -18,7 +18,7 @@ on:
         description: 'Force fresh download, ignore cache'
         type: boolean
         required: false
-        default: false
+        default: true
       skip_check:
         description: 'Skip update check and sync unconditionally'
         type: boolean
