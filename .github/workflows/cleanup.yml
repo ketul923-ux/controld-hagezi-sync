@@ -12,7 +12,7 @@ on:
         description: 'Force delete ALL runs (the latest run of each workflow is still kept)'
         type: boolean
         required: false
-        default: false
+        default: true
 
 permissions:
   actions: write
