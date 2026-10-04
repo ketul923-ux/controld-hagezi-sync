@@ -60,7 +60,7 @@ names = ["Privacy and Security Profile", "VPN-Replacement Profile - Mine", "VPN-
 "Most Abused TLDs"                 = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/spam-tlds-folder.json"
 "Spam TLDs Light"                  = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/spam-tlds-light-folder.json"
 "Ultimate Known Issues Allow"      = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/ultimate-known_issues-allow-folder.json"
-"Adobe Telemetry"                  = "https://raw.githubusercontent.com/ignaciocastro/a-dove-is-dumb/main/hagezi.json"
+"Adobe Telemetry"                  = "https://raw.githubusercontent.com/ignaciocastro/a-dove-is-dumb/main/mini/hagezi.json"
 
 # =============================================================================
 # PROFILE → FOLDER MAPPINGS
