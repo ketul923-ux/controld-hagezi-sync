@@ -8,7 +8,7 @@ on:
       profile:
         description: 'Profile to sync (leave empty for all)'
         required: false
-        default: '["Privacy and Security Profile", "VPN-Replacement Profile - Mine", "VPN-Replacement Profile - Olivia", "VPN-Replacement Profile - Router"]'
+        default: ''
       dry_run:
         description: 'Dry run (preview only)'
         type: boolean
