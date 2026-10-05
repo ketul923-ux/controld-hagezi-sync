@@ -8,7 +8,7 @@ on:
 
 jobs:
   sync:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-26.04
     permissions:
       contents: write
       actions: write # Required to allow the workflow to delete its own logs
