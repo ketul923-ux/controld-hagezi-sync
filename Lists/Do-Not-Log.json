@@ -7,6 +7,13 @@
     "is_magic": 1
   },
   "rules": [
+    {
+      "PK": "proxy-latency.controld.com.",
+      "action": {
+        "do": 1,
+        "status": 1
+      }
+    }
   ]
 }
 
