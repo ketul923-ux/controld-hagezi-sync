@@ -9,7 +9,7 @@
   },
   "rules": [
     {
-      "PK": "dns.controld.com.",
+      "PK": "*.msftncsi.com",
       "action": {
         "do": 1,
         "status": 1
