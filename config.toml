@@ -18,9 +18,8 @@ show_freshness = false
 # Set to true to preview changes without modifying anything.
 dry_run = false
 
-no_cache = true
 
-force_delete_all = true
+
 
 # Uncomment to override the fallback mirror base URL.
 # Default: https://hagezi-mirror.dnsbunker.org/controld
