@@ -8,651 +8,651 @@
   },
   "rules": [
     {
-      "PK": "s.youtube.com",
+      "PK": "s.youtube.com.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "redirector.googlevideo.com",
+      "PK": "redirector.googlevideo.com.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "ads.youtube.com",
+      "PK": "ads.youtube.com.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "us.i.posthog.com",
+      "PK": "us.i.posthog.com.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "rudderstack.com",
+      "PK": "rudderstack.com.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "bnc.lt",
+      "PK": "bnc.lt.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "connect.facebook.net",
+      "PK": "connect.facebook.net.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "i.instagram.com",
+      "PK": "i.instagram.com.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "analytics.twitter.com",
+      "PK": "analytics.twitter.com.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "ngfts.lge.com",
+      "PK": "ngfts.lge.com.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "cdn.cookielaw.org",
+      "PK": "cdn.cookielaw.org.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "geolocation.onetrust.com",
+      "PK": "geolocation.onetrust.com.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "privacyportal.onetrust.com",
+      "PK": "privacyportal.onetrust.com.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "consent.cookiebot.com",
+      "PK": "consent.cookiebot.com.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "consentcdn.cookiebot.com",
+      "PK": "consentcdn.cookiebot.com.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "consent.trustarc.com",
+      "PK": "consent.trustarc.com.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "cdn.privacy-mgmt.com",
+      "PK": "cdn.privacy-mgmt.com.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "app.usercentrics.eu",
+      "PK": "app.usercentrics.eu.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "cdn.optimizely.com",
+      "PK": "cdn.optimizely.com.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "click.mailchimp.com",
+      "PK": "click.mailchimp.com.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "widget.intercom.io",
+      "PK": "widget.intercom.io.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "dai.google.com",
+      "PK": "dai.google.com.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "ssl.p.jwpcdn.com",
+      "PK": "ssl.p.jwpcdn.com.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "mssl.fwmrm.net",
+      "PK": "mssl.fwmrm.net.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "!#US",
+      "PK": "!#US.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "*dns.resolver.arpa",
+      "PK": "*dns.resolver.arpa.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "use-application-dns.net",
+      "PK": "use-application-dns.net.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "example.com",
+      "PK": "example.com.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "vk-ads.com",
+      "PK": "vk-ads.com.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "assets.adobedtm.com",
+      "PK": "assets.adobedtm.com.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "careers.hotjar.com",
+      "PK": "careers.hotjar.com.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "adsense.google.com",
+      "PK": "adsense.google.com.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "googleads.g.doubleclick.net",
+      "PK": "googleads.g.doubleclick.net.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "pagead2.googlesyndication.com",
+      "PK": "pagead2.googlesyndication.com.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "www.googletagmanager.com",
+      "PK": "www.googletagmanager.com.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "www.google-analytics.com",
+      "PK": "www.google-analytics.com.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "analyticssuitefrontend-pa.clients6.google.com",
+      "PK": "analyticssuitefrontend-pa.clients6.google.com.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "clarity.ms",
+      "PK": "clarity.ms.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "eu.posthog.com",
+      "PK": "eu.posthog.com.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "cookiebot.com",
+      "PK": "cookiebot.com.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "pixel.facebook.com",
+      "PK": "pixel.facebook.com.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "an.facebook.com",
+      "PK": "an.facebook.com.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "events.reddit.com",
+      "PK": "events.reddit.com.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "events.redditmedia.com",
+      "PK": "events.redditmedia.com.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "ads-api.twitter.com",
+      "PK": "ads-api.twitter.com.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "tr.facebook.com",
+      "PK": "tr.facebook.com.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "ads-api.x.com",
+      "PK": "ads-api.x.com.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "analytics.x.com",
+      "PK": "analytics.x.com.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "ads.x.com",
+      "PK": "ads.x.com.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "d.reddit.com",
+      "PK": "d.reddit.com.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "analytics.facebook.com",
+      "PK": "analytics.facebook.com.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "alb.reddit.com",
+      "PK": "alb.reddit.com.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "pixel.reddit.com",
+      "PK": "pixel.reddit.com.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "imasdk.googleapis.com",
+      "PK": "imasdk.googleapis.com.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "s0.2mdn.net",
+      "PK": "s0.2mdn.net.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "securepubads.g.doubleclick.net",
+      "PK": "securepubads.g.doubleclick.net.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "pixel-config.reddit.com",
+      "PK": "pixel-config.reddit.com.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "ads.reddit.com",
+      "PK": "ads.reddit.com.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "www.redditstatic.com",
+      "PK": "www.redditstatic.com.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "adeventtracker.spotify.com",
+      "PK": "adeventtracker.spotify.com.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "adstudio-assets.scdn.co",
+      "PK": "adstudio-assets.scdn.co.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "bloodhound.spotify.com",
+      "PK": "bloodhound.spotify.com.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "wl.spotify.com",
+      "PK": "wl.spotify.com.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "vid.vidyard.com",
+      "PK": "vid.vidyard.com.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "ads.deezer.com",
+      "PK": "ads.deezer.com.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "ads.iheart.com",
+      "PK": "ads.iheart.com.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "www.facebook.com",
+      "PK": "www.facebook.com.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "impact.com",
+      "PK": "impact.com.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "trk.impact.com",
+      "PK": "trk.impact.com.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "ads.facebook.com",
+      "PK": "ads.facebook.com.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "amoeba.web.roku.com",
+      "PK": "amoeba.web.roku.com.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "sourcepoint.mgr.consensu.org",
+      "PK": "sourcepoint.mgr.consensu.org.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "api-hotjar.com",
+      "PK": "api-hotjar.com.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "analytics.oneplus.cn",
+      "PK": "analytics.oneplus.cn.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "malware.testcategory.com",
+      "PK": "malware.testcategory.com.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "cloudflare-dns.com",
+      "PK": "cloudflare-dns.com.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "dns.google",
+      "PK": "dns.google.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "dns.quad9.net",
+      "PK": "dns.quad9.net.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "dns.opendns.com",
+      "PK": "dns.opendns.com.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "dns.adguard-dns.com",
+      "PK": "dns.adguard-dns.com.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "family.cloudflare-dns.com",
+      "PK": "family.cloudflare-dns.com.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "dns.nextdns.io",
+      "PK": "dns.nextdns.io.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "dns.mullvad.net",
+      "PK": "dns.mullvad.net.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "xz.fbcdn.net",
+      "PK": "xz.fbcdn.net.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "xy.fbcdn.net",
+      "PK": "xy.fbcdn.net.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "216.58.202.4.in-addr.arpa",
+      "PK": "216.58.202.4.in-addr.arpa.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "google.com.onion",
+      "PK": "google.com.onion.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "lb.*udp.0.50.168.192.in-addr.arpa",
+      "PK": "lb.*udp.0.50.168.192.in-addr.arpa.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "*google.com.",
+      "PK": "*google.com..",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "lb.*udp.6.0.0.192.in-addr.arpa",
+      "PK": "lb.*udp.6.0.0.192.in-addr.arpa.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "db.*udp.0.50.168.192.in-addr.arpa",
+      "PK": "db.*udp.0.50.168.192.in-addr.arpa.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "b.*udp.0.50.168.192.in-addr.arpa",
+      "PK": "b.*udp.0.50.168.192.in-addr.arpa.",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "event",
+      "PK": "event.",
       "action": {
         "do": 0,
         "status": 1
