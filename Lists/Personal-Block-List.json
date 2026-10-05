@@ -176,13 +176,6 @@
       }
     },
     {
-      "PK": "doh.dns.apple.com",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
       "PK": "dns-tunnel-check.googlezip.net",
       "action": {
         "do": 0,
