@@ -34,6 +34,7 @@ jobs:
           
           # 4. Change internal trailing quotes and domains from " to ."
           ## sed -i 's/\("PK":\s*"\)\([^"]*\)"/\1\2."/g' Lists/Apple-Private-Relay-Block.json
+          jq 'del(.rules[] | select(.PK == "doh.dns.apple.com" or .PK == "doh.dns.apple.com.v.aaplimg.com"))' Lists/Apple-Private-Relay-Block.json
 
       - name: Commit and Push changes
         run: |
