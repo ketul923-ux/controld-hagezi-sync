@@ -56,4 +56,4 @@ jobs:
         run: |
           echo "Scheduled run detected. Deleting this workflow run log..."
           # Uses the GitHub CLI (built into the runner) to delete this specific run history
-          gh api -X DELETE /repos/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          gh api -X DELETE /repos/${{ github.repository }}/actions/runs/${{ github.run_id }} || true
