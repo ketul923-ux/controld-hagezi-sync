@@ -624,7 +624,7 @@
       }
     },
     {
-      "PK": "*google.com..",
+      "PK": "*google.com.",
       "action": {
         "do": 0,
         "status": 1
