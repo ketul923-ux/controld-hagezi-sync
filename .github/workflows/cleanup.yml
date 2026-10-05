@@ -23,7 +23,7 @@ concurrency:
 
 jobs:
   delete-logs:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-26.04
     if: >
       github.event_name == 'workflow_run' &&
       github.event.workflow_run.conclusion == 'success' &&
@@ -39,7 +39,7 @@ jobs:
             /repos/${{ github.repository }}/actions/runs/${{ github.event.workflow_run.id }}/logs
 
   delete-runs:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-26.04
     if: >
       github.event_name == 'schedule' ||
       github.event_name == 'workflow_dispatch' ||
