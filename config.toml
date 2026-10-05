@@ -66,6 +66,11 @@ names = ["Privacy and Security Profile", "VPN-Replacement Profile - Mine", "VPN-
 "Ultimate Known Issues Allow"       = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/ultimate-known_issues-allow-folder.json"
 "Adobe Telemetry"                   = "https://raw.githubusercontent.com/ignaciocastro/a-dove-is-dumb/main/mini/hagezi.json"
 "Apple Private Relay Block"         = "https://raw.githubusercontent.com/ketul923-ux/controld-hagezi-sync/main/Lists/Apple-Private-Relay-Block.json"
+"Apple Private Relay Block"         = ""
+"Apple Private Relay Block"         = ""
+"Apple Private Relay Block"         = ""
+"Apple Private Relay Block"         = ""
+"Apple Private Relay Block"         = ""
 
 # =============================================================================
 # PROFILE → FOLDER MAPPINGS
