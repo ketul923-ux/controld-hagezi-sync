@@ -8,9 +8,9 @@
   },
   "rules": [
     {
-      "PK": "proxy-latency.controld.com.",
+      "PK": "stats.controld.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     }
