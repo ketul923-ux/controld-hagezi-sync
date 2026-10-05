@@ -40,7 +40,7 @@ names = ["Privacy and Security Profile", "VPN-Replacement Profile - Mine", "VPN-
 
 [folders]
 #GitHub
-"Apple Private Relay Block"         = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/apple-private-relay-allow-folder.json"
+"Apple Private Relay Allow"         = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/apple-private-relay-allow-folder.json"
 "Badware Hoster"                    = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/badware-hoster-folder.json"
 "META Tracker Allow"                = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/meta-tracker-allow-folder.json"
 "Microsoft Allow"                   = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/microsoft-allow-folder.json"
@@ -65,6 +65,7 @@ names = ["Privacy and Security Profile", "VPN-Replacement Profile - Mine", "VPN-
 "Spam TLDs Light"                   = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/spam-tlds-light-folder.json"
 "Ultimate Known Issues Allow"       = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/ultimate-known_issues-allow-folder.json"
 "Adobe Telemetry"                   = "https://raw.githubusercontent.com/ignaciocastro/a-dove-is-dumb/main/mini/hagezi.json"
+"Apple Private Relay Block"         = ""
 
 # =============================================================================
 # PROFILE → FOLDER MAPPINGS
