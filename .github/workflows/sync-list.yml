@@ -30,10 +30,10 @@ jobs:
           
           # 3. Modify "group": "Apple PR allow" to "group": "Apple Private Relay Block"
           sed -i 's/"group": "Apple PR allow"/"group": "Apple Private Relay Block"/g' Lists/Apple-Private-Relay-Block.json
-          sed -i 's/"group": "Apple PR allow."/"group": "Apple Private Relay Block"/g' Lists/Apple-Private-Relay-Block.json
+          ## sed -i 's/"group": "Apple PR allow."/"group": "Apple Private Relay Block"/g' Lists/Apple-Private-Relay-Block.json
           
           # 4. Change internal trailing quotes and domains from " to ."
-          sed -i 's/\("PK":\s*"\)\([^"]*\)"/\1\2."/g' Lists/Apple-Private-Relay-Block.json
+          ## sed -i 's/\("PK":\s*"\)\([^"]*\)"/\1\2."/g' Lists/Apple-Private-Relay-Block.json
 
       - name: Commit and Push changes
         run: |
