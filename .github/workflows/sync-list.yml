@@ -23,7 +23,7 @@ jobs:
           mkdir -p Lists
           
           # 1. Download the source file directly over the target path
-          curl -sL "https://githubusercontent.com" -o Lists/Apple-Private-Relay-Block.json
+          curl -sL "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/controld/apple-private-relay-allow-folder.json" -o Lists/Apple-Private-Relay-Block.json
           
           # 2. Modify "do": 1, to "do": 0,
           sed -i 's/"do": 1,/"do": 0,/g' Lists/Apple-Private-Relay-Block.json
