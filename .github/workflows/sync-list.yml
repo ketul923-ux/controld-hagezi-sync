@@ -25,16 +25,13 @@ jobs:
           # 1. Download the source file directly over the target path
           curl -sL "https://hagezi-mirror.dnsbunker.org/controld/apple-private-relay-allow-folder.json" -o Lists/Apple-Private-Relay-Block.json
           
-          # 2. Modify "do": 1, to "do": 0,
-          sed -i 's/"do": 1,/"do": 0,/g' Lists/Apple-Private-Relay-Block.json
-          
-          # 3. Modify "group": "Apple PR allow" to "group": "Apple Private Relay Block"
-          sed -i 's/"group": "Apple PR allow"/"group": "Apple Private Relay Block"/g' Lists/Apple-Private-Relay-Block.json
-          ## sed -i 's/"group": "Apple PR allow."/"group": "Apple Private Relay Block"/g' Lists/Apple-Private-Relay-Block.json
-          
-          # 4. Change internal trailing quotes and domains from " to ."
-          ## sed -i 's/\("PK":\s*"\)\([^"]*\)"/\1\2."/g' Lists/Apple-Private-Relay-Block.json
-          jq 'del(.rules[] | select(.PK == "doh.dns.apple.com" or .PK == "doh.dns.apple.com.v.aaplimg.com"))' Lists/Apple-Private-Relay-Block.json
+          # 2. Process file transformations with jq safely
+          jq '.group.group = "Apple Private Relay Block" | 
+            .group.action.do = 0 | 
+            (.rules[].action.do) = 0 | 
+            del(.rules[] | select(.PK == "doh.dns.apple.com" or .PK == "doh.dns.apple.com.v.aaplimg.com"))' \
+            Lists/Apple-Private-Relay-Block.json > Lists/Apple-Private-Relay-Block.json.tmp && \
+            mv Lists/Apple-Private-Relay-Block.json.tmp Lists/Apple-Private-Relay-Block.json
 
       - name: Commit and Push changes
         run: |
