@@ -2,8 +2,8 @@
   "group": {
     "group": "Apple Private Relay Block",
     "action": {
-      "status": 1,
-      "do": 0
+      "do": 0,
+      "status": 1
     }
   },
   "rules": [
