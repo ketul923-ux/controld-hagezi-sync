@@ -5,125 +5,125 @@
       "status": 1,
       "do": 2,
       "via": "0.0.0.0",
-      "via_v6": "::"
+      "via_v6": "0000:0000:0000:0000:0000:0000:0000:0000"
     }
   },
   "rules": [
     {
-      "PK": "clientstream.launchdarkly.com",
+      "PK": "clientstream.launchdarkly.com.",
       "action": {
         "do": 2,
         "status": 1,
         "via": "0.0.0.0",
-        "via_v6": "::"
+        "via_v6": "0000:0000:0000:0000:0000:0000:0000:0000"
       }
     },
     {
-      "PK": "rgom10-asus-en.url.trendmicro.com",
+      "PK": "rgom10-asus-en.url.trendmicro.com.",
       "action": {
         "do": 2,
         "status": 1,
         "via": "0.0.0.0",
-        "via_v6": "::"
+        "via_v6": "0000:0000:0000:0000:0000:0000:0000:0000"
       }
     },
     {
-      "PK": "mobile.events.data.microsoft.com",
+      "PK": "mobile.events.data.microsoft.com.",
       "action": {
         "do": 2,
         "status": 1,
         "via": "0.0.0.0",
-        "via_v6": "::"
+        "via_v6": "0000:0000:0000:0000:0000:0000:0000:0000"
       }
     },
     {
-      "PK": "mobile.pipe.aria.microsoft.com",
+      "PK": "mobile.pipe.aria.microsoft.com.",
       "action": {
         "do": 2,
         "status": 1,
         "via": "0.0.0.0",
-        "via_v6": "::"
+        "via_v6": "0000:0000:0000:0000:0000:0000:0000:0000"
       }
     },
     {
-      "PK": "scribe.logs.roku.com",
+      "PK": "scribe.logs.roku.com.",
       "action": {
         "do": 2,
         "status": 1,
         "via": "0.0.0.0",
-        "via_v6": "::"
+        "via_v6": "0000:0000:0000:0000:0000:0000:0000:0000"
       }
     },
     {
-      "PK": "liberty.logs.roku.com",
+      "PK": "liberty.logs.roku.com.",
       "action": {
         "do": 2,
         "status": 1,
         "via": "0.0.0.0",
-        "via_v6": "::"
+        "via_v6": "0000:0000:0000:0000:0000:0000:0000:0000"
       }
     },
     {
-      "PK": "sdk.iad-03.braze.com",
+      "PK": "sdk.iad-03.braze.com.",
       "action": {
         "do": 2,
         "status": 1,
         "via": "0.0.0.0",
-        "via_v6": "::"
+        "via_v6": "0000:0000:0000:0000:0000:0000:0000:0000"
       }
     },
     {
-      "PK": "contents2.00110.citi.com",
+      "PK": "contents2.00110.citi.com.",
       "action": {
         "do": 2,
         "status": 1,
         "via": "0.0.0.0",
-        "via_v6": "::"
+        "via_v6": "0000:0000:0000:0000:0000:0000:0000:0000"
       }
     },
     {
-      "PK": "teams.events.data.microsoft.com",
+      "PK": "teams.events.data.microsoft.com.",
       "action": {
         "do": 2,
         "status": 1,
         "via": "0.0.0.0",
-        "via_v6": "::"
+        "via_v6": "0000:0000:0000:0000:0000:0000:0000:0000"
       }
     },
     {
-      "PK": "p.controld.com",
+      "PK": "p.controld.com.",
       "action": {
         "do": 2,
         "status": 1,
         "via": "0.0.0.0",
-        "via_v6": "::"
+        "via_v6": "0000:0000:0000:0000:0000:0000:0000:0000"
       }
     },
     {
-      "PK": "graph.facebook.com",
+      "PK": "graph.facebook.com.",
       "action": {
         "do": 2,
         "status": 1,
         "via": "0.0.0.0",
-        "via_v6": "::"
+        "via_v6": "0000:0000:0000:0000:0000:0000:0000:0000"
       }
     },
     {
-      "PK": "iguazu.doordash.com",
+      "PK": "iguazu.doordash.com.",
       "action": {
         "do": 2,
         "status": 1,
         "via": "0.0.0.0",
-        "via_v6": "::"
+        "via_v6": "0000:0000:0000:0000:0000:0000:0000:0000"
       }
     },
     {
-      "PK": "eu-teams.events.data.microsoft.com",
+      "PK": "eu-teams.events.data.microsoft.com.",
       "action": {
         "do": 2,
         "status": 1,
         "via": "0.0.0.0",
-        "via_v6": "::"
+        "via_v6": "0000:0000:0000:0000:0000:0000:0000:0000"
       }
     }
   ]
