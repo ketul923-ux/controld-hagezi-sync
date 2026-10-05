@@ -18,7 +18,7 @@ on:
         description: 'Force fresh download, ignore cache'
         type: boolean
         required: false
-        default: true
+        default: false
       skip_check:
         description: 'Skip update check and sync unconditionally'
         type: boolean
