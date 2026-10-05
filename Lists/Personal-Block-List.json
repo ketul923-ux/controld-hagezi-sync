@@ -15,13 +15,6 @@
       }
     },
     {
-      "PK": "redirector.googlevideo.com",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
       "PK": "ads.youtube.com",
       "action": {
         "do": 0,
@@ -37,13 +30,6 @@
     },
     {
       "PK": "rudderstack.com",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
-      "PK": "bnc.lt",
       "action": {
         "do": 0,
         "status": 1
@@ -141,20 +127,6 @@
       }
     },
     {
-      "PK": "click.mailchimp.com",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
-      "PK": "widget.intercom.io",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
       "PK": "dai.google.com",
       "action": {
         "do": 0,
@@ -183,14 +155,35 @@
       }
     },
     {
-      "PK": "*dns.resolver.arpa",
+      "PK": "use-application-dns.net",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "use-application-dns.net",
+      "PK": "mask.icloud.com",
+      "action": {
+        "do": 0,
+        "status": 1
+      }
+    },
+    {
+      "PK": "mask-h2.icloud.com",
+      "action": {
+        "do": 0,
+        "status": 1
+      }
+    },
+    {
+      "PK": "doh.dns.apple.com",
+      "action": {
+        "do": 0,
+        "status": 1
+      }
+    },
+    {
+      "PK": "dns-tunnel-check.googlezip.net",
       "action": {
         "do": 0,
         "status": 1
@@ -414,13 +407,6 @@
       }
     },
     {
-      "PK": "www.redditstatic.com",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
       "PK": "adeventtracker.spotify.com",
       "action": {
         "do": 0,
@@ -464,13 +450,6 @@
     },
     {
       "PK": "ads.iheart.com",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
-      "PK": "www.facebook.com",
       "action": {
         "do": 0,
         "status": 1
@@ -533,62 +512,6 @@
       }
     },
     {
-      "PK": "cloudflare-dns.com",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
-      "PK": "dns.google",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
-      "PK": "dns.quad9.net",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
-      "PK": "dns.opendns.com",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
-      "PK": "dns.adguard-dns.com",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
-      "PK": "family.cloudflare-dns.com",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
-      "PK": "dns.nextdns.io",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
-      "PK": "dns.mullvad.net",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
       "PK": "xz.fbcdn.net",
       "action": {
         "do": 0,
@@ -618,13 +541,6 @@
     },
     {
       "PK": "lb.*udp.0.50.168.192.in-addr.arpa",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
-      "PK": "*google.com",
       "action": {
         "do": 0,
         "status": 1
