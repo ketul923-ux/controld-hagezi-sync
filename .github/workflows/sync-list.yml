@@ -1,0 +1,59 @@
+name: Sync and Modify Apple Private Relay List
+
+on:
+  schedule:
+    # Runs at 30 minutes past the hour every 2 hours (e.g., 12:30, 2:30, 4:30...)
+    - cron: '30 */2 * * *'
+  workflow_dispatch: # Allows you to run this manually from the Actions tab
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      actions: write # Required to allow the workflow to delete its own logs
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download and Process File
+        run: |
+          # Create the directory if it doesn't exist
+          mkdir -p Lists
+          
+          # 1. Download the source file directly over the target path
+          curl -sL "https://githubusercontent.com" -o Lists/Apple-Private-Relay-Block.json
+          
+          # 2. Modify "do": 1, to "do": 0,
+          sed -i 's/"do": 1,/"do": 0,/g' Lists/Apple-Private-Relay-Block.json
+          
+          # 3. Modify "group": "Apple PR allow" to "group": "Apple Private Relay Block"
+          sed -i 's/"group": "Apple PR allow"/"group": "Apple Private Relay Block"/g' Lists/Apple-Private-Relay-Block.json
+          sed -i 's/"group": "Apple PR allow."/"group": "Apple Private Relay Block"/g' Lists/Apple-Private-Relay-Block.json
+          
+          # 4. Change internal trailing quotes and domains from " to ."
+          sed -i 's/\(\.net\|\.com\)"/\1."/g' Lists/Apple-Private-Relay-Block.json
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@://github.com"
+          
+          git add Lists/Apple-Private-Relay-Block.json
+          
+          if git diff --staged --quiet; then
+            echo "No changes detected. Skipping commit."
+          else
+            git commit -m "Automated Sync: Update Apple-Private-Relay-Block.json"
+            git push
+          fi
+
+      - name: Delete Log If Scheduled Run
+        if: github.event_name == 'schedule'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "Scheduled run detected. Deleting this workflow run log..."
+          # Uses the GitHub CLI (built into the runner) to delete this specific run history
+          gh api -X DELETE /repos/${{ github.repository }}/actions/runs/${{ github.run_id }}
