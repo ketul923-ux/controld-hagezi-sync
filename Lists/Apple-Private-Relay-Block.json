@@ -71,20 +71,6 @@
       }
     },
     {
-      "PK": "doh.dns.apple.com",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
-      "PK": "doh.dns.apple.com.v.aaplimg.com",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
       "PK": "emea-mask.wrr.mask.apple-dns.net",
       "action": {
         "do": 0,
