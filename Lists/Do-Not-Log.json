@@ -1,0 +1,18 @@
+{
+  "group": {
+    "group": "Do Not Log",
+    "action": {
+      "status": 1
+    },
+    "is_magic": 1
+  },
+  "rules": [
+    {
+      "PK": "dummy2",
+      "action": {
+        "do": 0,
+        "status": 1
+      }
+    }
+  ]
+}

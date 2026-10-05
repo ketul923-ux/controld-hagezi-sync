@@ -1,0 +1,130 @@
+{
+  "group": {
+    "group": "Block List via Redirect to Null",
+    "action": {
+      "status": 1,
+      "do": 2,
+      "via": "0.0.0.0",
+      "via_v6": "::"
+    }
+  },
+  "rules": [
+    {
+      "PK": "clientstream.launchdarkly.com",
+      "action": {
+        "do": 2,
+        "status": 1,
+        "via": "0.0.0.0",
+        "via_v6": "::"
+      }
+    },
+    {
+      "PK": "rgom10-asus-en.url.trendmicro.com",
+      "action": {
+        "do": 2,
+        "status": 1,
+        "via": "0.0.0.0",
+        "via_v6": "::"
+      }
+    },
+    {
+      "PK": "mobile.events.data.microsoft.com",
+      "action": {
+        "do": 2,
+        "status": 1,
+        "via": "0.0.0.0",
+        "via_v6": "::"
+      }
+    },
+    {
+      "PK": "mobile.pipe.aria.microsoft.com",
+      "action": {
+        "do": 2,
+        "status": 1,
+        "via": "0.0.0.0",
+        "via_v6": "::"
+      }
+    },
+    {
+      "PK": "scribe.logs.roku.com",
+      "action": {
+        "do": 2,
+        "status": 1,
+        "via": "0.0.0.0",
+        "via_v6": "::"
+      }
+    },
+    {
+      "PK": "liberty.logs.roku.com",
+      "action": {
+        "do": 2,
+        "status": 1,
+        "via": "0.0.0.0",
+        "via_v6": "::"
+      }
+    },
+    {
+      "PK": "sdk.iad-03.braze.com",
+      "action": {
+        "do": 2,
+        "status": 1,
+        "via": "0.0.0.0",
+        "via_v6": "::"
+      }
+    },
+    {
+      "PK": "contents2.00110.citi.com",
+      "action": {
+        "do": 2,
+        "status": 1,
+        "via": "0.0.0.0",
+        "via_v6": "::"
+      }
+    },
+    {
+      "PK": "teams.events.data.microsoft.com",
+      "action": {
+        "do": 2,
+        "status": 1,
+        "via": "0.0.0.0",
+        "via_v6": "::"
+      }
+    },
+    {
+      "PK": "p.controld.com",
+      "action": {
+        "do": 2,
+        "status": 1,
+        "via": "0.0.0.0",
+        "via_v6": "::"
+      }
+    },
+    {
+      "PK": "graph.facebook.com",
+      "action": {
+        "do": 2,
+        "status": 1,
+        "via": "0.0.0.0",
+        "via_v6": "::"
+      }
+    },
+    {
+      "PK": "iguazu.doordash.com",
+      "action": {
+        "do": 2,
+        "status": 1,
+        "via": "0.0.0.0",
+        "via_v6": "::"
+      }
+    },
+    {
+      "PK": "eu-teams.events.data.microsoft.com",
+      "action": {
+        "do": 2,
+        "status": 1,
+        "via": "0.0.0.0",
+        "via_v6": "::"
+      }
+    }
+  ]
+}

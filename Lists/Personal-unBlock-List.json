@@ -1,0 +1,74 @@
+{
+  "group": {
+    "group": "Personal unBlock List",
+    "action": {
+      "status": 1,
+      "do": 1
+    }
+  },
+  "rules": [
+    {
+      "PK": "v2.api.whisker.iothings.site",
+      "action": {
+        "do": 1,
+        "status": 1
+      }
+    },
+    {
+      "PK": "lr4.iothings.site",
+      "action": {
+        "do": 1,
+        "status": 1
+      }
+    },
+    {
+      "PK": "account-mgmt.iothings.site",
+      "action": {
+        "do": 1,
+        "status": 1
+      }
+    },
+    {
+      "PK": "pet-profile.iothings.site",
+      "action": {
+        "do": 1,
+        "status": 1
+      }
+    },
+    {
+      "PK": "notifications.iothings.site",
+      "action": {
+        "do": 1,
+        "status": 1
+      }
+    },
+    {
+      "PK": "otaupdate.prod.iothings.site",
+      "action": {
+        "do": 1,
+        "status": 1
+      }
+    },
+    {
+      "PK": "cognito.hasura.iothings.site",
+      "action": {
+        "do": 1,
+        "status": 1
+      }
+    },
+    {
+      "PK": "ub.prod.iothings.site",
+      "action": {
+        "do": 1,
+        "status": 1
+      }
+    },
+    {
+      "PK": "insight-engine.prod.iothings.site",
+      "action": {
+        "do": 1,
+        "status": 1
+      }
+    }
+  ]
+}
