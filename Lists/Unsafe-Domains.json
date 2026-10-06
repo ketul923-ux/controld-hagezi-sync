@@ -1,4679 +1,4601 @@
 {
   "group": {
-    "group": "Control D Bypass",
+    "group": "Unsafe Domains",
     "action": {
-      "do": 1,
+      "do": 0,
       "status": 1
-    },
-    "is_magic": 1
+    }
   },
   "rules": [
     {
-      "PK": ".airdream",
+      "PK": "123greetings.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": ".api",
+      "PK": "1kingbet.me",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": ".bbrouter",
+      "PK": "1m0uuvcbwx.blob.core.windows.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": ".belkin",
+      "PK": "1redira.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": ".bind",
+      "PK": "2-spyware.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": ".blinkap",
+      "PK": "2avarluy7j.blob.core.windows.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": ".corp",
+      "PK": "2no.co",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": ".davolink",
+      "PK": "38imounzh6.blob.core.windows.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": ".dearmyrouter",
+      "PK": "3utilities.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": ".dhcp",
+      "PK": "5e2d.xyz",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": ".dlink",
+      "PK": "77kfog3s1d.blob.core.windows.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": ".domain",
+      "PK": "87frhilr4r.us",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": ".envoy",
+      "PK": "888-starz.co.tz",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": ".example",
+      "PK": "ac3filter.b-cdn.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": ".fritz.box",
+      "PK": "ac3filter.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": ".grp",
+      "PK": "access-authority-2fa45a8bcb.s3.ap-south-1.amazonaws.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": ".gw==",
+      "PK": "access-authority-7586e00.s3.us-east-1.amazonaws.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": ".home",
+      "PK": "adinross.biz",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": ".hub",
+      "PK": "adnoc-uae.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": ".internal",
+      "PK": "advancesolar.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": ".intra",
+      "PK": "afraid.org",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": ".intranet",
+      "PK": "afterdawn.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": ".invalid",
+      "PK": "afterdawn.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": ".ksyun",
+      "PK": "agafurretor.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": ".lan",
+      "PK": "ai-agiqt.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": ".loc",
+      "PK": "ai-arkm.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": ".local",
+      "PK": "al-saeedbroker.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": ".localdomain",
+      "PK": "allbestrecipes.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": ".localhost",
+      "PK": "alliedfront.org",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": ".localnet",
+      "PK": "altapps.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": ".mail",
+      "PK": "altynamoan.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": ".modem",
+      "PK": "amzblindbox.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": ".mynet",
+      "PK": "apkcombo.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": ".myrouter",
+      "PK": "apksim.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": ".novalocal",
+      "PK": "apponic.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": ".openstacklocal",
+      "PK": "aptoide.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": ".priv",
+      "PK": "archive.fo",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": ".private",
+      "PK": "archive.is",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": ".prv",
+      "PK": "archive.li",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": ".router",
+      "PK": "archive.md",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": ".telus",
+      "PK": "archive.ph",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": ".test",
+      "PK": "archive.today",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": ".totolink",
+      "PK": "archive.vn",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": ".wlan_ap",
+      "PK": "areserver.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": ".workgroup",
+      "PK": "arsenij-art.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": ".zghjccbob3n0",
+      "PK": "assets-nextplaysearch.nyc3.cdn.digitaloceanspaces.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa",
+      "PK": "asuscomm.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "0.in-addr.arpa",
+      "PK": "atomapplications.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "1",
+      "PK": "attlocal.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa",
+      "PK": "aurorastore.org",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "10.in-addr.arpa",
+      "PK": "aurorastore.pro",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "100.100.in-addr.arpa",
+      "PK": "auslogics.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "100.51.198.in-addr.arpa",
+      "PK": "authmycookie.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "101.100.in-addr.arpa",
+      "PK": "awp.io",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "102.100.in-addr.arpa",
+      "PK": "b47t.site",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "103.100.in-addr.arpa",
+      "PK": "babypeipei.meme",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "104.100.in-addr.arpa",
+      "PK": "backeastcarcovers.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "105.100.in-addr.arpa",
+      "PK": "baixaki.com.br",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "106.100.in-addr.arpa",
+      "PK": "baixe.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "107.100.in-addr.arpa",
+      "PK": "baixesoft.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "108.100.in-addr.arpa",
+      "PK": "balclam.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "109.100.in-addr.arpa",
+      "PK": "bankleumi.co.il",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "110.100.in-addr.arpa",
+      "PK": "bankobet-tr.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "111.100.in-addr.arpa",
+      "PK": "banks-presale.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "112.100.in-addr.arpa",
+      "PK": "bapleu.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "113.0.203.in-addr.arpa",
+      "PK": "betturkeycasinos.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "113.100.in-addr.arpa",
+      "PK": "biofi.run",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "114.100.in-addr.arpa",
+      "PK": "bjscx.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "115.100.in-addr.arpa",
+      "PK": "bjtlm.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "116.100.in-addr.arpa",
+      "PK": "blogsyte.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "117.100.in-addr.arpa",
+      "PK": "blrre.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "118.100.in-addr.arpa",
+      "PK": "bluesmods.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "119.100.in-addr.arpa",
+      "PK": "bmstw.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "120.100.in-addr.arpa",
+      "PK": "bounceme.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "121.100.in-addr.arpa",
+      "PK": "brasilia.me",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "122.100.in-addr.arpa",
+      "PK": "brazillianhardwood.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "123.100.in-addr.arpa",
+      "PK": "brewe.sh",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "124.100.in-addr.arpa",
+      "PK": "bridgingtheaigap.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "125.100.in-addr.arpa",
+      "PK": "brisbanemanagement.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "126.100.in-addr.arpa",
+      "PK": "bromite.org",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "127.100.in-addr.arpa",
+      "PK": "bsnwritingservices.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "127.in-addr.arpa",
+      "PK": "budvacar.me",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "16.172.in-addr.arpa",
+      "PK": "bytesin.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "168.192.in-addr.arpa",
+      "PK": "cable-modem.org",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "17.172.in-addr.arpa",
+      "PK": "cablegaurdian.online",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "18.172.in-addr.arpa",
+      "PK": "candytech.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "19.172.in-addr.arpa",
+      "PK": "cargi2024.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "2.0.192.in-addr.arpa",
+      "PK": "caydenexplores.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "20.172.in-addr.arpa",
+      "PK": "ccm.lb.ccmbg.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "204.ecloud.global",
+      "PK": "ccm.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "204.pop-os.org",
+      "PK": "cdburnerxp.se",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "21.172.in-addr.arpa",
+      "PK": "cdt-lozere.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "22.172.in-addr.arpa",
+      "PK": "chanonrypoint.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "23.172.in-addr.arpa",
+      "PK": "charliekirkdata.org",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "24.172.in-addr.arpa",
+      "PK": "charliesmurderers.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "25.172.in-addr.arpa",
+      "PK": "chaussuredetravail.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "254.169.in-addr.arpa",
+      "PK": "chelpus.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "255.255.255.255.in-addr.arpa",
+      "PK": "chemistrust.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "26.172.in-addr.arpa",
+      "PK": "choupsee.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "27.172.in-addr.arpa",
+      "PK": "chuwitechnologies.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "28.172.in-addr.arpa",
+      "PK": "ciscofreak.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "29.172.in-addr.arpa",
+      "PK": "citypubofmich.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "30.172.in-addr.arpa",
+      "PK": "clubic.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "31.172.in-addr.arpa",
+      "PK": "cnsolutions.net.cn",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "64.100.in-addr.arpa",
+      "PK": "coineod.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "65.100.in-addr.arpa",
+      "PK": "coinl.vip",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "66.100.in-addr.arpa",
+      "PK": "collegefan.org",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "67.100.in-addr.arpa",
+      "PK": "commentcamarche.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "68.100.in-addr.arpa",
+      "PK": "commentcamarche.com.edgekey.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "69.100.in-addr.arpa",
+      "PK": "commentcamarche.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "70.100.in-addr.arpa",
+      "PK": "commentcamarche.net.edgekey.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "71.100.in-addr.arpa",
+      "PK": "contactline740.xyz",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "72.100.in-addr.arpa",
+      "PK": "convertersuite.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "73.100.in-addr.arpa",
+      "PK": "couchpotatofries.org",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "74.100.in-addr.arpa",
+      "PK": "covacare.org",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "75.100.in-addr.arpa",
+      "PK": "crax.tube",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "76.100.in-addr.arpa",
+      "PK": "cutcaptcha.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "77.100.in-addr.arpa",
+      "PK": "damnserver.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "78.100.in-addr.arpa",
+      "PK": "data-px.services",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "79.100.in-addr.arpa",
+      "PK": "ddns.me",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "8.b.d.0.1.0.0.2.ip6.arpa",
+      "PK": "ddns.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "8.e.f.ip6.arpa",
+      "PK": "ddnsking.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "80.100.in-addr.arpa",
+      "PK": "dealply.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "81.100.in-addr.arpa",
+      "PK": "decoymail.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "82.100.in-addr.arpa",
+      "PK": "decoymail.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "83.100.in-addr.arpa",
+      "PK": "deltawi-fi.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "84.100.in-addr.arpa",
+      "PK": "dermatitisacademy.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "85.100.in-addr.arpa",
+      "PK": "directory-all-websites.us",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "86.100.in-addr.arpa",
+      "PK": "ditchyourip.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "87.100.in-addr.arpa",
+      "PK": "dnserrorassist.att.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "88.100.in-addr.arpa",
+      "PK": "dnserrorassist.att.net.edgekey.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "89.100.in-addr.arpa",
+      "PK": "dnsfor.me",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "9.e.f.ip6.arpa",
+      "PK": "dnsiskinky.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "90.100.in-addr.arpa",
+      "PK": "dnsomatic.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "91.100.in-addr.arpa",
+      "PK": "documentconverter.app",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "92.100.in-addr.arpa",
+      "PK": "documentconverter.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "93.100.in-addr.arpa",
+      "PK": "doh-gov.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "94.100.in-addr.arpa",
+      "PK": "doh-gov.ph",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "95.100.in-addr.arpa",
+      "PK": "download.cnet.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "96.100.in-addr.arpa",
+      "PK": "download.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "97.100.in-addr.arpa",
+      "PK": "download.html.it",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "98.100.in-addr.arpa",
+      "PK": "download.it",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "99.100.in-addr.arpa",
+      "PK": "downloadmost.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "a.e.f.ip6.arpa",
+      "PK": "downloads.zdnet.de",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "aa.entertainment.viasat.com",
+      "PK": "downloadsource.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "aa.viasat.com",
+      "PK": "doxbin.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "aafes.wifi.viasat.com",
+      "PK": "doxbin.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "aainflight.com",
+      "PK": "doxbin.org",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "account.network-auth.com",
+      "PK": "dropboxbeta.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "acwifi.com",
+      "PK": "dssdsrty.sfo3.digitaloceanspaces.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "aerlingus-wifi.com",
+      "PK": "duckdns.org",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "airborne.gogoinflight.com",
+      "PK": "dumpsboss.co",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "airbornemedia.inflightinternet.com",
+      "PK": "dumpsboss.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "airbornesecure.inflightinternet.com",
+      "PK": "dvrcam.info",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "airbox.home",
+      "PK": "dwncdn.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "aircanadawifi.com",
+      "PK": "dyn.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "airport",
+      "PK": "dyndns.org",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "airtime.geemedia.com",
+      "PK": "dynns.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "alaskawifi.com",
+      "PK": "e-zpass.com-etckyl.xin",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "amtrakconnect.com",
+      "PK": "e-zpass.com-zil.icu",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "amtrakwifi.com",
+      "PK": "e-zpass.wnkac.icu",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "ana-inflight-wifi.com",
+      "PK": "earthview360.org",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "ap.asus.com",
+      "PK": "easydrivingdirections.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "ap1-elb.cloudguest.central.arubanetworks.com",
+      "PK": "easygamestab.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "ap1.cloudguest.central.arubanetworks.com",
+      "PK": "easymanualsfinder.co",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "apaceast-elb.cloudguest.central.arubanetworks.com",
+      "PK": "easyprintapp.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "apaceast.cloudguest.central.arubanetworks.com",
+      "PK": "eating-organic.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "apacsouth-elb.cloudguest.central.arubanetworks.com",
+      "PK": "ebooksearchnow.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "apacsouth.cloudguest.central.arubanetworks.com",
+      "PK": "ehz.io",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "api.airtime.geemedia.com",
+      "PK": "electronic.us",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "app-apaceast.central.arubanetworks.com",
+      "PK": "elink.BloomingtonMN.gov",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "app-apacsouth.central.arubanetworks.com",
+      "PK": "ellalittlebird.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "app-ca.central.arubanetworks.com",
+      "PK": "enfirekitservice.site",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "app-prod2.central.arubanetworks.com",
+      "PK": "evilmlm.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "app-yoda.arubathena.com",
+      "PK": "ezdrive.com-frqo.xin",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "app.central.arubanetworks.com",
+      "PK": "ezdrivemjjqi.top",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "app.central.arubanetworks.com.cn",
+      "PK": "ezyphototab.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "app.localhost.direct",
+      "PK": "ezyspeedtest.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "app1-ap-h2.central.arubanetworks.com",
+      "PK": "facebooknavigation.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "app1-ap.central.arubanetworks.com",
+      "PK": "faceliftinboston.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "app1-h2.central.arubanetworks.com",
+      "PK": "fakeidvendors.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "app1.central.arubanetworks.com",
+      "PK": "fantasyleague.cc",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "app2-ap-ofc.central.arubanetworks.com",
+      "PK": "fccusanetscci.site",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "app2-ap.central.arubanetworks.com",
+      "PK": "feathercdn.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "app2-eu-ofc.central.arubanetworks.com",
+      "PK": "feathermc.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "app2-eu.central.arubanetworks.com",
+      "PK": "fecebook.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "app2-ofc.central.arubanetworks.com",
+      "PK": "fffa88kj.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "arcor.easybox",
+      "PK": "fiftenisraqitrffgh.blob.core.windows.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "aruba.odyssys.net",
+      "PK": "fileforum.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "arubanetworks.com",
+      "PK": "filehippo.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "arubanetworks.com.cn",
+      "PK": "filehorse.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "asset-acms.anuvu.cloud",
+      "PK": "fileplanet.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "asusap.com",
+      "PK": "filezilla-project.org",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "asusap.net",
+      "PK": "fivestarspay.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "asusnetwork.net",
+      "PK": "fixthephoto.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "asusrepeater.com",
+      "PK": "flerap.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "asusrepeater.net",
+      "PK": "fleraprt.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "asusrouter.com",
+      "PK": "flighttabpro.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "asusswitch.com",
+      "PK": "fluence-network.digital",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "asusswitch.net",
+      "PK": "fluence-security001.netlify.app",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "aterm.me",
+      "PK": "foodanddesire-com-au.mail.protection.outlook.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "atlanta-airport.com",
+      "PK": "foodanddesire.com.au",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "atlwifi.atlanta-airport.com",
+      "PK": "formally-up.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "atlwifi0.atlanta-airport.com",
+      "PK": "fortect.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "atlwifi1.atlanta-airport.com",
+      "PK": "foxit.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "atlwifi10.atlanta-airport.com",
+      "PK": "foxit.com.cdn.cloudflare.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "atlwifi11.atlanta-airport.com",
+      "PK": "foxitsoftware.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "atlwifi12.atlanta-airport.com",
+      "PK": "foxitsoftware.com.cdn.cloudflare.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "atlwifi13.atlanta-airport.com",
+      "PK": "freefilesync.org",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "atlwifi14.atlanta-airport.com",
+      "PK": "freshdns.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "atlwifi15.atlanta-airport.com",
+      "PK": "frostwire.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "atlwifi16.atlanta-airport.com",
+      "PK": "frostwire.wordpress.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "atlwifi17.atlanta-airport.com",
+      "PK": "fusajaslta.site",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "atlwifi2.atlanta-airport.com",
+      "PK": "fxtm-ai.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "atlwifi3.atlanta-airport.com",
+      "PK": "gddomainparking.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "atlwifi4.atlanta-airport.com",
+      "PK": "ge0.me",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "atlwifi5.atlanta-airport.com",
+      "PK": "geekgalaxy.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "atlwifi6.atlanta-airport.com",
+      "PK": "genieosearch.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "atlwifi7.atlanta-airport.com",
+      "PK": "gepy1cwl8i.blob.core.windows.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "atlwifi8.atlanta-airport.com",
+      "PK": "germains.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "atlwifi9.atlanta-airport.com",
+      "PK": "getmeteora.live",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "attwifi.apple.com",
+      "PK": "gettheresult.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "auth.hotspotportals.com",
+      "PK": "global-gtg.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "auth.hpe.com",
+      "PK": "gmx.us",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "awn.wifi.viasat.com",
+      "PK": "go0s.biz",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "b.e.f.ip6.arpa",
+      "PK": "go1s.biz",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "bap.aws.opennetworkexchange.net",
+      "PK": "go2s.biz",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "bsas.wifi.viasat.com",
+      "PK": "go3s.biz",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "bthomehub.home",
+      "PK": "go4s.biz",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "bthub.home",
+      "PK": "go5s.biz",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "btwifi.com",
+      "PK": "go6s.biz",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "buy.gogoinflight.com",
+      "PK": "go7s.biz",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "bwiam.cust.blueprintrf.com",
+      "PK": "go8s.biz",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "ca-elb.cloudguest.central.arubanetworks.com",
+      "PK": "go9s.biz",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "ca.cloudguest.central.arubanetworks.com",
+      "PK": "golffan.us",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "capnet.elementary.io",
+      "PK": "gomlab.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "captive-2020.aio.cloudauth.net",
+      "PK": "gonitro.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "captive-2022.aio.cloudauth.net",
+      "PK": "googleailesi.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "captive-cdn.origin-apple.com.akadns.net",
+      "PK": "googlerenewals.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "captive-cidr.origin-apple.com.akadns.net",
+      "PK": "gotdns.ch",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "captive.apple.com",
+      "PK": "gov-xasdx.vip",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "captive.celenity.dev",
+      "PK": "govnyd.mom",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "captive.g.aaplimg.com",
+      "PK": "grabify.link",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "captive.gogoinflight.com",
+      "PK": "greenxf.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "captive.inflightinternet.com",
+      "PK": "grgrvrrfry.nyc3.digitaloceanspaces.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "captive.ironfoxoss.org",
+      "PK": "gzcqk.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "captive.o2wifi.co.uk",
+      "PK": "hdocumentconverters.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "captivemgr.o2wifi.net.uk",
+      "PK": "health-carereform.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "captiveportal-login.belex.com",
+      "PK": "hfreetestnow.app",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "captiveportal.kuketz.de",
+      "PK": "hjgy68.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "carnivalwifi.com",
+      "PK": "hjzjy.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "cbp-guest.cbp.dhs.gov",
+      "PK": "homesecuritymac.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "cdnhotspot.afd.azureedge.net",
+      "PK": "homesecuritypc.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "cdnhotspot.azureedge.net",
+      "PK": "hoolapp.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "central.access.network",
+      "PK": "hoood.info",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "cfr-mprtuam-01.cops.us1.pr.anuvu.cloud",
+      "PK": "hopto.me",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "charter.guestinternet.com",
+      "PK": "hopto.org",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "checkout.aa.com",
+      "PK": "howly.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "cloud.imedia.ie",
+      "PK": "hqfs1788.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "cloudmesh.net",
+      "PK": "hsd1.ca.comcast.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "cms-scdn.airtime.geemedia.com",
+      "PK": "hsd1.co.comcast.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "cms.airtime.geemedia.com",
+      "PK": "hsd1.ct.comcast.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "congstar.box",
+      "PK": "hsd1.dc.comcast.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "conncheck.opensuse.org",
+      "PK": "hsd1.fl.comcast.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "connect-edge.ihg.com",
+      "PK": "hsd1.ga.comcast.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "connect.box",
+      "PK": "hsd1.il.comcast.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "connect.edge.ihg.com",
+      "PK": "hsd1.in.comcast.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "connect.klm.com",
+      "PK": "hsd1.ma.comcast.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "connect.klm.com-01.edgekey.net",
+      "PK": "hsd1.md.comcast.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "connect.rom.miui.com",
+      "PK": "hsd1.mi.comcast.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "connect.viasat.com",
+      "PK": "hsd1.mn.comcast.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "connected.southwestwifi.com",
+      "PK": "hsd1.mo.comcast.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "connected.xfinity.com",
+      "PK": "hsd1.nh.comcast.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "connectivity-check.ubuntu.com",
+      "PK": "hsd1.nj.comcast.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "connectivity.ecloud.global",
+      "PK": "hsd1.nm.comcast.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "connectivity.zorin-os.com",
+      "PK": "hsd1.or.comcast.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "connectivitycheck.android.com",
+      "PK": "hsd1.pa.comcast.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "connectivitycheck.grapheneos.network",
+      "PK": "hsd1.sc.comcast.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "connectivitycheck.gstatic.com",
+      "PK": "hsd1.tn.comcast.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "connectivitycheck.platform.dbankcloud.com",
+      "PK": "hsd1.tx.comcast.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "connectivitycheck.platform.hicloud.com",
+      "PK": "hsd1.ut.comcast.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "console.gl-inet.com",
+      "PK": "hsd1.va.comcast.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "controller.access.network",
+      "PK": "hsd1.vt.comcast.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "cp-app-east.wifi-dev.connected.xfinity.com",
+      "PK": "hsd1.wa.comcast.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "cp-app-east.wifi-stage.connected.xfinity.com",
+      "PK": "hsd1.wv.comcast.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "cp-app-east.wifi.connected.xfinity.com",
+      "PK": "hsearchescentral.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "cp-app.wifi-dev.connected.xfinity.com",
+      "PK": "hsearchsmart.co",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "cp-app.wifi-stage.connected.xfinity.com",
+      "PK": "hunterandgatherfoods.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "cp-app.wifi.connected.xfinity.com",
+      "PK": "hushemail.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "cp-webapp.wifi-dev.connected.xfinity.com",
+      "PK": "hwczd.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "cp-webapp.wifi-stage.connected.xfinity.com",
+      "PK": "ibr.io",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "cp-webapp.wifi.connected.xfinity.com",
+      "PK": "idainvestgy.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "cp.cloudflare.com",
+      "PK": "idcmu.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "cp10.cloudflare.com",
+      "PK": "ihars.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "cust.blueprintrf.com",
+      "PK": "ilovecollege.info",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "d.f.ip6.arpa",
+      "PK": "image-line.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "dalan.cust.blueprintrf.com",
+      "PK": "imgburn.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "deltawifi.com",
+      "PK": "imr.co.kr",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "detectportal-fastly.firefox.com",
+      "PK": "inbmv.org-udb.cc",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "detectportal.firefox.com",
+      "PK": "indoorleader.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "detectportal.prod.mozaws.net",
+      "PK": "inizolvibakra.tk",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "device-apaceast-h2.central.arubanetworks.com",
+      "PK": "innfulnalhoto.ml",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "device-apaceast.central.arubanetworks.com",
+      "PK": "instalki.pl",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "device-apacsouth-h2.central.arubanetworks.com",
+      "PK": "invmerakispa.cl",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "device-apacsouth.central.arubanetworks.com",
+      "PK": "ipgrabber.ru",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "device-ca-h2.central.arubanetworks.com",
+      "PK": "ipgraber.ru",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "device-ca.central.arubanetworks.com",
+      "PK": "iplogger.co",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "device-eu-h2.central.arubanetworks.com",
+      "PK": "iplogger.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "device-eu.central.arubanetworks.com",
+      "PK": "iplogger.info",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "device-h2.central.arubanetworks.com.cn",
+      "PK": "iplogger.org",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "device-prod2-h2.central.arubanetworks.com",
+      "PK": "iplogger.ru",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "device-prod2.central.arubanetworks.com",
+      "PK": "ipv4-cisco.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "device-yoda2.arubadev.cloud.hpe.com",
+      "PK": "ipyf7q8jmolr8ggkc7bh.s3.amazonaws.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "device.arubanetworks.com",
+      "PK": "ispgateway.de",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "device.central.arubanetworks.com.cn",
+      "PK": "italki.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "devices-v2.arubanetworks.com",
+      "PK": "iyrinhealth.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "directaccess.viasat.com",
+      "PK": "j56y.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "dishy.starlink.com",
+      "PK": "j56y.site",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "dlrguest-captive.disney.com",
+      "PK": "jack-presale.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "dns.msftncsi.com",
+      "PK": "janellevoyages.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "dnscheck.grapheneos.org",
+      "PK": "jd56.site",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "doubletree.hiltonwifi.com",
+      "PK": "jghjgjgyuio.blob.core.windows.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "easy.box",
+      "PK": "jk86.xyz",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "edge-http.microsoft.com",
+      "PK": "jkghsdjfhdqgsg.sfo3.digitaloceanspaces.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "ee-wifi.ee.co.uk",
+      "PK": "joinhoney.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "esaconnect.extendedstayamerica.com",
+      "PK": "juvander.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "etihadwi-fly.com",
+      "PK": "kid-sleds.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "etxr",
+      "PK": "kkxx888666.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "euw1-elb.cloudguest.central.arubanetworks.com",
+      "PK": "kokotrokot.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "euw1.cloudguest.central.arubanetworks.com",
+      "PK": "kumru.ai",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "expertwifi.net",
+      "PK": "laden-78.de",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "f.f.ip6.arpa",
+      "PK": "laden78.de",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "fedsso.yum.com",
+      "PK": "lalapush.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "files.aa.entertainment.viasat.com",
+      "PK": "laporchetta.cc",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "fire.walla",
+      "PK": "lasscnsiteus.site",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "firefox-portal-detection.com",
+      "PK": "line-e.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "fireoscaptiveportal.com",
+      "PK": "line-jp.live",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "flyfi.com",
+      "PK": "livecreativeproject.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "foo.cust.blueprintrf.com",
+      "PK": "lkaquiov.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "freewlan.sbb.ch",
+      "PK": "llcanverac.site",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "fritz.box",
+      "PK": "lo4d.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "fritz.nas",
+      "PK": "loginto.me",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "fritz.repeater",
+      "PK": "lonexariva.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "getconnected.southwestwifi.com",
+      "PK": "lookingfordating.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "giga.cube",
+      "PK": "lozere-resa.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "gogoinair.com",
+      "PK": "luckypatchers.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "gogoinflight.com",
+      "PK": "lvrv0gkspz.blob.core.windows.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "gp1.wendys.com",
+      "PK": "malavida.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "grapheneos.online",
+      "PK": "malwarewatch.org",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "guestinternet.com",
+      "PK": "manualsearch.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "guestinternet.com.s3-website-us-east-1.amazonaws.com",
+      "PK": "maproutepro.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "hamptoninn.hiltonwifi.com",
+      "PK": "mapsassist.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "hi.link",
+      "PK": "mapsdrivingdirections.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "hilton.hiltonwifi.com",
+      "PK": "mapsme.de",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "hiltongardeninn.hiltonwifi.com",
+      "PK": "marriotwifi.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "hiltonwifi.com",
+      "PK": "maximsc.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "hitronhub.home",
+      "PK": "mcdonaldswifi.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "homerouter.cpe",
+      "PK": "mcuban-coins.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "hotspotportals.com",
+      "PK": "me.bot",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "hs.imedia.ie",
+      "PK": "microsoftbetastore.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "hs1ga.wanderingwifi.com",
+      "PK": "microsoftdnsdown.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "httpforever.com",
+      "PK": "microsoftdnsupdate.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "huaweimobilewifi.com",
+      "PK": "midnightsociety-x.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "iceportal.de",
+      "PK": "mirc.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "inflight-wifi.com",
+      "PK": "ml.t-mobile.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "inflight.pacwisp.net",
+      "PK": "mlbfan.org",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "inflightinternet.com",
+      "PK": "mmafan.biz",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "initial.southwestwifi.com",
+      "PK": "mnl.io",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "internal.central.arubanetworks.com",
+      "PK": "monad-network.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "internal2-public-device-nc-nlb-b71ba3c951b09682.elb.us-west-2.amazonaws.com",
+      "PK": "mr-kraken.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "internal2-public-device-nlb-2e2273d4267c0682.elb.us-west-2.amazonaws.com",
+      "PK": "msgsafe.io",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "internal2.central.arubanetworks.com",
+      "PK": "muckcoding.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "internetupgrade.marriott.com",
+      "PK": "murphy4us.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "ipv4.connman.net",
+      "PK": "musk111.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "ipv4.jolla.com",
+      "PK": "muskstar.org",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "ipv6.connman.net",
+      "PK": "myactivedirectory.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "ipv6.jolla.com",
+      "PK": "mybetterdl.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "ipv6.msftconnecttest.com",
+      "PK": "myddns.me",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "ipv6.msftconnecttest.com.edgesuite.net",
+      "PK": "mydissent.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "kabel.box",
+      "PK": "myeffect.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "kong-gtw-portal-apse2prod5-lb-1386339370.ap-southeast-2.elb.amazonaws.com",
+      "PK": "myftp.biz",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "kong-gtw-portal-eu-lb-1104785228.eu-central-1.elb.amazonaws.com",
+      "PK": "myftp.org",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "kong-gtw-portal-mec1prod6-lb-2104849938.me-central-1.elb.amazonaws.com",
+      "PK": "mymediapc.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "kong-gtw-portal-production-lb-686216184.us-west-1.elb.amazonaws.com",
+      "PK": "mynet.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "kong-gtw-portal-use1prod2-lb-291057632.us-east-1.elb.amazonaws.com",
+      "PK": "mypsx.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "krisworld.singaporeair.com",
+      "PK": "mysecuritycamera.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "kw.sq.com",
+      "PK": "mysecuritycamera.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "landing.sbb.ch",
+      "PK": "mysecuritycamera.org",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "live.virginwifi.com",
+      "PK": "myvnc.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "localbattle.net",
+      "PK": "nefl.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "loggedin.wifigem.it",
+      "PK": "net-freaks.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "login-awe-cluster.attwifi.com",
+      "PK": "netflix-support.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "login-federated.windstream.com",
+      "PK": "news-back.org",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "login.amtrakwifi.com",
+      "PK": "newssocial.org",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "login.attwifi.com",
+      "PK": "nextplaysearch.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "login.cloud5.com",
+      "PK": "nflfan.org",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "login.cloudi-fi.net",
+      "PK": "nhlfan.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "login.innflux.com",
+      "PK": "no-ip.biz",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "login.wifigem.com",
+      "PK": "no-ip.ca",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "login.wifionice.de",
+      "PK": "no-ip.co.uk",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "login.windstream.com",
+      "PK": "no-ip.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "loginportal1.wanderingwifi.com",
+      "PK": "no-ip.info",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "loginportal3.wanderingwifi.com",
+      "PK": "no-ip.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "loginportal5.wanderingwifi.com",
+      "PK": "no-ip.org",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "loginportal5ga.wanderingwifi.com",
+      "PK": "noip.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "loginportal8.wanderingwifi.com",
+      "PK": "noip.me",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "lounge.aa.com",
+      "PK": "noip.us",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "lpv.attwifi.com",
+      "PK": "nonpartisan.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "lufthansa-flynet.com",
+      "PK": "norikosumiya.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "managedwifi.xfinity.com",
+      "PK": "notevildojo.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "marriottwifi.com",
+      "PK": "notix.io",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "massportwifi.com",
+      "PK": "novelunderground.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "mcita.cust.blueprintrf.com",
+      "PK": "novidash.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "medallionclass.com",
+      "PK": "nsogroup.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "media.southwestwifi.com",
+      "PK": "nvfmw.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "metric.gstatic.com",
+      "PK": "nxcli.io",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "mscwifi.com",
+      "PK": "nxcli.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "msftguest-virtual.partners.extranet.microsoft.com",
+      "PK": "ocmhood.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "mt1.datavalet.io",
+      "PK": "oklahomatrane.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "my-wifi.attwifi.com",
+      "PK": "olrplrp.us",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "my.keenetic.net",
+      "PK": "omnatuor.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "my.router",
+      "PK": "onlinecasinoseesti.ee",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "myfritz.box",
+      "PK": "onthewifi.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "mygateway",
+      "PK": "opendpi.org",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "mywifi.attwifi.com",
+      "PK": "opticks.io",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "mywifi.ext.net",
+      "PK": "optimistichackargaius.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "n143.network-auth.com",
+      "PK": "oray.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "na.network-auth.com",
+      "PK": "orbitdownloader.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "nacportal.massportwifi.com",
+      "PK": "oregonbeaverton.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "nae1-elb.cloudguest.central.arubanetworks.com",
+      "PK": "ots.io",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "nae1.cloudguest.central.arubanetworks.com",
+      "PK": "ots7.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "naw2-elb.cloudguest.central.arubanetworks.com",
+      "PK": "otscorp.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "naw2.cloudguest.central.arubanetworks.com",
+      "PK": "ouphouch.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "ncsi-geo.trafficmanager.net",
+      "PK": "oys.io",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "ncsiv6-geo.trafficmanager.net",
+      "PK": "p78t.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "netcts.cdn-apple.com",
+      "PK": "packagetrackingtab.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "netcts.cdn-apple.com.edgesuite.net",
+      "PK": "packetforensics.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "network-auth.com",
+      "PK": "packgse-lfv.cc",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "network-test.debian.org",
+      "PK": "parking.godaddy.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "neverssl.com",
+      "PK": "parkingpage.namecheap.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "nmcheck.gnome.org",
+      "PK": "parklogic.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "nossl.com",
+      "PK": "parktons.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "ntt.setup",
+      "PK": "password-internal.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "ofc-apaceast.central.arubanetworks.com",
+      "PK": "paytollfni.top",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "ofc-apacsouth.central.arubanetworks.com",
+      "PK": "paytollrccl.vip",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "ofc-ca.central.arubanetworks.com",
+      "PK": "pcfreetime.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "ofc-prod2.central.arubanetworks.com",
+      "PK": "pdfarchitect.org",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "ofc-yoda2.arubadev.cloud.hpe.com",
+      "PK": "pdfforge.org",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "ofc.central.arubanetworks.com.cn",
+      "PK": "pg31.xyz",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "onboard.eurostar.com",
+      "PK": "pgafan.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "onboard.sbb.ch",
+      "PK": "photoscape.org",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "onboardicafe.com",
+      "PK": "plasmanet.work",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "pay.viasat.com",
+      "PK": "point2this.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "pay.viasat.com.00d70000000k0rweak.live.siteforce.com",
+      "PK": "pointto.us",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "pi.hole",
+      "PK": "poisism.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "pi.local",
+      "PK": "pokalive.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "ping.archlinux.org",
+      "PK": "polymarket.digital",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "ping.manjaro.org",
+      "PK": "portraitart4u.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "ping.ubnt.com",
+      "PK": "post.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "ping.ui.com",
+      "PK": "primakovreadings.info",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "ping2.ui.com",
+      "PK": "primopdf.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "plex.direct",
+      "PK": "priorityvpn.app",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "portal-apac.central.arubanetworks.com",
+      "PK": "privatizehealthinsurance.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "portal-apaceast.central.arubanetworks.com",
+      "PK": "programas-gratis.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "portal-apacsouth.central.arubanetworks.com",
+      "PK": "ps3cfw.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "portal-ca.central.arubanetworks.com",
+      "PK": "ptoahaistais.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "portal-eu.central.arubanetworks.com",
+      "PK": "publpush.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "portal-eucentral3.central.arubanetworks.com",
+      "PK": "pudgy-penguins.digital",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "portal-prod2.central.arubanetworks.com",
+      "PK": "pudgy-penguins.shop",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "portal-prodf1.acf.aruba-central.com",
+      "PK": "pudgypenguins.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "portal-uswest4.central.arubanetworks.com",
+      "PK": "pump.fun",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "portal.ac2.mist.com",
+      "PK": "push-signals.online",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "portal.ac5.mist.com",
+      "PK": "pushimg.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "portal.ac6.mist.com",
+      "PK": "pushpong.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "portal.arubainstanton.com",
+      "PK": "qfind.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "portal.central.arubanetworks.com",
+      "PK": "quicklivenews.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "portal.central.arubanetworks.com.cn",
+      "PK": "quickrecipehub.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "portal.eu.mist.com",
+      "PK": "quicksytes.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "portal.gc1.mist.com",
+      "PK": "r-tb.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "portal.gc2.mist.com",
+      "PK": "r2modman.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "portal.gc3.mist.com",
+      "PK": "read-books.org",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "portal.inflight-wifi.com",
+      "PK": "realphotography.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "portal.live.virginwifi.com",
+      "PK": "redirectme.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "portal.massportwifi.com",
+      "PK": "remoteestimation.us",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "portal.mist.com",
+      "PK": "revanced.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "portal.moovmanage.com",
+      "PK": "ross-tokens.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "pqm.arubanetworks.com",
+      "PK": "rtccvnetserice.site",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "prod.detectportal.prod.cloudops.mozgcp.net",
+      "PK": "rtmark.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "qa-connect-edge.ihg.com",
+      "PK": "sabacctable.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "rcs-m.arubathena.com",
+      "PK": "safeplexsearch.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "rcs-ng-yoda2.arubadev.cloud.hpe.com",
+      "PK": "safety-search.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "rcs.arubathena.com",
+      "PK": "sap.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "redirect.archlinux.org",
+      "PK": "sara-holding.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "regio-guide.de",
+      "PK": "sassasc.co.za",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "register.onboard.eurostar.com",
+      "PK": "scanalert.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "repeater.asus.com",
+      "PK": "schienevy.lat",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "rougewifi.com",
+      "PK": "screenrec.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "router.asus.com",
+      "PK": "searx.work",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "routerlogin.com",
+      "PK": "secureleadsforever.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "routerlogin.net",
+      "PK": "security-scanner.xyz",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "rsc.att.com",
+      "PK": "securitytactics.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "rsc.wayport.net",
+      "PK": "sedoparking.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "samsung.router",
+      "PK": "selfhost.de",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "sbahnstuttgart.zugportal.de",
+      "PK": "senpaistreamapkdl.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "sbux-j3.datavalet.io",
+      "PK": "servebeer.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "sbux-portal.globalreachtech.com",
+      "PK": "serveblog.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "sbux-portal.odyssys.net",
+      "PK": "servecounterstrike.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "secure-login.attwifi.com",
+      "PK": "serveexchange.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "secure.11os.com",
+      "PK": "serveftp.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "secure.datavalet.io",
+      "PK": "servegame.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "secure.guestinternet.com",
+      "PK": "servehalflife.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "secure.wayport.net",
+      "PK": "servehttp.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "securelogin.arubanetworks.com",
+      "PK": "servehumour.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "secureprofile.wifi.connected.xfinity.com",
+      "PK": "serveirc.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "service.thecloud.net",
+      "PK": "serveminecraft.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "shop.ba.com",
+      "PK": "servemp3.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "singaporeair-krisworld.com",
+      "PK": "servep2p.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "southwestwifi.com",
+      "PK": "servepics.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "spectrum.s3.amazonaws.com",
+      "PK": "servequake.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "speedport.ip",
+      "PK": "servesarcasm.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "sponsoredaccess.viasat.com",
+      "PK": "servidalccsite.site",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "sso.app.arubanetworks.com",
+      "PK": "sftcdn.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "sso.arubanetworks.com",
+      "PK": "share-dns.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "sso.wendys.com",
+      "PK": "share-dns.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "stage.connect.edge.ihg.com",
+      "PK": "shopingchina.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "starbucks-east.datavalet.io",
+      "PK": "sigil-ebook.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "static.redhat.com",
+      "PK": "sjxjd.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "stay.marriottbonvoy.com",
+      "PK": "smytp.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "stdm-drcn.platform.hicloud.com",
+      "PK": "softchamp.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "steamloopback.host",
+      "PK": "softfamous.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "swa.mychasecreditcards.com",
+      "PK": "softonic.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "telstra.gateway",
+      "PK": "softonic.kr",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "test-crm.southwestwifi.com",
+      "PK": "softonic.nl",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "test.steampowered.com",
+      "PK": "softonic.pl",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "thalysnet.com",
+      "PK": "softonic.ru",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "thd.cloudauth.net",
+      "PK": "softpedia.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "timhortonswifi.com",
+      "PK": "sosyal.teknofest.app",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "tplinkap.net",
+      "PK": "sourceforge.io",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "tplinkeap.net",
+      "PK": "sourceforge.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "tplinkmodem.net",
+      "PK": "speedtestmeter.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "tplinkplclogin.net",
+      "PK": "spinsofglory.vip",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "tplinkrepeater.net",
+      "PK": "sqznksi.us",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "tplinkwifi.net",
+      "PK": "starlightis.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "tvgreyhound.com",
+      "PK": "storeenscserviddce.site",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "unitedprivatescreening.com",
+      "PK": "stufftoread.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "unitedwifi.com",
+      "PK": "sub4sub.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "universal-orlando.ampthink.com",
+      "PK": "subscription-alerts.io",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "upt.wifi.viasat.com",
+      "PK": "sunpass.com-6s1d.ink",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "us.timhortonswifi.com",
+      "PK": "sunpass.com-etc-zbol.top",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "utils.gogoinflight.com",
+      "PK": "sunpass.com-se65.sbs",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "uucp.wifi.viasat.com",
+      "PK": "supportgestion.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "vgw1-03.phl-philly-iap.lpv.attwifi.com",
+      "PK": "swiss-casino-online.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "viasat.com",
+      "PK": "synology.me",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "viasat.com.00d70000000k0rweak.live.siteforce.com",
+      "PK": "systemconnect.live",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "virginwifi.com",
+      "PK": "sytes.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "wanderingwifi.com",
+      "PK": "t45r.site",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "we.windstream.com",
+      "PK": "tahaj.sk",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "web.setup",
+      "PK": "talent2x.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "web.setup.home",
+      "PK": "talkmarkets.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "weconnect.wendys.com",
+      "PK": "tamindir.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "wifi-dev.connected.xfinity.com",
+      "PK": "tampabay.rr.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "wifi-keys.berkeley.edu",
+      "PK": "taskmanagertab.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "wifi-stage.connected.xfinity.com",
+      "PK": "taxpa-tax.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "wifi-viarail.ca",
+      "PK": "tcaxp.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "wifi-xdb.boingohotspot.net",
+      "PK": "techslott.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "wifi.airasia.com",
+      "PK": "techspot.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "wifi.bahn.de",
+      "PK": "tecno-mobile.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "wifi.cathaypacific.com",
+      "PK": "thatstight.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "wifi.connected.xfinity.com",
+      "PK": "theamericapac.org",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "wifi.delta.com",
+      "PK": "thejavaconsultants.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "wifi.esa.com",
+      "PK": "thewebconsultant.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "wifi.gogoinflight.com",
+      "PK": "thingaholics.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "wifi.inflightinternet.com",
+      "PK": "tikipeter.github.io",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "wifi.kfc.com",
+      "PK": "tiscali.it",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "wifi.panerabread.com",
+      "PK": "tke.io",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "wifi.singaporeair.com",
+      "PK": "tmedicine.org",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "wifi.sncf",
+      "PK": "tmweb.ru",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "wifi.starbucks.com",
+      "PK": "trendingnews.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "wifi.tgv-lyria.com",
+      "PK": "trenqqarix.wiki",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "wifi.tgvlyria.com",
+      "PK": "trillian.im",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "wifi.united.com",
+      "PK": "truos.sbs",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "wifi.united.com.edgekey.net",
+      "PK": "trustcor.co",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "wifi.vivo.com.cn",
+      "PK": "trustcor.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "wifi.vivo.com.cn.ctdns.cn",
+      "PK": "trustcorsystems.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "wifi.vivo.com.cn.ctgcdn.cachenow.net",
+      "PK": "tunnelbroker.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "wifi.we.co",
+      "PK": "turboconverter.co",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "wifi.xfinity.com",
+      "PK": "turtleclient.xyz",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "wifi1.kfc.com",
+      "PK": "tutanoto.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "wifi1.viasat.com",
+      "PK": "u0020mixwm.blob.core.windows.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "wifi2.kfc.com",
+      "PK": "ufcfan.org",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "wifihotspot.io",
+      "PK": "um6f0ru069.blob.core.windows.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "wifilauncher.com",
+      "PK": "unplugged.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "wifilauncher.com.s3-website.us-east-1.amazonaws.com",
+      "PK": "unusualperson.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "wifilrn-ch2-1p.xfinity.com",
+      "PK": "updatestar.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "wifionboard.com",
+      "PK": "uptodown.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "wingsconnect.aero",
+      "PK": "uptodown.com.edgekey.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "wirelessportal.americanexpress.com",
+      "PK": "uptodown.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "wirelessportal.americanexpress.com.akadns.net",
+      "PK": "url01.xyz",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "wirelessportal2.americanexpress.com.akadns.net",
+      "PK": "url07.xyz",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "wlb1-1579773356.us-east-1.elb.amazonaws.com",
+      "PK": "us-usps-xhit.top",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "wlb1.us-east-1.sbux-portal.globalreachtech.com",
+      "PK": "userspanel.digital",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "wlc02.indy.gov",
+      "PK": "usps.com-kmgju.top",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "www.aainflight.com",
+      "PK": "usps.com-knjla.top",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "www.acwifi.com",
+      "PK": "uspsvldsoi.top",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "www.aerlingus-wifi.com",
+      "PK": "utdstc.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "www.aircanadawifi.com",
+      "PK": "utorrent.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "www.alaskawifi.com",
+      "PK": "uu89.site",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "www.amtrakconnect.com",
+      "PK": "uuiang.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "www.ana-inflight-wifi.com",
+      "PK": "vanced.to",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "www.asusap.com",
+      "PK": "vectoriservis.ru",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "www.asusap.net",
+      "PK": "vedicarehealth.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "www.asusnetwork.net",
+      "PK": "veilcurtin.world",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "www.asusrepeater.com",
+      "PK": "videohelp.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "www.asusrepeater.net",
+      "PK": "viewmanuals.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "www.asusrouter.com",
+      "PK": "viewpdf.org",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "www.asusswitch.com",
+      "PK": "viewrecipes.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "www.asusswitch.net",
+      "PK": "vparaiso.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "www.btwifi.com",
+      "PK": "vujpo85d1g.blob.core.windows.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "www.carnivalwifi.com",
+      "PK": "wahyu.org",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "www.deltawifi.com",
+      "PK": "warriorforum.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "www.directaccess.viasat.com",
+      "PK": "wb-usdt.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "www.expertwifi.net",
+      "PK": "weatherauthority.co",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "www.flyfi.com",
+      "PK": "webdesignmail.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "www.gogoinair.com",
+      "PK": "webdesignoutsourcers.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "www.gogoinflight.com",
+      "PK": "webhop.me",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "www.guestinternet.com",
+      "PK": "webroot.me",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "www.guestinternet.com.s3-website-us-east-1.amazonaws.com",
+      "PK": "webrootsafe.me",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "www.hiltonwifi.com",
+      "PK": "websiteconsultantspro.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "www.httpforever.com",
+      "PK": "whatsapp0.xyz",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "www.iceportal.de",
+      "PK": "whatsapp7.xyz",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "www.inflight-wifi.com",
+      "PK": "wifidelta.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "www.lufthansa-flynet.com",
+      "PK": "wildafamily.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "www.marriottwifi.com",
+      "PK": "winnitacasinotop.it",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "www.medallionclass.com",
+      "PK": "winscp-static-746341.c.cdn77.org",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "www.msftconnecttest.com",
+      "PK": "winscp.net",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "www.msftncsi.com",
+      "PK": "withough.biz",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "www.msftncsi.com.edgesuite.net",
+      "PK": "wongcw.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "www.mywifiext.net",
+      "PK": "workisboring.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "www.neverssl.com",
+      "PK": "worldmusictherapyfoundation.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "www.nossl.com",
+      "PK": "wyy158.fun",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "www.onboardicafe.com",
+      "PK": "x-token-platform.io",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "www.rougewifi.com",
+      "PK": "x3os.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "www.routerlogin.com",
+      "PK": "xkcllk.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "www.routerlogin.net",
+      "PK": "xmanagerapp.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "www.secure.datavalet.io",
+      "PK": "y29v.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "www.singaporeair-krisworld.com",
+      "PK": "ypdstrck.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "www.southwest.com",
+      "PK": "yy45.site",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "www.southwestwifi.com",
+      "PK": "yza1rz5q36gm8vot.s3.amazonaws.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "www.sponsoredaccess.viasat.com",
+      "PK": "zapto.org",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "www.thalysnet.com",
+      "PK": "zgkem.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "www.timhortonswifi.com",
+      "PK": "zhaibd.cn",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "www.unitedprivatescreening.com",
+      "PK": "zl-ag.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "www.unitedwifi.com",
+      "PK": "zolavola.sfo3.digitaloceanspaces.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "www.wifi.singaporeair.com",
+      "PK": "zolvemruk.org",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "www.wifilauncher.com",
+      "PK": "zoneedit.com",
       "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "www.wifilauncher.com.s3-website.us-east-1.amazonaws.com",
+      "PK": "zwbufziw6o4q92.s3.amazonaws.com",
       "action": {
-        "do": 1,
-        "status": 1
-      }
-    },
-    {
-      "PK": "www.wifionboard.com",
-      "action": {
-        "do": 1,
-        "status": 1
-      }
-    },
-    {
-      "PK": "www.wingsconnect.aero",
-      "action": {
-        "do": 1,
-        "status": 1
-      }
-    },
-    {
-      "PK": "www.zenwifi.net",
-      "action": {
-        "do": 1,
-        "status": 1
-      }
-    },
-    {
-      "PK": "www.zugportal.de",
-      "action": {
-        "do": 1,
-        "status": 1
-      }
-    },
-    {
-      "PK": "yoda-cgqa-elb.arubathena.com",
-      "action": {
-        "do": 1,
-        "status": 1
-      }
-    },
-    {
-      "PK": "yoda-cgqa.arubathena.com",
-      "action": {
-        "do": 1,
-        "status": 1
-      }
-    },
-    {
-      "PK": "yoda2-ofc-nlb-f4f923213a2189c7.elb.us-west-2.amazonaws.com",
-      "action": {
-        "do": 1,
-        "status": 1
-      }
-    },
-    {
-      "PK": "yoda2-public-device-nlb-8343995ce4714f6f.elb.us-west-2.amazonaws.com",
-      "action": {
-        "do": 1,
-        "status": 1
-      }
-    },
-    {
-      "PK": "yoda2-rcs-nlb-0c9df3882f3f7416.elb.us-west-2.amazonaws.com",
-      "action": {
-        "do": 1,
-        "status": 1
-      }
-    },
-    {
-      "PK": "zenwifi.net",
-      "action": {
-        "do": 1,
-        "status": 1
-      }
-    },
-    {
-      "PK": "zugportal.de",
-      "action": {
-        "do": 1,
+        "do": 0,
         "status": 1
       }
     }
