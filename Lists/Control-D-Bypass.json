@@ -121,13 +121,6 @@
       }
     },
     {
-      "PK": "*.gw==",
-      "action": {
-        "do": 1,
-        "status": 1
-      }
-    },
-    {
       "PK": "*.home",
       "action": {
         "do": 1,
@@ -317,21 +310,7 @@
       }
     },
     {
-      "PK": "*.wlan_ap",
-      "action": {
-        "do": 1,
-        "status": 1
-      }
-    },
-    {
       "PK": "*.workgroup",
-      "action": {
-        "do": 1,
-        "status": 1
-      }
-    },
-    {
-      "PK": "*.zghjccbob3n0",
       "action": {
         "do": 1,
         "status": 1
