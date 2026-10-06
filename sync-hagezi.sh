@@ -1005,6 +1005,10 @@ sync_folder() {
 # CUSTOM ADDON: Force bump_tls=1 on all Devices
 # ---------------------------------------------------------------------------
 
+# ---------------------------------------------------------------------------
+# CUSTOM ADDON: Force bump_tls=1 on all Devices
+# ---------------------------------------------------------------------------
+
 enable_bump_tls_all_devices() {
     log "Starting custom addon: Enabling bump_tls=1 across all device endpoints..."
 
@@ -1016,9 +1020,9 @@ enable_bump_tls_all_devices() {
         return 1
     fi
 
-    # 2. Extract all Device/Resolver IDs safely using jq
+    # 2. Extract all Device/Resolver IDs safely using deep recursive jq searching
     local device_ids
-    device_ids=$(echo "$devices_json" | jq -r '.body[].PK // .body[].device_id // .body[].id' 2>/dev/null)
+    device_ids=$(echo "$devices_json" | jq -r '.. | .PK? // .device_id? // .id? | select(. != null)' 2>/dev/null | sort -u)
     
     if [[ -z "$device_ids" || "$device_ids" == "null" ]]; then
         log "  ERROR: No valid device IDs found or JSON parsing failed."
@@ -1028,6 +1032,9 @@ enable_bump_tls_all_devices() {
     # 3. Loop through each discovered device endpoint and apply the modification
     local device_id update_res code
     for device_id in $device_ids; do
+        # Ignore numeric strings that are too short to be true Device IDs if applicable
+        [[ "$device_id" =~ ^[0-9]+$ && ${#device_id} -le 3 ]] && continue
+        
         log "  Processing Device Endpoint ID: $device_id..."
         
         # Match the API doc configuration using curl's native multipart/form-data interface (-F)
