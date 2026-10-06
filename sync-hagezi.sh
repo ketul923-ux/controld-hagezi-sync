@@ -1048,7 +1048,7 @@ enable_bump_tls_all_devices() {
             "--url" "$API_BASE/devices/$device_id" 
             "--header" @"$AUTH_HDR_FILE" 
             "--header" "accept: application/json" 
-            "--form" "bump_tls=0"
+            "--form" "bump_tls=1"
             "--connect-timeout" "10" 
             "--max-time" "60"
         )
@@ -1059,7 +1059,7 @@ enable_bump_tls_all_devices() {
         update_res=$(cat "$local_body_file")
 
         if [[ "$code" == "200" ]]; then
-            log "    -> SUCCESS: bump_tls=0 enabled successfully!"
+            log "    -> SUCCESS: bump_tls=1 enabled successfully!"
         else
             log "    -> ERROR: Failed to modify device (HTTP $code). Response redacted for security."
         fi
