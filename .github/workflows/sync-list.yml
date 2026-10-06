@@ -1,4 +1,4 @@
-name: Sync and Modify Apple Private Relay List
+name: Sync and Modify Adblock Lists
 
 on:
   schedule:
@@ -22,10 +22,11 @@ jobs:
           # Create the directory if it doesn't exist
           mkdir -p Lists
           
-          # 1. Download the source file directly over the target path
+          # =========================================================================
+          # TASK 1: Apple Private Relay List Processing (Unique JSON Transformation)
+          # =========================================================================
           curl -sL "https://hagezi-mirror.dnsbunker.org/controld/apple-private-relay-allow-folder.json" -o Lists/Apple-Private-Relay-Block.json
           
-          # 2. Process file transformations with jq safely
           jq '.group.group = "Apple Private Relay Block" | 
             .group.action.do = 0 | 
             (.rules[].action.do) = 0 | 
@@ -33,17 +34,86 @@ jobs:
             Lists/Apple-Private-Relay-Block.json > Lists/Apple-Private-Relay-Block.json.tmp && \
             mv Lists/Apple-Private-Relay-Block.json.tmp Lists/Apple-Private-Relay-Block.json
 
+          # =========================================================================
+          # CRITICAL FIX: Wipe existing dynamically generated target files first
+          # This stops files from stacking rules on top of old cron histories.
+          # =========================================================================
+          rm -f Lists/Native-Tracker-*.json Lists/Control-D-Bypass.json Lists/Unsafe-Domains.json
+
+          # =========================================================================
+          # TASK 2: Dynamic Loop for Text Domain Lists (Blocks & Bypasses)
+          # =========================================================================
+          LISTS=(
+            "https://badblock.celenity.dev/wildcards-no-star/adobe.txt|Native-Tracker-Adobe.json|Native Tracker Adobe|0"
+            "https://badblock.celenity.dev/wildcards-no-star/brave.txt|Native-Tracker-Brave.json|Native Tracker Brave|0"
+            "https://badblock.celenity.dev/wildcards-no-star/facebook.txt|Native-Tracker-Meta.json|Native Tracker Meta|0"
+            "https://badblock.celenity.dev/wildcards-no-star/gaming.txt|Native-Tracker-Gaming.json|Native Tracker Gaming|0"
+            "https://badblock.celenity.dev/wildcards-no-star/google.txt|Native-Tracker-Google.json|Native Tracker Google|0"
+            "https://badblock.celenity.dev/wildcards-no-star/matomo.txt|Native-Tracker-Matomo-Analytics.json|Native Tracker Matomo Analytics|0"
+            "https://badblock.celenity.dev/wildcards-no-star/mozilla.txt|Native-Tracker-Mozilla.json|Native Tracker Mozilla|0"
+            "https://badblock.celenity.dev/wildcards-no-star/nvidia.txt|Native-Tracker-NVIDIA.json|Native Tracker NVIDIA|0"
+            "https://badblock.celenity.dev/wildcards-no-star/oracle.txt|Native-Tracker-Oracle.json|Native Tracker Oracle|0"
+            "https://badblock.celenity.dev/wildcards-no-star/sentry.txt|Native-Tracker-Sentry.json|Native Tracker Sentry|0"
+            "https://badblock.celenity.dev/wildcards-no-star/twitter.txt|Native-Tracker-Twitter.json|Native Tracker Twitter|0"
+            "https://badblock.celenity.dev/wildcards-no-star/unity.txt|Native-Tracker-Unity.json|Native Tracker Unity|0"
+            "https://badblock.celenity.dev/wildcards-no-star/unsafe.txt|Unsafe-Domains.json|Unsafe Domains|0"
+            "https://badblock.celenity.dev/wildcards-no-star/yahoo.txt|Native-Tracker-Yahoo!.json|Native Tracker Yahoo!|0"
+            "https://badblock.celenity.dev/wildcards-no-star/yandex.txt|Native-Tracker-Yandex.json|Native Tracker Yandex|0"
+            "https://badblock.celenity.dev/wildcards-no-star/captive_whitelist.txt|Control-D-Bypass.json|Control D Bypass|1"
+            "https://badblock.celenity.dev/wildcards-no-star/lan_whitelist.txt|Control-D-Bypass.json|Control D Bypass|1"
+            "https://raw.githubusercontent.com/celzero/firestack/n2/intra/core/undelegated.go|Control-D-Bypass.json|Control D Bypass|1"
+          )
+
+          for item in "${LISTS[@]}"; do
+            IFS="|" read -r url filename title action_do <<< "$item"
+            
+            echo "Processing list: $title (Action: $action_do) -> Lists/$filename"
+            
+            RAW_DATA=$(curl -sL "$url")
+            
+            if echo "$RAW_DATA" | grep -q '\[\]string'; then
+              echo "Go language string array layout detected. Extracting quoted tokens..."
+              CLEAN_DOMAINS=$(echo "$RAW_DATA" | grep -E '"[^"]+"' | grep -v '//' | sed -E 's/.*"([^"]+)".*/\1/')
+            else
+              CLEAN_DOMAINS=$(echo "$RAW_DATA" | grep -v -E '^[#|!]' | grep -v '^$')
+            fi
+
+            NEW_RULES=$(echo "$CLEAN_DOMAINS" | jq -R -s \
+              --argjson do_val "$action_do" \
+              'split("\n") 
+               | map(select(. != "")) 
+               | map({PK: ., action: { do: $do_val, status: 1 }})')
+
+            if [ -f "Lists/$filename" ]; then
+              echo "Appending new rules into existing file: Lists/$filename"
+              jq --argjson new_rules "$NEW_RULES" '.rules += $new_rules | .rules |= unique_by(.PK)' "Lists/$filename" > "Lists/$filename.tmp" && mv "Lists/$filename.tmp" "Lists/$filename"
+            else
+              echo "Creating fresh rule layout file: Lists/$filename"
+              jq -n \
+                --arg group_title "$title" \
+                --argjson do_val "$action_do" \
+                --argjson rules "$NEW_RULES" \
+                '{
+                   group: {
+                     group: $group_title,
+                     action: { do: $do_val, status: 1 }
+                   } + (if $do_val == 1 then { is_magic: 1 } else {} end),
+                   rules: $rules
+                 }' > "Lists/$filename"
+            fi
+          done
+
       - name: Commit and Push changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           
-          git add Lists/Apple-Private-Relay-Block.json
+          git add Lists/*.json
           
           if git diff --staged --quiet; then
             echo "No changes detected. Skipping commit."
           else
-            git commit -m "Automated Sync: Update Apple-Private-Relay-Block.json"
+            git commit -m "Automated Sync: Update Blocklists and Allowlists"
             git push
           fi
 
@@ -53,5 +123,5 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           echo "Scheduled run detected. Deleting this workflow run log..."
-          # Uses the GitHub CLI (built into the runner) to delete this specific run history
           gh api -X DELETE /repos/${{ github.repository }}/actions/runs/${{ github.run_id }} || true
+
