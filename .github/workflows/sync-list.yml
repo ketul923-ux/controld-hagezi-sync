@@ -91,7 +91,7 @@ jobs:
                | map(select(
                    .PK != "1" and 
                    (.PK | endswith(".arpa") | not) and 
-                   ([.PK] | inside([".onion", ".zghjccbob3n0", ".gw==", ".wlan_ap", "fritz.box"]) | not)
+                   ([.PK] | inside([".onion", ".zghjccbob3n0", ".gw==", ".wlan_ap", "fritz.box", "*.onion", "*.zghjccbob3n0", "*.gw==", "*.wlan_ap"]) | not)
                  ))
                | . + [
                    {PK: "*.home.arpa", action: { do: $do_val, status: 1 }}
