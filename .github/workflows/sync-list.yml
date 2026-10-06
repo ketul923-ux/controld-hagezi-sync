@@ -71,19 +71,22 @@ jobs:
             
             RAW_DATA=$(curl -sL "$url")
             
+            # Filter clean domains straight to a temporary text file to completely bypass string memory limits
             if echo "$RAW_DATA" | grep -q '\[\]string'; then
               echo "Go language string array layout detected. Extracting quoted tokens..."
-              CLEAN_DOMAINS=$(echo "$RAW_DATA" | grep -E '"[^"]+"' | grep -v '//' | sed -E 's/.*"([^"]+)".*/\1/')
+              echo "$RAW_DATA" | grep -E '"[^"]+"' | grep -v '//' | sed -E 's/.*"([^"]+)".*/\1/' > temp_domains.txt
             else
-              CLEAN_DOMAINS=$(echo "$RAW_DATA" | grep -v -E '^[#|!]' | grep -v '^$')
+              echo "$RAW_DATA" | grep -v -E '^[#|!]' | grep -v '^$' > temp_domains.txt
             fi
 
-            NEW_RULES=$(echo "$CLEAN_DOMAINS" | jq -R -s \
+            # 2. Read the lines directly via stream piping (solves the "Argument list too long" limitation)
+            NEW_RULES=$(jq -R -s \
               --argjson do_val "$action_do" \
               'split("\n") 
                | map(select(. != "")) 
-               | map({PK: ., action: { do: $do_val, status: 1 }})')
+               | map({PK: ., action: { do: $do_val, status: 1 }})' temp_domains.txt)
 
+            # 3. Check if the target file already exists to merge or build from scratch
             if [ -f "Lists/$filename" ]; then
               echo "Appending new rules into existing file: Lists/$filename"
               jq --argjson new_rules "$NEW_RULES" '.rules += $new_rules | .rules |= unique_by(.PK)' "Lists/$filename" > "Lists/$filename.tmp" && mv "Lists/$filename.tmp" "Lists/$filename"
@@ -101,6 +104,9 @@ jobs:
                    rules: $rules
                  }' > "Lists/$filename"
             fi
+            
+            # Clean up the loop temporary file
+            rm -f temp_domains.txt
           done
 
       - name: Commit and Push changes
