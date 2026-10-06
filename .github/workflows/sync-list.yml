@@ -78,6 +78,9 @@ jobs:
             else
               echo "$RAW_DATA" | grep -v -E '^[#|!]' | grep -v '^$' > temp_domains.txt
             fi
+            
+            # Wildcard Fix: Rewrite leading periods (like .domain.com) into proper asterisks (*.domain.com)
+            sed -i -E 's/^\./\*\./' temp_domains.txt
 
             # 2. Parse text domains straight to an intermediate JSON array file
             jq -R -s \
