@@ -1001,6 +1001,60 @@ sync_folder() {
 # MAIN EXECUTION
 # ---------------------------------------------------------------------------
 
+# ---------------------------------------------------------------------------
+# CUSTOM ADDON: Force bump_tls=1 on all Devices
+# ---------------------------------------------------------------------------
+
+enable_bump_tls_all_devices() {
+    log "Starting custom addon: Enabling bump_tls=1 across all device endpoints..."
+
+    # 1. Fetch the raw devices payload using the script's retry framework
+    local devices_json
+    devices_json=$(api_call_with_retry "GET" "$API_BASE/devices")
+    if [[ $? -ne 0 || -z "$devices_json" ]]; then
+        log "  ERROR: Could not retrieve device list from Control D API."
+        return 1
+    fi
+
+    # 2. Extract all Device/Resolver IDs safely using jq
+    local device_ids
+    device_ids=$(echo "$devices_json" | jq -r '.body[].PK // .body[].device_id // .body[].id' 2>/dev/null)
+    
+    if [[ -z "$device_ids" || "$device_ids" == "null" ]]; then
+        log "  ERROR: No valid device IDs found or JSON parsing failed."
+        return 1
+    fi
+
+    # 3. Loop through each discovered device endpoint and apply the modification
+    local device_id update_res code
+    for device_id in $device_ids; do
+        log "  Processing Device Endpoint ID: $device_id..."
+        
+        # Match the API doc configuration using curl's native multipart/form-data interface (-F)
+        local curl_opts=(
+            "--request" "PUT" 
+            "--url" "$API_BASE/devices/$device_id" 
+            "--header" @"$AUTH_HDR_FILE" 
+            "--header" "accept: application/json" 
+            "--form" "bump_tls=1"
+            "--connect-timeout" "10" 
+            "--max-time" "60"
+        )
+        
+        # Execute the update call safely using the runtime logs config
+        : > "$API_BODY_FILE"
+        : > "$API_HDR_FILE"
+        code=$(curl -s -o "$API_BODY_FILE" -D "$API_HDR_FILE" -w "%{http_code}" "${curl_opts[@]}")
+        update_res=$(cat "$API_BODY_FILE")
+
+        if [[ "$code" == "200" ]]; then
+            log "    -> SUCCESS: bump_tls=1 enabled successfully!"
+        else
+            log "    -> ERROR: Failed to modify device (HTTP $code). Response: $(echo "$update_res" | head -c 200)"
+        fi
+    done
+}
+
 main() {
     local fname cachefile dl_status
     local skipped=0 downloaded=0 failed=0
@@ -1266,6 +1320,9 @@ main() {
             fi
         done
     done
+
+    # Execute the device update process at completion of all profile loops
+    enable_bump_tls_all_devices
 
     log ""
     log "========================================"
