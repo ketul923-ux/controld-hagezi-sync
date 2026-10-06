@@ -8,7 +8,7 @@
   },
   "rules": [
     {
-      "PK": "stats.controld.com",
+      "PK": "odc.null",
       "action": {
         "do": 0,
         "status": 1
