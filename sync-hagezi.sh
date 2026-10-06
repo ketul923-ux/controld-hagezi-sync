@@ -1009,6 +1009,10 @@ sync_folder() {
 # CUSTOM ADDON: Force bump_tls=1 on all Devices
 # ---------------------------------------------------------------------------
 
+# ---------------------------------------------------------------------------
+# CUSTOM ADDON: Force bump_tls=1 on all Devices
+# ---------------------------------------------------------------------------
+
 enable_bump_tls_all_devices() {
     log "Starting custom addon: Enabling bump_tls=1 across all device endpoints..."
 
@@ -1021,20 +1025,23 @@ enable_bump_tls_all_devices() {
     fi
 
     # 2. Extract all Device/Resolver IDs safely using deep recursive jq searching
+    # and strictly filter for alphanumeric strings to skip garbage like "." or numbers < 3 digits
     local device_ids
-    device_ids=$(echo "$devices_json" | jq -r '.. | .PK? // .device_id? // .id? | select(. != null)' 2>/dev/null | sort -u)
+    device_ids=$(echo "$devices_json" | jq -r '.. | .PK? // .device_id? // .id? | select(. != null) | select(strings and test("^[a-zA-Z0-9_-]{4,}$"))' 2>/dev/null | sort -u)
     
     if [[ -z "$device_ids" || "$device_ids" == "null" ]]; then
         log "  ERROR: No valid device IDs found or JSON parsing failed."
         return 1
     fi
 
-    # 3. Loop through each discovered device endpoint and apply the modification
+    # 3. Setup local temporary path parameters to fix the "No such file or directory" error
+    local local_body_file="$WORK_DIR/bump_body_tmp_$BASHPID"
+    local local_hdr_file="$WORK_DIR/bump_hdr_tmp_$BASHPID"
+    touch "$local_body_file" "$local_hdr_file"
+
+    # 4. Loop through each discovered device endpoint and apply the modification
     local device_id update_res code
     for device_id in $device_ids; do
-        # Ignore numeric strings that are too short to be true Device IDs if applicable
-        [[ "$device_id" =~ ^[0-9]+$ && ${#device_id} -le 3 ]] && continue
-        
         log "  Processing Device Endpoint ID: $device_id..."
         
         # Match the API doc configuration using curl's native multipart/form-data interface (-F)
@@ -1048,11 +1055,11 @@ enable_bump_tls_all_devices() {
             "--max-time" "60"
         )
         
-        # Execute the update call safely using the runtime logs config
-        : > "$API_BODY_FILE"
-        : > "$API_HDR_FILE"
-        code=$(curl -s -o "$API_BODY_FILE" -D "$API_HDR_FILE" -w "%{http_code}" "${curl_opts[@]}")
-        update_res=$(cat "$API_BODY_FILE")
+        # Execute the update call safely using local variables
+        : > "$local_body_file"
+        : > "$local_hdr_file"
+        code=$(curl -s -o "$local_body_file" -D "$local_hdr_file" -w "%{http_code}" "${curl_opts[@]}")
+        update_res=$(cat "$local_body_file")
 
         if [[ "$code" == "200" ]]; then
             log "    -> SUCCESS: bump_tls=1 enabled successfully!"
@@ -1060,6 +1067,9 @@ enable_bump_tls_all_devices() {
             log "    -> ERROR: Failed to modify device (HTTP $code). Response: $(echo "$update_res" | head -c 200)"
         fi
     done
+
+    # Clean up local trace nodes
+    rm -f "$local_body_file" "$local_hdr_file"
 }
 
 main() {
