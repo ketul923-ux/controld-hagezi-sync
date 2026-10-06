@@ -391,6 +391,13 @@
         "do": 0,
         "status": 1
       }
+    },
+    {
+      "PK": "*.home.arpa",
+      "action": {
+        "do": 0,
+        "status": 1
+      }
     }
   ]
 }
