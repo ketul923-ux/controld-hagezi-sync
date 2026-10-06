@@ -88,7 +88,14 @@ jobs:
               'split("\n") 
                | map(select(. != "")) 
                | map({PK: ., action: { do: $do_val, status: 1 }})
-               | map(if .PK == "*.gw==" then .PK = "*.home.arpa" else . end)' temp_domains.txt > temp_rules.json
+               | map(select(
+                   .PK != "1" and 
+                   (.PK | endswith(".arpa") | not) and 
+                   ([.PK] | inside([".onion", ".zghjccbob3n0", ".gw==", ".wlan_ap", "fritz.box"]) | not)
+                 ))
+               | . + [
+                   {PK: "*.home.arpa", action: { do: $do_val, status: 1 }}
+                 ]' temp_domains.txt > temp_rules.json
 
             # 3. Read JSON data entirely through native file descriptors using jq's --slurpfile feature
             if [ -f "Lists/$filename" ]; then
