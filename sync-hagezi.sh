@@ -1002,7 +1002,7 @@ sync_folder() {
 # ---------------------------------------------------------------------------
 
 # ---------------------------------------------------------------------------
-# CUSTOM ADDON: Change bump_tls, restricted, learn_ip, legacy_ipv4_status, stats on all Devices
+# Change bump_tls, restricted, learn_ip, legacy_ipv4_status, stats on all Devices
 # ---------------------------------------------------------------------------
 
 enable_bump_tls_all_devices() {
