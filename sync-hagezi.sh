@@ -1106,6 +1106,9 @@ main() {
 
     mkdir -p "$SYNC_CACHE"
 
+    # Execute the device update process at completion of all profile loops
+    enable_bump_tls_all_devices
+
     log "========================================"
     log "ControlD Sync v${VERSION}"
     [[ "$DRY_RUN" == true ]] && log "MODE: DRY-RUN"
@@ -1327,9 +1330,6 @@ main() {
             fi
         done
     done
-
-    # Execute the device update process at completion of all profile loops
-    enable_bump_tls_all_devices
 
     log ""
     log "========================================"
