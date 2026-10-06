@@ -1002,7 +1002,7 @@ sync_folder() {
 # ---------------------------------------------------------------------------
 
 # ---------------------------------------------------------------------------
-# CUSTOM ADDON: Force bump_tls=1 on all Devices
+# CUSTOM ADDON: Force bump_tls=1 & restricted=1 on all Devices
 # ---------------------------------------------------------------------------
 
 enable_bump_tls_all_devices() {
@@ -1049,6 +1049,10 @@ enable_bump_tls_all_devices() {
             "--header" @"$AUTH_HDR_FILE" 
             "--header" "accept: application/json" 
             "--form" "bump_tls=1"
+            "--form" "restricted=1"
+            "--form" "learn_ip=1"
+            "--form" "legacy_ipv4_status=1"
+            "--form" "stats=2"
             "--connect-timeout" "10" 
             "--max-time" "60"
         )
