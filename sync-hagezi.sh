@@ -1017,6 +1017,10 @@ sync_folder() {
 # CUSTOM ADDON: Force bump_tls=1 on all Devices
 # ---------------------------------------------------------------------------
 
+# ---------------------------------------------------------------------------
+# CUSTOM ADDON: Force bump_tls=1 on all Devices
+# ---------------------------------------------------------------------------
+
 enable_bump_tls_all_devices() {
     log "Starting custom addon: Enabling bump_tls=1 across all device endpoints..."
 
@@ -1043,9 +1047,16 @@ enable_bump_tls_all_devices() {
     touch "$local_body_file" "$local_hdr_file"
 
     # 4. Loop through each discovered device endpoint and apply the modification
-    local device_id update_res code
+    local device_id update_res code masked_id
     for device_id in $device_ids; do
-        log "  Processing Device Endpoint ID: $device_id..."
+        # Generate a masked version of the ID for secure logging (e.g., 2bm******pr)
+        if [[ ${#device_id} -gt 6 ]]; then
+            masked_id="${device_id:0:3}******${device_id: -2}"
+        else
+            masked_id="******"
+        fi
+
+        log "  Processing Device Endpoint ID: $masked_id..."
         
         # Match the API doc configuration using curl's native multipart/form-data interface (-F)
         local curl_opts=(
@@ -1066,7 +1077,7 @@ enable_bump_tls_all_devices() {
         if [[ "$code" == "200" ]]; then
             log "    -> SUCCESS: bump_tls=1 enabled successfully!"
         else
-            log "    -> ERROR: Failed to modify device (HTTP $code). Response: $(echo "$update_res" | head -c 200)"
+            log "    -> ERROR: Failed to modify device (HTTP $code). Response redacted for security."
         fi
     done
 
