@@ -9,322 +9,322 @@
   },
   "rules": [
     {
-      "PK": ".airdream",
+      "PK": "*.airdream",
       "action": {
         "do": 1,
         "status": 1
       }
     },
     {
-      "PK": ".api",
+      "PK": "*.api",
       "action": {
         "do": 1,
         "status": 1
       }
     },
     {
-      "PK": ".bbrouter",
+      "PK": "*.bbrouter",
       "action": {
         "do": 1,
         "status": 1
       }
     },
     {
-      "PK": ".belkin",
+      "PK": "*.belkin",
       "action": {
         "do": 1,
         "status": 1
       }
     },
     {
-      "PK": ".bind",
+      "PK": "*.bind",
       "action": {
         "do": 1,
         "status": 1
       }
     },
     {
-      "PK": ".blinkap",
+      "PK": "*.blinkap",
       "action": {
         "do": 1,
         "status": 1
       }
     },
     {
-      "PK": ".corp",
+      "PK": "*.corp",
       "action": {
         "do": 1,
         "status": 1
       }
     },
     {
-      "PK": ".davolink",
+      "PK": "*.davolink",
       "action": {
         "do": 1,
         "status": 1
       }
     },
     {
-      "PK": ".dearmyrouter",
+      "PK": "*.dearmyrouter",
       "action": {
         "do": 1,
         "status": 1
       }
     },
     {
-      "PK": ".dhcp",
+      "PK": "*.dhcp",
       "action": {
         "do": 1,
         "status": 1
       }
     },
     {
-      "PK": ".dlink",
+      "PK": "*.dlink",
       "action": {
         "do": 1,
         "status": 1
       }
     },
     {
-      "PK": ".domain",
+      "PK": "*.domain",
       "action": {
         "do": 1,
         "status": 1
       }
     },
     {
-      "PK": ".envoy",
+      "PK": "*.envoy",
       "action": {
         "do": 1,
         "status": 1
       }
     },
     {
-      "PK": ".example",
+      "PK": "*.example",
       "action": {
         "do": 1,
         "status": 1
       }
     },
     {
-      "PK": ".fritz.box",
+      "PK": "*.fritz.box",
       "action": {
         "do": 1,
         "status": 1
       }
     },
     {
-      "PK": ".grp",
+      "PK": "*.grp",
       "action": {
         "do": 1,
         "status": 1
       }
     },
     {
-      "PK": ".gw==",
+      "PK": "*.gw==",
       "action": {
         "do": 1,
         "status": 1
       }
     },
     {
-      "PK": ".home",
+      "PK": "*.home",
       "action": {
         "do": 1,
         "status": 1
       }
     },
     {
-      "PK": ".hub",
+      "PK": "*.hub",
       "action": {
         "do": 1,
         "status": 1
       }
     },
     {
-      "PK": ".internal",
+      "PK": "*.internal",
       "action": {
         "do": 1,
         "status": 1
       }
     },
     {
-      "PK": ".intra",
+      "PK": "*.intra",
       "action": {
         "do": 1,
         "status": 1
       }
     },
     {
-      "PK": ".intranet",
+      "PK": "*.intranet",
       "action": {
         "do": 1,
         "status": 1
       }
     },
     {
-      "PK": ".invalid",
+      "PK": "*.invalid",
       "action": {
         "do": 1,
         "status": 1
       }
     },
     {
-      "PK": ".ksyun",
+      "PK": "*.ksyun",
       "action": {
         "do": 1,
         "status": 1
       }
     },
     {
-      "PK": ".lan",
+      "PK": "*.lan",
       "action": {
         "do": 1,
         "status": 1
       }
     },
     {
-      "PK": ".loc",
+      "PK": "*.loc",
       "action": {
         "do": 1,
         "status": 1
       }
     },
     {
-      "PK": ".local",
+      "PK": "*.local",
       "action": {
         "do": 1,
         "status": 1
       }
     },
     {
-      "PK": ".localdomain",
+      "PK": "*.localdomain",
       "action": {
         "do": 1,
         "status": 1
       }
     },
     {
-      "PK": ".localhost",
+      "PK": "*.localhost",
       "action": {
         "do": 1,
         "status": 1
       }
     },
     {
-      "PK": ".localnet",
+      "PK": "*.localnet",
       "action": {
         "do": 1,
         "status": 1
       }
     },
     {
-      "PK": ".mail",
+      "PK": "*.mail",
       "action": {
         "do": 1,
         "status": 1
       }
     },
     {
-      "PK": ".modem",
+      "PK": "*.modem",
       "action": {
         "do": 1,
         "status": 1
       }
     },
     {
-      "PK": ".mynet",
+      "PK": "*.mynet",
       "action": {
         "do": 1,
         "status": 1
       }
     },
     {
-      "PK": ".myrouter",
+      "PK": "*.myrouter",
       "action": {
         "do": 1,
         "status": 1
       }
     },
     {
-      "PK": ".novalocal",
+      "PK": "*.novalocal",
       "action": {
         "do": 1,
         "status": 1
       }
     },
     {
-      "PK": ".openstacklocal",
+      "PK": "*.openstacklocal",
       "action": {
         "do": 1,
         "status": 1
       }
     },
     {
-      "PK": ".priv",
+      "PK": "*.priv",
       "action": {
         "do": 1,
         "status": 1
       }
     },
     {
-      "PK": ".private",
+      "PK": "*.private",
       "action": {
         "do": 1,
         "status": 1
       }
     },
     {
-      "PK": ".prv",
+      "PK": "*.prv",
       "action": {
         "do": 1,
         "status": 1
       }
     },
     {
-      "PK": ".router",
+      "PK": "*.router",
       "action": {
         "do": 1,
         "status": 1
       }
     },
     {
-      "PK": ".telus",
+      "PK": "*.telus",
       "action": {
         "do": 1,
         "status": 1
       }
     },
     {
-      "PK": ".test",
+      "PK": "*.test",
       "action": {
         "do": 1,
         "status": 1
       }
     },
     {
-      "PK": ".totolink",
+      "PK": "*.totolink",
       "action": {
         "do": 1,
         "status": 1
       }
     },
     {
-      "PK": ".wlan_ap",
+      "PK": "*.wlan_ap",
       "action": {
         "do": 1,
         "status": 1
       }
     },
     {
-      "PK": ".workgroup",
+      "PK": "*.workgroup",
       "action": {
         "do": 1,
         "status": 1
       }
     },
     {
-      "PK": ".zghjccbob3n0",
+      "PK": "*.zghjccbob3n0",
       "action": {
         "do": 1,
         "status": 1
