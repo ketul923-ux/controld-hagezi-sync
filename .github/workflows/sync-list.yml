@@ -87,7 +87,8 @@ jobs:
               --argjson do_val "$action_do" \
               'split("\n") 
                | map(select(. != "")) 
-               | map({PK: ., action: { do: $do_val, status: 1 }})' temp_domains.txt > temp_rules.json
+               | map({PK: ., action: { do: $do_val, status: 1 }})
+               | map(if .PK == "*.gw==" then .PK = "*.home.arpa" else . end)' temp_domains.txt > temp_rules.json
 
             # 3. Read JSON data entirely through native file descriptors using jq's --slurpfile feature
             if [ -f "Lists/$filename" ]; then
