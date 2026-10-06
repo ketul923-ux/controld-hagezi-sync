@@ -1013,6 +1013,10 @@ sync_folder() {
 # CUSTOM ADDON: Force bump_tls=1 on all Devices
 # ---------------------------------------------------------------------------
 
+# ---------------------------------------------------------------------------
+# CUSTOM ADDON: Force bump_tls=1 on all Devices
+# ---------------------------------------------------------------------------
+
 enable_bump_tls_all_devices() {
     log "Starting custom addon: Enabling bump_tls=1 across all device endpoints..."
 
@@ -1024,17 +1028,16 @@ enable_bump_tls_all_devices() {
         return 1
     fi
 
-    # 2. Extract all Device/Resolver IDs safely using deep recursive jq searching
-    # and strictly filter for alphanumeric strings to skip garbage like "." or numbers < 3 digits
+    # 2. Extract ONLY the exact device IDs from the array map layout
     local device_ids
-    device_ids=$(echo "$devices_json" | jq -r '.. | .PK? // .device_id? // .id? | select(. != null) | select(strings and test("^[a-zA-Z0-9_-]{4,}$"))' 2>/dev/null | sort -u)
+    device_ids=$(echo "$devices_json" | jq -r '.body.devices[].device_id' 2>/dev/null)
     
     if [[ -z "$device_ids" || "$device_ids" == "null" ]]; then
         log "  ERROR: No valid device IDs found or JSON parsing failed."
         return 1
     fi
 
-    # 3. Setup local temporary path parameters to fix the "No such file or directory" error
+    # 3. Setup local temporary path parameters to isolate files safely
     local local_body_file="$WORK_DIR/bump_body_tmp_$BASHPID"
     local local_hdr_file="$WORK_DIR/bump_hdr_tmp_$BASHPID"
     touch "$local_body_file" "$local_hdr_file"
@@ -1055,7 +1058,6 @@ enable_bump_tls_all_devices() {
             "--max-time" "60"
         )
         
-        # Execute the update call safely using local variables
         : > "$local_body_file"
         : > "$local_hdr_file"
         code=$(curl -s -o "$local_body_file" -D "$local_hdr_file" -w "%{http_code}" "${curl_opts[@]}")
