@@ -1037,7 +1037,8 @@ enable_bump_tls_all_devices() {
     touch "$local_body_file" "$local_hdr_file"
 
     # 4. Loop through each discovered device endpoint and apply the modification
-    local config device_id device_name update_res code masked_id sanitized_subdomain
+    local config device_id device_name update_res code 
+    local masked_id sanitized_subdomain masked_name masked_subdomain
     for config in $device_configs; do
         # Unpack the pipe-separated values safely
         IFS='|' read -r device_id device_name <<< "$config"
@@ -1045,14 +1046,28 @@ enable_bump_tls_all_devices() {
         # Strip spaces out of the name to ensure it forms a valid DDNS subdomain format
         sanitized_subdomain=$(echo "$device_name" | tr -d ' ')
 
-        # Generate a masked version of the ID for secure logging (e.g., 2************r)
+        # Generate a masked version of the ID (e.g., 1************0)
         if [[ ${#device_id} -gt 2 ]]; then
             masked_id="${device_id:0:1}************${device_id: -1}"
         else
             masked_id="******"
         fi
 
-        log "  Processing Device: $device_name (ID: $masked_id) [DDNS Subdomain: $sanitized_subdomain]..."
+        # Generate a masked version of the Device Name (e.g., K********a)
+        if [[ ${#device_name} -gt 2 ]]; then
+            masked_name="${device_name:0:1}********${device_name: -1}"
+        else
+            masked_name="******"
+        fi
+
+        # Generate a masked version of the DDNS Subdomain (e.g., K********a)
+        if [[ ${#sanitized_subdomain} -gt 2 ]]; then
+            masked_subdomain="${sanitized_subdomain:0:1}********${sanitized_subdomain: -1}"
+        else
+            masked_subdomain="******"
+        fi
+
+        log "  Processing Device: $masked_name (ID: $masked_id) [DDNS Subdomain: $masked_subdomain]..."
         
         # Match the API doc configuration using curl's native multipart/form-data interface (-F)
         local curl_opts=(
