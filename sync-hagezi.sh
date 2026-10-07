@@ -1005,6 +1005,112 @@ sync_folder() {
 # Change bump_tls, restricted, learn_ip, and stats on all devices
 # ---------------------------------------------------------------------------
 
+enable_bump_tls_all_devices() {
+    log "Starting custom addon: change bump_tls, restricted, learn_ip, and stats across all device endpoints..."
+
+    # 1. Fetch the raw devices payload using the script's retry framework
+    local devices_json
+    devices_json=$(api_call_with_retry "GET" "$API_BASE/devices")
+    if [[ $? -ne 0 || -z "$devices_json" ]]; then
+        log "  ERROR: Could not retrieve device list from Control D API."
+        return 1
+    fi
+
+    # 2. Extract unique device configurations and dynamically resolve client_id from parent names
+    local device_configs
+    device_configs=$(echo "$devices_json" | jq -r '
+        ( [ .body.devices[]? | select(.device_id != null) | {(.device_id): .name} ] | add ) as $name_map |
+        [
+            .body.devices[]? | 
+            select(.device_id != null and .name != null) |
+            (if .parent_device.device_id != null then ($name_map[.parent_device.device_id] // "NONE") else "NONE" end) as $resolved_client_id |
+            "\(.device_id)|\(.name)|\($resolved_client_id)"
+        ] | unique | .[]
+    ' 2>/dev/null)
+    
+    if [[ -z "$device_configs" || "$device_configs" == "null" ]]; then
+        log "  ERROR: No valid device configurations found or JSON parsing failed."
+        return 1
+    fi
+
+    # 3. Setup local temporary path parameters to isolate files safely
+    local local_body_file="$WORK_DIR/bump_body_tmp_$BASHPID"
+    local local_hdr_file="$WORK_DIR/bump_hdr_tmp_$BASHPID"
+    touch "$local_body_file" "$local_hdr_file"
+
+    # 4. Loop through each discovered device endpoint and apply the modification
+    local config device_id device_name resolved_client_id update_res code 
+    local masked_id sanitized_subdomain masked_name masked_subdomain
+    for config in $device_configs; do
+        # Unpack the pipe-separated values safely
+        IFS='|' read -r device_id device_name resolved_client_id <<< "$config"
+
+        # Strip spaces out of the name to ensure it forms a valid DDNS subdomain format
+        sanitized_subdomain=$(echo "$device_name" | tr -d ' ')
+
+        # Generate a masked version of the ID (e.g., 1************0)
+        if [[ ${#device_id} -gt 2 ]]; then
+            masked_id="${device_id:0:1}************${device_id: -1}"
+        else
+            masked_id="******"
+        fi
+
+        # Generate a masked version of the Device Name (e.g., K********a)
+        if [[ ${#device_name} -gt 2 ]]; then
+            masked_name="${device_name:0:1}********${device_name: -1}"
+        else
+            masked_name="******"
+        fi
+
+        # Generate a masked version of the DDNS Subdomain (e.g., K********a)
+        if [[ ${#sanitized_subdomain} -gt 2 ]]; then
+            masked_subdomain="${sanitized_subdomain:0:1}********${sanitized_subdomain: -1}"
+        else
+            masked_subdomain="******"
+        fi
+
+        log "  Processing Device: $masked_name (ID: $masked_id) [DDNS Subdomain: $masked_subdomain]..."
+        
+        # Match the API doc configuration using curl's native multipart/form-data interface (-F)
+        local curl_opts=(
+            "--request" "PUT" 
+            "--url" "$API_BASE/devices/$device_id" 
+            "--header" @"$AUTH_HDR_FILE" 
+            "--header" "accept: application/json" 
+            "--form" "bump_tls=1"
+            "--form" "restricted=1"
+            "--form" "learn_ip=1"
+            "--form" "stats=2"
+            "--form" "ddns_status=1"
+            "--form" "ddns_ext_status=1"
+            "--form" "status=1"
+            "--form" "ddns_subdomain=$sanitized_subdomain"
+            "--form" "ddns_ext_host=${sanitized_subdomain}.controld.live"
+            "--connect-timeout" "10" 
+            "--max-time" "60"
+        )
+
+        # If a corrected parent client_id string was resolved, pass it into the multipart form map
+        if [[ -n "$resolved_client_id" && "$resolved_client_id" != "NONE" ]]; then
+            curl_opts+=("--form" "client_id=$resolved_client_id")
+        fi
+        
+        : > "$local_body_file"
+        : > "$local_hdr_file"
+        code=$(curl -s -o "$local_body_file" -D "$local_hdr_file" -w "%{http_code}" "${curl_opts[@]}")
+        update_res=$(cat "$local_body_file")
+
+        if [[ "$code" == "200" ]]; then
+            log "    -> SUCCESS: bump_tls, restricted, learn_ip, stats, and DDNS updated successfully!"
+        else
+            log "    -> ERROR: Failed to modify device (HTTP $code). Response redacted for security."
+        fi
+    done
+
+    # Clean up local trace nodes
+    rm -f "$local_body_file" "$local_hdr_file"
+}
+
 main() {
     local fname cachefile dl_status
     local skipped=0 downloaded=0 failed=0
