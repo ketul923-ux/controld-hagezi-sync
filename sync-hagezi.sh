@@ -1071,29 +1071,54 @@ enable_bump_tls_all_devices() {
 
         log "  Processing Device: $masked_name (ID: $masked_id) [DDNS Subdomain: $masked_subdomain]..."
         
-        # Match the API doc configuration using curl's native multipart/form-data interface (-F)
+        # Build JSON string dynamically to support sub-device nested objects or standard payloads
+        local json_payload
+        if [[ -n "$resolved_client_id" && "$resolved_client_id" != "NONE" ]]; then
+            # If sub-device layout is tracked, update nested client_id as a string JSON property
+            json_payload=$(cat <<EOF
+{
+  "bump_tls": 1,
+  "restricted": 1,
+  "learn_ip": 1,
+  "stats": 2,
+  "ddns_status": 1,
+  "ddns_ext_status": 1,
+  "status": 1,
+  "ddns_subdomain": "$sanitized_subdomain",
+  "ddns_ext_host": "${sanitized_subdomain}.controld.live",
+  "client_id": "$resolved_client_id"
+}
+EOF
+)
+        else
+            # Standard device format layout
+            json_payload=$(cat <<EOF
+{
+  "bump_tls": 1,
+  "restricted": 1,
+  "learn_ip": 1,
+  "stats": 2,
+  "ddns_status": 1,
+  "ddns_ext_status": 1,
+  "status": 1,
+  "ddns_subdomain": "$sanitized_subdomain",
+  "ddns_ext_host": "${sanitized_subdomain}.controld.live"
+}
+EOF
+)
+        fi
+
+        # Native Application JSON config array
         local curl_opts=(
             "--request" "PUT" 
             "--url" "$API_BASE/devices/$device_id" 
             "--header" @"$AUTH_HDR_FILE" 
             "--header" "accept: application/json" 
-            "--form" "bump_tls=1"
-            "--form" "restricted=1"
-            "--form" "learn_ip=1"
-            "--form" "stats=2"
-            "--form" "ddns_status=1"
-            "--form" "ddns_ext_status=1"
-            "--form" "status=1"
-            "--form" "ddns_subdomain=$sanitized_subdomain"
-            "--form" "ddns_ext_host=${sanitized_subdomain}.controld.live"
+            "--header" "content-type: application/json"
+            "--data" "$json_payload"
             "--connect-timeout" "10" 
             "--max-time" "60"
         )
-
-        # If a corrected parent client_id string was resolved, pass it into the multipart form map
-        if [[ -n "$resolved_client_id" && "$resolved_client_id" != "NONE" ]]; then
-            curl_opts+=("--form" "client_id=$resolved_client_id")
-        fi
         
         : > "$local_body_file"
         : > "$local_hdr_file"
@@ -1101,7 +1126,7 @@ enable_bump_tls_all_devices() {
         update_res=$(cat "$local_body_file")
 
         if [[ "$code" == "200" ]]; then
-            log "    -> SUCCESS: bump_tls, restricted, learn_ip, stats, and DDNS updated successfully!"
+            log "    -> SUCCESS: bump_tls, restricted, learn_ip, stats, and DDNS/client_id updated successfully!"
         else
             log "    -> ERROR: Failed to modify device (HTTP $code). Response redacted for security."
         fi
