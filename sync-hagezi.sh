@@ -1018,7 +1018,7 @@ enable_bump_tls_all_devices() {
 
     # 2. Extract ONLY the exact UNIQUE device IDs from the array map layout
     local device_ids
-    device_ids=$(echo "$devices_json" | jq -r '[.body.devices[].device_id] | unique | .[]' 2>/dev/null)
+    device_ids=$(echo "$devices_json" | jq -r '[.body.devices[].resolvers[].uid] | unique | .[]' 2>/dev/null)
     
     if [[ -z "$device_ids" || "$device_ids" == "null" ]]; then
         log "  ERROR: No valid device IDs found or JSON parsing failed."
