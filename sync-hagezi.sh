@@ -1016,12 +1016,18 @@ enable_bump_tls_all_devices() {
         return 1
     fi
 
-    # 2. Extract ONLY the exact UNIQUE device IDs from the array map layout
-    local device_ids
-    device_ids=$(echo "$devices_json" | jq -r '[.body.devices[].resolvers[].uid] | unique | .[]' 2>/dev/null)
+    # 2. Extract unique device configurations safely checking path existences
+    local device_configs
+    device_configs=$(echo "$devices_json" | jq -r '
+        [
+            .body.devices[]? | 
+            select(.device_id != null and .name != null) | 
+            "\(.device_id)|\(.name)"
+        ] | unique | .[]
+    ' 2>/dev/null)
     
-    if [[ -z "$device_ids" || "$device_ids" == "null" ]]; then
-        log "  ERROR: No valid device IDs found or JSON parsing failed."
+    if [[ -z "$device_configs" || "$device_configs" == "null" ]]; then
+        log "  ERROR: No valid device configurations found or JSON parsing failed."
         return 1
     fi
 
@@ -1031,16 +1037,22 @@ enable_bump_tls_all_devices() {
     touch "$local_body_file" "$local_hdr_file"
 
     # 4. Loop through each discovered device endpoint and apply the modification
-    local device_id update_res code masked_id
-    for device_id in $device_ids; do
-        # Generate a masked version of the ID for secure logging (e.g., 2bm******pr)
-        if [[ ${#device_id} -gt 6 ]]; then
+    local config device_id device_name update_res code masked_id sanitized_subdomain
+    for config in $device_configs; do
+        # Unpack the pipe-separated values safely
+        IFS='|' read -r device_id device_name <<< "$config"
+
+        # Strip spaces out of the name to ensure it forms a valid DDNS subdomain format
+        sanitized_subdomain=$(echo "$device_name" | tr -d ' ')
+
+        # Generate a masked version of the ID for secure logging (e.g., 2************r)
+        if [[ ${#device_id} -gt 2 ]]; then
             masked_id="${device_id:0:1}************${device_id: -1}"
         else
             masked_id="******"
         fi
 
-        log "  Processing Device Endpoint ID: $masked_id..."
+        log "  Processing Device: $device_name (ID: $masked_id) [DDNS Subdomain: $sanitized_subdomain]..."
         
         # Match the API doc configuration using curl's native multipart/form-data interface (-F)
         local curl_opts=(
@@ -1052,6 +1064,11 @@ enable_bump_tls_all_devices() {
             "--form" "restricted=1"
             "--form" "learn_ip=1"
             "--form" "stats=2"
+            "--form" "ddns_status=1"
+            "--form" "ddns_ext_status=1"
+            "--form" "status=1"
+            "--form" "ddns_subdomain=$sanitized_subdomain"
+            "--form" "ddns_ext_host=${sanitized_subdomain}.controld.live"
             "--connect-timeout" "10" 
             "--max-time" "60"
         )
@@ -1062,7 +1079,7 @@ enable_bump_tls_all_devices() {
         update_res=$(cat "$local_body_file")
 
         if [[ "$code" == "200" ]]; then
-            log "    -> SUCCESS: bump_tls, restricted, learn_ip, and stats changed successfully!"
+            log "    -> SUCCESS: bump_tls, restricted, learn_ip, stats, and DDNS updated successfully!"
         else
             log "    -> ERROR: Failed to modify device (HTTP $code). Response redacted for security."
         fi
