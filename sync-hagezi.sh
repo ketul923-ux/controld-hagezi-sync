@@ -1002,11 +1002,11 @@ sync_folder() {
 # ---------------------------------------------------------------------------
 
 # ---------------------------------------------------------------------------
-# Change bump_tls, restricted, learn_ip, legacy_ipv4_status, stats on all Devices
+# Change bump_tls, restricted, learn_ip, and stats on all devices
 # ---------------------------------------------------------------------------
 
 enable_bump_tls_all_devices() {
-    log "Starting custom addon: change bump_tls, restricted, learn_ip, legacy_ipv4_status, stats across all device endpoints..."
+    log "Starting custom addon: change bump_tls, restricted, learn_ip, and stats across all device endpoints..."
 
     # 1. Fetch the raw devices payload using the script's retry framework
     local devices_json
@@ -1016,9 +1016,9 @@ enable_bump_tls_all_devices() {
         return 1
     fi
 
-    # 2. Extract ONLY the exact device IDs from the array map layout
+    # 2. Extract ONLY the exact UNIQUE device IDs from the array map layout
     local device_ids
-    device_ids=$(echo "$devices_json" | jq -r '.body.devices[].device_id' 2>/dev/null)
+    device_ids=$(echo "$devices_json" | jq -r '[.body.devices[].device_id] | unique | .[]' 2>/dev/null)
     
     if [[ -z "$device_ids" || "$device_ids" == "null" ]]; then
         log "  ERROR: No valid device IDs found or JSON parsing failed."
@@ -1035,7 +1035,7 @@ enable_bump_tls_all_devices() {
     for device_id in $device_ids; do
         # Generate a masked version of the ID for secure logging (e.g., 2bm******pr)
         if [[ ${#device_id} -gt 6 ]]; then
-            masked_id="${device_id:0:3}******${device_id: -2}"
+            masked_id="${device_id:0:1}************${device_id: -1}"
         else
             masked_id="******"
         fi
@@ -1051,7 +1051,6 @@ enable_bump_tls_all_devices() {
             "--form" "bump_tls=1"
             "--form" "restricted=1"
             "--form" "learn_ip=1"
-            "--form" "legacy_ipv4_status=1"
             "--form" "stats=2"
             "--connect-timeout" "10" 
             "--max-time" "60"
@@ -1063,7 +1062,7 @@ enable_bump_tls_all_devices() {
         update_res=$(cat "$local_body_file")
 
         if [[ "$code" == "200" ]]; then
-            log "    -> SUCCESS: bump_tls, restricted, learn_ip, legacy_ipv4_status, stats changed successfully!"
+            log "    -> SUCCESS: bump_tls, restricted, learn_ip, and stats changed successfully!"
         else
             log "    -> ERROR: Failed to modify device (HTTP $code). Response redacted for security."
         fi
