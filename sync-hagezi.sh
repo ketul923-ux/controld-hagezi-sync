@@ -1016,13 +1016,20 @@ enable_bump_tls_all_devices() {
         return 1
     fi
 
-    # 2. Extract unique device configurations safely checking path existences
+    # 2. Extract unique device configurations and dynamically resolve client_id from parent names
     local device_configs
     device_configs=$(echo "$devices_json" | jq -r '
         [
+            # Create a lookup map of [device_id]: name for all top-level records
+            (.body.devices[]? | select(.device_id != null) | {(.device_id): .name}) as $name_map |
+            
             .body.devices[]? | 
-            select(.device_id != null and .name != null) | 
-            "\(.device_id)|\(.name)"
+            select(.device_id != null and .name != null) |
+            
+            # Resolve the correct parent name if parent_device exists, otherwise default to empty string
+            (if .parent_device.device_id != null then $name_map[.parent_device.device_id] else "" end) as $resolved_client_id |
+            
+            "\(.device_id)|\(.name)|\($resolved_client_id)"
         ] | unique | .[]
     ' 2>/dev/null)
     
@@ -1037,11 +1044,11 @@ enable_bump_tls_all_devices() {
     touch "$local_body_file" "$local_hdr_file"
 
     # 4. Loop through each discovered device endpoint and apply the modification
-    local config device_id device_name update_res code 
+    local config device_id device_name resolved_client_id update_res code 
     local masked_id sanitized_subdomain masked_name masked_subdomain
     for config in $device_configs; do
         # Unpack the pipe-separated values safely
-        IFS='|' read -r device_id device_name <<< "$config"
+        IFS='|' read -r device_id device_name resolved_client_id <<< "$config"
 
         # Strip spaces out of the name to ensure it forms a valid DDNS subdomain format
         sanitized_subdomain=$(echo "$device_name" | tr -d ' ')
@@ -1087,6 +1094,11 @@ enable_bump_tls_all_devices() {
             "--connect-timeout" "10" 
             "--max-time" "60"
         )
+
+        # If a corrected parent client_id string was resolved, pass it into the multipart form map
+        if [[ -n "$resolved_client_id" ]]; then
+            curl_opts+=("--form" "client_id=$resolved_client_id")
+        fi
         
         : > "$local_body_file"
         : > "$local_hdr_file"
