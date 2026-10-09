@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # =============================================================================
 # ControlD HaGeZi Folder Auto-Sync
-# Version: 2.3.1
+# Version: 2.3.1_Custom
 # Description: Syncs HaGeZi DNS blocklist folders using atomic server-side swaps.
 # Requirements: bash 4.3+, curl, jq, cmp
 # =============================================================================
@@ -1077,15 +1077,14 @@ enable_bump_tls_all_devices() {
             "--url" "$API_BASE/devices/$device_id" 
             "--header" @"$AUTH_HDR_FILE" 
             "--header" "accept: application/json" 
-            "--form" "bump_tls=1"
+            "--form" "bump_tls=0"
             "--form" "restricted=1"
             "--form" "learn_ip=1"
             "--form" "stats=2"
             "--form" "ddns_status=1"
-            "--form" "ddns_ext_status=1"
+            "--form" "ddns_ext_status=0"
             "--form" "status=1"
             "--form" "ddns_subdomain=$sanitized_subdomain"
-            "--form" "ddns_ext_host=${sanitized_subdomain}.controld.live"
             "--connect-timeout" "10" 
             "--max-time" "60"
         )
