@@ -1002,11 +1002,11 @@ sync_folder() {
 # ---------------------------------------------------------------------------
 
 # ---------------------------------------------------------------------------
-# Change bump_tls, restricted, learn_ip, and stats on all devices
+# Made requested changes
 # ---------------------------------------------------------------------------
 
 enable_bump_tls_all_devices() {
-    log "Starting custom addon: change bump_tls, restricted, learn_ip, and stats across all device endpoints..."
+    log "Starting to make requested changes across all endpoints..."
 
     # 1. Fetch the raw devices payload using the script's retry framework
     local devices_json
@@ -1086,7 +1086,6 @@ enable_bump_tls_all_devices() {
             "--data-urlencode" "ddns_ext_status=0"
             "--data-urlencode" "status=1"
             "--data-urlencode" "ddns_subdomain=$sanitized_subdomain"
-            "--data-urlencode" "legacy_ipv4_status=1"
             "--connect-timeout" "10" 
             "--max-time" "60"
         )
@@ -1104,7 +1103,7 @@ enable_bump_tls_all_devices() {
         update_res=$(cat "$local_body_file")
 
         if [[ "$code" == "200" ]]; then
-            log "    -> SUCCESS: bump_tls, restricted, learn_ip, stats, DDNS, and parent client_id updated successfully!"
+            log "    -> SUCCESS: Made requested changes successfully!"
         else
             log "    -> ERROR: Failed to modify device (HTTP $code). Response redacted for security."
         fi
