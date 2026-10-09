@@ -1074,17 +1074,19 @@ enable_bump_tls_all_devices() {
         # Match the API doc configuration using curl's native multipart/form-data interface (-F)
         local curl_opts=(
             "--request" "PUT" 
-            "--url" "$API_BASE/devices/$device_id" 
-            "--header" @"$AUTH_HDR_FILE" 
-            "--header" "accept: application/json" 
-            "--form" "bump_tls=0"
-            "--form" "restricted=1"
-            "--form" "learn_ip=1"
-            "--form" "stats=2"
-            "--form" "ddns_status=1"
-            "--form" "ddns_ext_status=0"
-            "--form" "status=1"
-            "--form" "ddns_subdomain=$sanitized_subdomain"
+            "--url" "$API_BASE/devices/$device_id"
+            "--header" "accept: application/json"
+            "--header" @"$AUTH_HDR_FILE"
+            "--header" "content-type: application/x-www-form-urlencoded"
+            "--data-urlencode" "bump_tls=0"
+            "--data-urlencode" "restricted=1"
+            "--data-urlencode" "learn_ip=1"
+            "--data-urlencode" "stats=2"
+            "--data-urlencode" "ddns_status=1"
+            "--data-urlencode" "ddns_ext_status=0"
+            "--data-urlencode" "status=1"
+            "--data-urlencode" "ddns_subdomain=$sanitized_subdomain"
+            "--data-urlencode" "legacy_ipv4_status=1"
             "--connect-timeout" "10" 
             "--max-time" "60"
         )
@@ -1092,7 +1094,7 @@ enable_bump_tls_all_devices() {
         # If a corrected parent client_id string was resolved, map it using Control D's explicit remap logic
         if [[ -n "$resolved_client_id" && "$resolved_client_id" != "NONE" ]]; then
             curl_opts+=(
-                "--form" "remap_client_id=$resolved_client_id"
+                "--data-urlencode" "remap_client_id=$resolved_client_id"
             )
         fi
         
