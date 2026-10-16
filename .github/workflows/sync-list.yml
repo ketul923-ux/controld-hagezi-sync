@@ -3,12 +3,12 @@ name: Sync and Modify Adblock Lists
 on:
   schedule:
     # Runs at 30 minutes past the hour every 2 hours (e.g., 12:30, 2:30, 4:30...)
-    - cron: '15 */4 * * *'
+    - cron: '15 */6 * * *'
   workflow_dispatch: # Allows you to run this manually from the Actions tab
 
 jobs:
   sync:
-    runs-on: ubuntu-26.04
+    runs-on: ubuntu-latest
     permissions:
       contents: write
       actions: write # Required to allow the workflow to delete its own logs
