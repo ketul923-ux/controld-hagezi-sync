@@ -87,7 +87,7 @@ jobs:
               --argjson do_val "$action_do" \
               'split("\n") 
                | map(select(. != "")) 
-               | map({PK: ., action: { do: $do_val, status: 1 }})
+               | map({PK: ., action: { status: 1, do: $do_val }})
                | map(select(
                    .PK != "1" and 
                    (.PK | endswith(".arpa") | not) and 
