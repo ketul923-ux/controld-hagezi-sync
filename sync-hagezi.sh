@@ -993,6 +993,47 @@ sync_folder() {
         log "  Cleaning up old group..."
         delete_group_by_pk "$pid" "$existing_pk"
     fi
+    
+    # =========================================================================
+    if [[ "$fname" == "Block List via Redirect to Null" ]]; then
+        log "  Configuring special group settings for '$fname'..."
+        local payload_null
+        payload_null=$(jq -n '{"do": 2, "via": "0.0.0.0", "via_v6": "::", "status": 1}')
+        
+        # Executes retry framework and checks global $code variable
+        api_call_with_retry "PUT" "${API_BASE}/profiles/${pid}/groups/${new_pk}" "$payload_null" >/dev/null
+        if [[ "$code" != "200" ]]; then
+            log "  WARN: Failed to update settings for '$fname' (HTTP Code: $code)"
+        else
+            log "  Successfully applied custom settings for '$fname'"
+        fi
+
+    elif [[ "$fname" == "Control D Bypass" ]]; then
+        log "  Configuring special group settings for '$fname'..."
+        local payload_bypass
+        payload_bypass=$(jq -n '{"status": 1, "is_magic": 1, "do": 1}')
+        
+        api_call_with_retry "PUT" "${API_BASE}/profiles/${pid}/groups/${new_pk}" "$payload_bypass" >/dev/null
+        if [[ "$code" != "200" ]]; then
+            log "  WARN: Failed to update settings for '$fname' (HTTP Code: $code)"
+        else
+            log "  Successfully applied custom settings for '$fname'"
+        fi
+
+    elif [[ "$fname" == "Do Not Log" ]]; then
+        log "  Configuring special group settings for '$fname'..."
+        local payload_log
+        payload_log=$(jq -n '{"status": 1, "is_magic": 1}')
+        
+        api_call_with_retry "PUT" "${API_BASE}/profiles/${pid}/groups/${new_pk}" "$payload_log" >/dev/null
+        if [[ "$code" != "200" ]]; then
+            log "  WARN: Failed to update settings for '$fname' (HTTP Code: $code)"
+        else
+            log "  Successfully applied custom settings for '$fname'"
+        fi
+    fi
+    # =========================================================================
+    
     summary_row "$pname" "$fname" "✅ Success" "$total_rules"
     return 0
 }
