@@ -857,40 +857,41 @@ import_with_validation() {
                 if [[ -n "$actual_count" && "$actual_count" != "null" && "$actual_count" -gt 0 ]]; then
                     if [[ "$actual_count" -eq "$total_rules" ]]; then
                         log "  New group imported with PK: $new_pk"
-                        log "  Validation passed: $actual_count/$total_rules rules match (${poll_count}s)"
                         # =========================================================================
-                        if [[ "$fname" == "Block List via Redirect to Null" ]]; then
-                            log "  Configuring special group settings for '$fname'..."
+                        if [[ "$name" == "Block List via Redirect to Null" ]]; then
+                            log "  Configuring special group settings for '$name'..."
                             local payload_null
                             payload_null=$(jq -n '{"do": 2, "via": "0.0.0.0", "via_v6": "::", "status": 1}')
-                            api_call_with_retry "PUT" "${API_BASE}/profiles/${pid}/groups/${new_pk}" "$payload_null" >/dev/null
-                            if [[ "$code" != "200" ]]; then
-                                log "  WARN: Failed to update settings for '$fname' (HTTP Code: $code)"
+                            
+                            # Rely on the function return status (0 = success) rather than a local variable leak
+                            if ! api_call_with_retry "PUT" "${API_BASE}/profiles/${pid}/groups/${new_pk}" "$payload_null" >/dev/null; then
+                                log "  WARN: Failed to update settings for '$name'"
                             else
-                                log "  Successfully applied custom settings for '$fname'"
+                                log "  Successfully applied custom settings for '$name'"
                             fi
-                        elif [[ "$fname" == "Control D Bypass" ]]; then
-                            log "  Configuring special group settings for '$fname'..."
+                        elif [[ "$name" == "Control D Bypass" ]]; then
+                            log "  Configuring special group settings for '$name'..."
                             local payload_bypass
                             payload_bypass=$(jq -n '{"status": 1, "is_magic": 1, "do": 1}')
-                            api_call_with_retry "PUT" "${API_BASE}/profiles/${pid}/groups/${new_pk}" "$payload_bypass" >/dev/null
-                            if [[ "$code" != "200" ]]; then
-                                log "  WARN: Failed to update settings for '$fname' (HTTP Code: $code)"
+                            
+                            if ! api_call_with_retry "PUT" "${API_BASE}/profiles/${pid}/groups/${new_pk}" "$payload_bypass" >/dev/null; then
+                                log "  WARN: Failed to update settings for '$name'"
                             else
-                                log "  Successfully applied custom settings for '$fname'"
+                                log "  Successfully applied custom settings for '$name'"
                             fi
-                        elif [[ "$fname" == "Do Not Log" ]]; then
-                            log "  Configuring special group settings for '$fname'..."
+                        elif [[ "$name" == "Do Not Log" ]]; then
+                            log "  Configuring special group settings for '$name'..."
                             local payload_log
                             payload_log=$(jq -n '{"status": 1, "is_magic": 1}')
-                            api_call_with_retry "PUT" "${API_BASE}/profiles/${pid}/groups/${new_pk}" "$payload_log" >/dev/null
-                            if [[ "$code" != "200" ]]; then
-                                log "  WARN: Failed to update settings for '$fname' (HTTP Code: $code)"
+                            
+                            if ! api_call_with_retry "PUT" "${API_BASE}/profiles/${pid}/groups/${new_pk}" "$payload_log" >/dev/null; then
+                                log "  WARN: Failed to update settings for '$name'"
                             else
-                                log "  Successfully applied custom settings for '$fname'"
+                                log "  Successfully applied custom settings for '$name'"
                             fi
                         fi
                         # =========================================================================
+                        log "  Validation passed: $actual_count/$total_rules rules match (${poll_count}s)"
                         rm -f "$import_payload_file"
                         printf '%s\n' "$new_pk"
                         return 0
