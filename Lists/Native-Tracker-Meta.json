@@ -10,232 +10,232 @@
     {
       "PK": "ads.facebook.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "an.facebook.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "atdmt.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "atlassolutions.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "b-graph-fallback.facebook.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "b-graph.facebook.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "badge.facebook.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "connect.facebook.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "connect.facebook.net",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "conversionsapigateway.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "crashlogs.whatsapp.net",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "dit.whatsapp.net",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "facebookblueprint.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "genai-graph.facebook.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "graph-fallback.facebook.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "graph-fallback.instagram.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "graph-video.facebook.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "graph.facebook.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "graph.fbpigeon.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "graph.instagram.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "graph.whatsapp.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "lithium.facebook.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "lookaside.facebook.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "lookaside.fbsbx.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "lookaside.instagram.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "payments-graph.facebook.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "pixel.facebook.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "platform-lookaside.fbsbx.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "test-gateway.instagram.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "transparency.meta.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "xy.fbcdn.net",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "xz.fbcdn.net",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "z-m-graph.facebook.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {

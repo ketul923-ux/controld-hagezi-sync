@@ -10,1009 +10,1009 @@
     {
       "PK": "207.net",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "2o7.net",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "4.pingidentity.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "acroipm2.adobe.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "acroipm2.adobe.com.edgesuite.net",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "adobe-dtm.staticsfly.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "adobe-launch-prod.staticsfly.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "adobe.shutterflycdn.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "adobedc.net",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "adobedtm.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "adobedtm.com.edgekey.net",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "adobepass.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "adobeprimetime.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "adoberesources.net",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "adoberesources.net.edgekey.net",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "adobestats.io",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "adobetag.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "adobetag.com.edgekey.net",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "adobetarget.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "adobetarget.com.edgekey.net",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "advertising.adobe.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "an.avast.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "analytics.pnc.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "ans.avast.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "auditude.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "bizible.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "bizibly.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "business.adobe.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "campaign.adobe.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "cc-api-data.adobe.io",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "data.digital.costco.ca",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "data.digital.costco.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "dc-genai-access-provisioning-api.adobe.io",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "dc-genai-content-platform-deploy-ethos551-prod-va6-8867ce.cloud.adobe.io",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "dc-genai-content-platform.adobe.io",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "dc-genai-persistence.adobe.io",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "demdex.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "demdex.net",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "demdex.net.edgekey.net",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "everestjs.net",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "everestjs.net.edgekey.net",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "everesttech.net",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "everesttech.net.akadns.net",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "geo2.adobe.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "hbrt-or1-ext-vip.adobe.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "hbrt.adobe.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "hitbox.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "hits-secure.theguardian.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "hits.theguardian.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "i.paypal.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "marketing.adobe.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "marketing.adobe.com.edgekey.net",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "marketo.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "marketo.com.edgekey.net",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "marketo.net",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "marketo.net.edgekey.net",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "metrics-sentry.cvshealth.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "metrics-sentry.cvshealth.com.edgekey.net",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "metrics-target.siriusxm.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "metrics.aa.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "metrics.adobe.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "metrics.att.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "metrics.att.com.edgekey.net",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "metrics.carfax.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "metrics.chipotle.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "metrics.cnn.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "metrics.cvshealth.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "metrics.cvshealth.com.edgekey.net",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "metrics.delta.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "metrics.fedex.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "metrics.foxbusiness.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "metrics.foxnews.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "metrics.mcdonalds.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "metrics.pandora.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "metrics.redhat.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "metrics.siriusxm.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "metrics.southwest.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "metrics.t-mobile.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "metrics.trendmicro.co.jp",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "metrics.victoriassecret.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "metrics.vonage.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "metrics.walgreens.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "metrics.washingtonpost.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "metrics.xfinity.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "metrics1.citi.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "mktoapps.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "mktoedge.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "mktoresp.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "mktossl.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "mktoweb.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "omniture.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "omtrdc.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "omtrdc.net",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "omtrdc.net.edgekey.net",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "os.fandango.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "p.typekit.net",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "p.typekit.net-stls-v3.edgesuite.net",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "ping.typekit.net",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "ping.typekit.net-v2.edgekey.net",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "places.adobe.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "primer.typekit.net",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "primer.typekit.net-stls-v3.edgesuite.net",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "provisioner.ethos551-prod-va6.ethos.adobe.net",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "rum.hlx.page",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "sanalytics.disneyplus.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "sensei.adobe.io",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "senseicore-ue1.adobe.io",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "senseicore.adobe.io",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "sm.dell.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "smetrics.aa.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "smetrics.att.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "smetrics.att.com.edgekey.net",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "smetrics.carfax.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "smetrics.cnn.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "smetrics.delta.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "smetrics.fedex.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "smetrics.foxbusiness.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "smetrics.foxnews.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "smetrics.mcdonalds.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "smetrics.pandora.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "smetrics.redhat.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "smetrics.redhat.com.edgekey.net",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "smetrics.redhat.com.edgekey.net.globalredir.akadns88.net",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "smetrics.siriusxm.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "smetrics.southwest.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "smetrics.t-mobile.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "smetrics.trendmicro.co.jp",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "smetrics.vonage.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "smetrics.walgreens.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "smetrics.washingtonpost.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "smy.iheart.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "srepdata.indystar.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "ssl.o.webmd.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "sstats.adobe.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "sstats.adultswim.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "stats.adobe.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "sw88.espn.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "sw88.go.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "target.walgreens.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "target.xfinity.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "tg.a3.ag",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "tubemogul.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "wats.gogoinflight.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "websidestory.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {

@@ -11,120 +11,120 @@
     {
       "PK": "*.airdream",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "*.api",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "*.bbrouter",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "*.belkin",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "*.bind",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "*.blinkap",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "*.corp",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "*.davolink",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "*.dearmyrouter",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "*.dhcp",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "*.dlink",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "*.domain",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "*.envoy",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "*.example",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "*.fritz.box",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "*.grp",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "*.home",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
@@ -137,3830 +137,3830 @@
     {
       "PK": "*.hub",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "*.internal",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "*.intra",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "*.intranet",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "*.invalid",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "*.ksyun",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "*.lan",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "*.loc",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "*.local",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "*.localdomain",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "*.localhost",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "*.localnet",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "*.mail",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "*.modem",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "*.mynet",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "*.myrouter",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "*.novalocal",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "*.openstacklocal",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "*.priv",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "*.private",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "*.prv",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "*.router",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "*.telus",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "*.test",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "*.totolink",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "*.workgroup",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "204.ecloud.global",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "204.pop-os.org",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "aa.entertainment.viasat.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "aa.viasat.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "aafes.wifi.viasat.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "aainflight.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "account.network-auth.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "acwifi.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "aerlingus-wifi.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "airborne.gogoinflight.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "airbornemedia.inflightinternet.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "airbornesecure.inflightinternet.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "airbox.home",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "aircanadawifi.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "airport",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "airtime.geemedia.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "alaskawifi.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "amtrakconnect.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "amtrakwifi.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "ana-inflight-wifi.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "ap.asus.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "ap1-elb.cloudguest.central.arubanetworks.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "ap1.cloudguest.central.arubanetworks.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "apaceast-elb.cloudguest.central.arubanetworks.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "apaceast.cloudguest.central.arubanetworks.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "apacsouth-elb.cloudguest.central.arubanetworks.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "apacsouth.cloudguest.central.arubanetworks.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "api.airtime.geemedia.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "app-apaceast.central.arubanetworks.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "app-apacsouth.central.arubanetworks.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "app-ca.central.arubanetworks.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "app-prod2.central.arubanetworks.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "app-yoda.arubathena.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "app.central.arubanetworks.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "app.central.arubanetworks.com.cn",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "app.localhost.direct",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "app1-ap-h2.central.arubanetworks.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "app1-ap.central.arubanetworks.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "app1-h2.central.arubanetworks.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "app1.central.arubanetworks.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "app2-ap-ofc.central.arubanetworks.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "app2-ap.central.arubanetworks.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "app2-eu-ofc.central.arubanetworks.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "app2-eu.central.arubanetworks.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "app2-ofc.central.arubanetworks.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "arcor.easybox",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "aruba.odyssys.net",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "arubanetworks.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "arubanetworks.com.cn",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "asset-acms.anuvu.cloud",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "asusap.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "asusap.net",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "asusnetwork.net",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "asusrepeater.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "asusrepeater.net",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "asusrouter.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "asusswitch.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "asusswitch.net",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "aterm.me",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "atlanta-airport.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "atlwifi.atlanta-airport.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "atlwifi0.atlanta-airport.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "atlwifi1.atlanta-airport.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "atlwifi10.atlanta-airport.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "atlwifi11.atlanta-airport.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "atlwifi12.atlanta-airport.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "atlwifi13.atlanta-airport.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "atlwifi14.atlanta-airport.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "atlwifi15.atlanta-airport.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "atlwifi16.atlanta-airport.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "atlwifi17.atlanta-airport.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "atlwifi2.atlanta-airport.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "atlwifi3.atlanta-airport.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "atlwifi4.atlanta-airport.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "atlwifi5.atlanta-airport.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "atlwifi6.atlanta-airport.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "atlwifi7.atlanta-airport.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "atlwifi8.atlanta-airport.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "atlwifi9.atlanta-airport.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "attwifi.apple.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "auth.hotspotportals.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "auth.hpe.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "awn.wifi.viasat.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "bap.aws.opennetworkexchange.net",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "bsas.wifi.viasat.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "bthomehub.home",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "bthub.home",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "btwifi.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "buy.gogoinflight.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "bwiam.cust.blueprintrf.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "ca-elb.cloudguest.central.arubanetworks.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "ca.cloudguest.central.arubanetworks.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "capnet.elementary.io",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "captive-2020.aio.cloudauth.net",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "captive-2022.aio.cloudauth.net",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "captive-cdn.origin-apple.com.akadns.net",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "captive-cidr.origin-apple.com.akadns.net",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "captive.apple.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "captive.celenity.dev",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "captive.g.aaplimg.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "captive.gogoinflight.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "captive.inflightinternet.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "captive.ironfoxoss.org",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "captive.o2wifi.co.uk",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "captivemgr.o2wifi.net.uk",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "captiveportal-login.belex.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "captiveportal.kuketz.de",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "carnivalwifi.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "cbp-guest.cbp.dhs.gov",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "cdnhotspot.afd.azureedge.net",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "cdnhotspot.azureedge.net",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "central.access.network",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "cfr-mprtuam-01.cops.us1.pr.anuvu.cloud",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "charter.guestinternet.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "checkout.aa.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "cloud.imedia.ie",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "cloudmesh.net",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "cms-scdn.airtime.geemedia.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "cms.airtime.geemedia.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "congstar.box",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "conncheck.opensuse.org",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "connect-edge.ihg.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "connect.box",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "connect.edge.ihg.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "connect.klm.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "connect.klm.com-01.edgekey.net",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "connect.rom.miui.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "connect.viasat.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "connected.southwestwifi.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "connected.xfinity.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "connectivity-check.ubuntu.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "connectivity.ecloud.global",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "connectivity.zorin-os.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "connectivitycheck.android.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "connectivitycheck.grapheneos.network",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "connectivitycheck.gstatic.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "connectivitycheck.platform.dbankcloud.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "connectivitycheck.platform.hicloud.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "console.gl-inet.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "controller.access.network",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "cp-app-east.wifi-dev.connected.xfinity.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "cp-app-east.wifi-stage.connected.xfinity.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "cp-app-east.wifi.connected.xfinity.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "cp-app.wifi-dev.connected.xfinity.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "cp-app.wifi-stage.connected.xfinity.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "cp-app.wifi.connected.xfinity.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "cp-webapp.wifi-dev.connected.xfinity.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "cp-webapp.wifi-stage.connected.xfinity.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "cp-webapp.wifi.connected.xfinity.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "cp.cloudflare.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "cp10.cloudflare.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "cust.blueprintrf.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "dalan.cust.blueprintrf.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "deltawifi.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "detectportal-fastly.firefox.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "detectportal.firefox.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "detectportal.prod.mozaws.net",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "device-apaceast-h2.central.arubanetworks.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "device-apaceast.central.arubanetworks.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "device-apacsouth-h2.central.arubanetworks.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "device-apacsouth.central.arubanetworks.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "device-ca-h2.central.arubanetworks.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "device-ca.central.arubanetworks.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "device-eu-h2.central.arubanetworks.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "device-eu.central.arubanetworks.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "device-h2.central.arubanetworks.com.cn",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "device-prod2-h2.central.arubanetworks.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "device-prod2.central.arubanetworks.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "device-yoda2.arubadev.cloud.hpe.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "device.arubanetworks.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "device.central.arubanetworks.com.cn",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "devices-v2.arubanetworks.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "directaccess.viasat.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "dishy.starlink.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "dlrguest-captive.disney.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "dns.msftncsi.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "dnscheck.grapheneos.org",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "doubletree.hiltonwifi.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "easy.box",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "edge-http.microsoft.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "ee-wifi.ee.co.uk",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "esaconnect.extendedstayamerica.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "etihadwi-fly.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "etxr",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "euw1-elb.cloudguest.central.arubanetworks.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "euw1.cloudguest.central.arubanetworks.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "expertwifi.net",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "fedsso.yum.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "files.aa.entertainment.viasat.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "fire.walla",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "firefox-portal-detection.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "fireoscaptiveportal.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "flyfi.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "foo.cust.blueprintrf.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "freewlan.sbb.ch",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "fritz.nas",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "fritz.repeater",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "getconnected.southwestwifi.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "giga.cube",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "gogoinair.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "gogoinflight.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "gp1.wendys.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "grapheneos.online",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "guestinternet.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "guestinternet.com.s3-website-us-east-1.amazonaws.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "hamptoninn.hiltonwifi.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "hi.link",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "hilton.hiltonwifi.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "hiltongardeninn.hiltonwifi.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "hiltonwifi.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "hitronhub.home",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "homerouter.cpe",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "hotspotportals.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "hs.imedia.ie",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "hs1ga.wanderingwifi.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "httpforever.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "huaweimobilewifi.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "iceportal.de",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "inflight-wifi.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "inflight.pacwisp.net",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "inflightinternet.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "initial.southwestwifi.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "internal.central.arubanetworks.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "internal2-public-device-nc-nlb-b71ba3c951b09682.elb.us-west-2.amazonaws.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "internal2-public-device-nlb-2e2273d4267c0682.elb.us-west-2.amazonaws.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "internal2.central.arubanetworks.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "internetupgrade.marriott.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "ipv4.connman.net",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "ipv4.jolla.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "ipv6.connman.net",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "ipv6.jolla.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "ipv6.msftconnecttest.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "ipv6.msftconnecttest.com.edgesuite.net",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "kabel.box",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "kong-gtw-portal-apse2prod5-lb-1386339370.ap-southeast-2.elb.amazonaws.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "kong-gtw-portal-eu-lb-1104785228.eu-central-1.elb.amazonaws.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "kong-gtw-portal-mec1prod6-lb-2104849938.me-central-1.elb.amazonaws.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "kong-gtw-portal-production-lb-686216184.us-west-1.elb.amazonaws.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "kong-gtw-portal-use1prod2-lb-291057632.us-east-1.elb.amazonaws.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "krisworld.singaporeair.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "kw.sq.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "landing.sbb.ch",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "live.virginwifi.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "localbattle.net",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "loggedin.wifigem.it",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "login-awe-cluster.attwifi.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "login-federated.windstream.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "login.amtrakwifi.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "login.attwifi.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "login.cloud5.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "login.cloudi-fi.net",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "login.innflux.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "login.wifigem.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "login.wifionice.de",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "login.windstream.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "loginportal1.wanderingwifi.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "loginportal3.wanderingwifi.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "loginportal5.wanderingwifi.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "loginportal5ga.wanderingwifi.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "loginportal8.wanderingwifi.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "lounge.aa.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "lpv.attwifi.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "lufthansa-flynet.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "managedwifi.xfinity.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "marriottwifi.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "massportwifi.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "mcita.cust.blueprintrf.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "medallionclass.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "media.southwestwifi.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "metric.gstatic.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "mscwifi.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "msftguest-virtual.partners.extranet.microsoft.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "mt1.datavalet.io",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "my-wifi.attwifi.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "my.keenetic.net",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "my.router",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "myfritz.box",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "mygateway",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "mywifi.attwifi.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "mywifi.ext.net",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "n143.network-auth.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "na.network-auth.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "nacportal.massportwifi.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "nae1-elb.cloudguest.central.arubanetworks.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "nae1.cloudguest.central.arubanetworks.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "naw2-elb.cloudguest.central.arubanetworks.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "naw2.cloudguest.central.arubanetworks.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "ncsi-geo.trafficmanager.net",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "ncsiv6-geo.trafficmanager.net",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "netcts.cdn-apple.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "netcts.cdn-apple.com.edgesuite.net",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "network-auth.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "network-test.debian.org",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "neverssl.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "nmcheck.gnome.org",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "nossl.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "ntt.setup",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "ofc-apaceast.central.arubanetworks.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "ofc-apacsouth.central.arubanetworks.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "ofc-ca.central.arubanetworks.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "ofc-prod2.central.arubanetworks.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "ofc-yoda2.arubadev.cloud.hpe.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "ofc.central.arubanetworks.com.cn",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "onboard.eurostar.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "onboard.sbb.ch",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "onboardicafe.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "pay.viasat.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "pay.viasat.com.00d70000000k0rweak.live.siteforce.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "pi.hole",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "pi.local",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "ping.archlinux.org",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "ping.manjaro.org",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "ping.ubnt.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "ping.ui.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "ping2.ui.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "plex.direct",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "portal-apac.central.arubanetworks.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "portal-apaceast.central.arubanetworks.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "portal-apacsouth.central.arubanetworks.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "portal-ca.central.arubanetworks.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "portal-eu.central.arubanetworks.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "portal-eucentral3.central.arubanetworks.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "portal-prod2.central.arubanetworks.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "portal-prodf1.acf.aruba-central.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "portal-uswest4.central.arubanetworks.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "portal.ac2.mist.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "portal.ac5.mist.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "portal.ac6.mist.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "portal.arubainstanton.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "portal.central.arubanetworks.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "portal.central.arubanetworks.com.cn",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "portal.eu.mist.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "portal.gc1.mist.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "portal.gc2.mist.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "portal.gc3.mist.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "portal.inflight-wifi.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "portal.live.virginwifi.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "portal.massportwifi.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "portal.mist.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "portal.moovmanage.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "pqm.arubanetworks.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "prod.detectportal.prod.cloudops.mozgcp.net",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "qa-connect-edge.ihg.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "rcs-m.arubathena.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "rcs-ng-yoda2.arubadev.cloud.hpe.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "rcs.arubathena.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "redirect.archlinux.org",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "regio-guide.de",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "register.onboard.eurostar.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "repeater.asus.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "rougewifi.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "router.asus.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "routerlogin.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "routerlogin.net",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "rsc.att.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "rsc.wayport.net",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "samsung.router",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "sbahnstuttgart.zugportal.de",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "sbux-j3.datavalet.io",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "sbux-portal.globalreachtech.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "sbux-portal.odyssys.net",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "secure-login.attwifi.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "secure.11os.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "secure.datavalet.io",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "secure.guestinternet.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "secure.wayport.net",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "securelogin.arubanetworks.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "secureprofile.wifi.connected.xfinity.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "service.thecloud.net",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "shop.ba.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "singaporeair-krisworld.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "southwestwifi.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "spectrum.s3.amazonaws.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "speedport.ip",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "sponsoredaccess.viasat.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "sso.app.arubanetworks.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "sso.arubanetworks.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "sso.wendys.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "stage.connect.edge.ihg.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "starbucks-east.datavalet.io",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "static.redhat.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "stay.marriottbonvoy.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "stdm-drcn.platform.hicloud.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "steamloopback.host",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "swa.mychasecreditcards.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "telstra.gateway",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "test-crm.southwestwifi.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "test.steampowered.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "thalysnet.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "thd.cloudauth.net",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "timhortonswifi.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "tplinkap.net",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "tplinkeap.net",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "tplinkmodem.net",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "tplinkplclogin.net",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "tplinkrepeater.net",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "tplinkwifi.net",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "tvgreyhound.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "unitedprivatescreening.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "unitedwifi.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "universal-orlando.ampthink.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "upt.wifi.viasat.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "us.timhortonswifi.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "utils.gogoinflight.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "uucp.wifi.viasat.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "vgw1-03.phl-philly-iap.lpv.attwifi.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "viasat.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "viasat.com.00d70000000k0rweak.live.siteforce.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "virginwifi.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "wanderingwifi.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "we.windstream.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "web.setup",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "web.setup.home",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "weconnect.wendys.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "wifi-dev.connected.xfinity.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "wifi-keys.berkeley.edu",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "wifi-stage.connected.xfinity.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "wifi-viarail.ca",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "wifi-xdb.boingohotspot.net",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "wifi.airasia.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "wifi.bahn.de",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "wifi.cathaypacific.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "wifi.connected.xfinity.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "wifi.delta.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "wifi.esa.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "wifi.gogoinflight.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "wifi.inflightinternet.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "wifi.kfc.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "wifi.panerabread.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "wifi.singaporeair.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "wifi.sncf",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "wifi.starbucks.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "wifi.tgv-lyria.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "wifi.tgvlyria.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "wifi.united.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "wifi.united.com.edgekey.net",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "wifi.vivo.com.cn",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "wifi.vivo.com.cn.ctdns.cn",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "wifi.vivo.com.cn.ctgcdn.cachenow.net",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "wifi.we.co",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "wifi.xfinity.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "wifi1.kfc.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "wifi1.viasat.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "wifi2.kfc.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "wifihotspot.io",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "wifilauncher.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "wifilauncher.com.s3-website.us-east-1.amazonaws.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "wifilrn-ch2-1p.xfinity.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "wifionboard.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "wingsconnect.aero",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "wirelessportal.americanexpress.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "wirelessportal.americanexpress.com.akadns.net",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "wirelessportal2.americanexpress.com.akadns.net",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "wlb1-1579773356.us-east-1.elb.amazonaws.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "wlb1.us-east-1.sbux-portal.globalreachtech.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "wlc02.indy.gov",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "www.aainflight.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "www.acwifi.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "www.aerlingus-wifi.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "www.aircanadawifi.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "www.alaskawifi.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "www.amtrakconnect.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "www.ana-inflight-wifi.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "www.asusap.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "www.asusap.net",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "www.asusnetwork.net",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "www.asusrepeater.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "www.asusrepeater.net",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "www.asusrouter.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "www.asusswitch.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "www.asusswitch.net",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "www.btwifi.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "www.carnivalwifi.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "www.deltawifi.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "www.directaccess.viasat.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "www.expertwifi.net",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "www.flyfi.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "www.gogoinair.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "www.gogoinflight.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "www.guestinternet.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "www.guestinternet.com.s3-website-us-east-1.amazonaws.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "www.hiltonwifi.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "www.httpforever.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "www.iceportal.de",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "www.inflight-wifi.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "www.lufthansa-flynet.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "www.marriottwifi.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "www.medallionclass.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "www.msftconnecttest.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "www.msftncsi.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "www.msftncsi.com.edgesuite.net",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "www.mywifiext.net",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "www.neverssl.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "www.nossl.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "www.onboardicafe.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "www.rougewifi.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "www.routerlogin.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "www.routerlogin.net",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "www.secure.datavalet.io",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "www.singaporeair-krisworld.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "www.southwest.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "www.southwestwifi.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "www.sponsoredaccess.viasat.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "www.thalysnet.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "www.timhortonswifi.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "www.unitedprivatescreening.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "www.unitedwifi.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "www.wifi.singaporeair.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "www.wifilauncher.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "www.wifilauncher.com.s3-website.us-east-1.amazonaws.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "www.wifionboard.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "www.wingsconnect.aero",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "www.zenwifi.net",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "www.zugportal.de",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "yoda-cgqa-elb.arubathena.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "yoda-cgqa.arubathena.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "yoda2-ofc-nlb-f4f923213a2189c7.elb.us-west-2.amazonaws.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "yoda2-public-device-nlb-8343995ce4714f6f.elb.us-west-2.amazonaws.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "yoda2-rcs-nlb-0c9df3882f3f7416.elb.us-west-2.amazonaws.com",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "zenwifi.net",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     },
     {
       "PK": "zugportal.de",
       "action": {
-        "do": 1,
-        "status": 1
+        "status": 1,
+        "do": 1
       }
     }
   ]

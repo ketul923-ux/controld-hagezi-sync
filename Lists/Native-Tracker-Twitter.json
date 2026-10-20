@@ -10,267 +10,267 @@
     {
       "PK": "aa.twitter.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "aa.x.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "ads-api-sandbox.twitter.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "ads-api.twitter.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "ads-api.x.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "ads-bidder-api.twitter.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "ads-dev.twitter.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "ads-dev.x.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "ads-staging.twitter.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "ads-staging.x.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "ads-twitter.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "ads.twitter.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "ads.x.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "advertising.twitter.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "advertising.x.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "analytics.twitter.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "analytics.x.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "business-dev.twitter.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "business-dev.x.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "business-staging.twitter.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "business-staging.x.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "business.twitter.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "business.x.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "collector-ops.twitter.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "marketing-dev.twitter.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "marketing-dev.x.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "marketing-staging.twitter.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "marketing-staging.x.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "marketing.twitter.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "marketing.x.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "platform-eb.twitter.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "platform.twitter.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "platform.twitter.map.fastly.net",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "platform.x.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "syndication.twimg.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "syndication.twitter.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "syndication.x.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "xadsacademy.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {

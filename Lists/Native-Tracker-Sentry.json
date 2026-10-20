@@ -10,211 +10,211 @@
     {
       "PK": "aem-kakao-collector-8g8eydvy.kgslb.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "aem-kakao-collector.onkakao.net",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "analytics.plaid.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "d-edge.v.dropbox.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "d.dropbox.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "d.v.dropbox.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "error-tracking.reddit.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "errors.figma.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "errors.hackerone.net",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "errortrace.dev",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "getsentry.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "new-sentry.gitlab.net",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "portal-sentry-v2.vk.team",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "ravenjs.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "sentry-cdn.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "sentry-new.protontech.ch",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "sentry-public.stripchat.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "sentry.archive.org",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "sentry.as12as.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "sentry.comick.io",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "sentry.dev",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "sentry.fundraiseup.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "sentry.gitlab.net",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "sentry.hcaptcha.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "sentry.insops.net",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "sentry.io",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "sentry.nperf.com",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "sentry.odysee.tv",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "sentry.sc-prod.net",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
       "PK": "sentry.stripcash.tech",
       "action": {
-        "do": 0,
-        "status": 1
+        "status": 1,
+        "do": 0
       }
     },
     {
