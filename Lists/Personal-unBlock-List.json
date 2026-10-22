@@ -69,6 +69,20 @@
         "do": 1,
         "status": 1
       }
+    },
+    {
+      "PK": "cm.gelighting.com",
+      "action": {
+        "do": 1,
+        "status": 1
+      }
+    },
+    {
+      "PK": "mqtt.us.petlibro.com",
+      "action": {
+        "do": 1,
+        "status": 1
+      }
     }
   ]
 }
