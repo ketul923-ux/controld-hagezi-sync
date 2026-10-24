@@ -1115,7 +1115,7 @@ enable_bump_tls_all_devices() {
             "--header" "content-type: application/x-www-form-urlencoded"
             "--data-urlencode" "stats=2"
             "--data-urlencode" "learn_ip=1"
-            "--data-urlencode" "restricted=0"
+            "--data-urlencode" "restricted=1"
             "--data-urlencode" "bump_tls=1"
             "--data-urlencode" "ddns_status=1"
             "--data-urlencode" "ddns_subdomain=$sanitized_subdomain"
