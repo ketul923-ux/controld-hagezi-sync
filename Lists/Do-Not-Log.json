@@ -3,7 +3,7 @@
     "group": "Do Not Log",
     "action": {
       "status": 1
-    }
+    },
     "is_magic": 1
   },
   "rules": [
