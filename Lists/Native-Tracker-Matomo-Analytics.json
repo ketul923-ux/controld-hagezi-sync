@@ -1,0 +1,321 @@
+{
+  "group": {
+    "group": "Native Tracker Matomo Analytics",
+    "action": {
+      "do": 0,
+      "status": 1
+    }
+  },
+  "rules": [
+    [
+      {
+        "PK": "analytics-evisit.vsee.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "analytics.cdn.live",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "analytics.faplex.to",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "analytics.finna.fi",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "analytics.iss.one",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "analytics.languagetoolplus.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "analytics.routinehub.co",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "anon-stats.eff.org",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "beans.opensuse.org",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "henryk.mdrn.pl",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "innocraft.cloud",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "m-img.org",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "m.uptodown.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "matomo-wpmudev-1288779782.us-east-2.elb.amazonaws.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "matomo.belex.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "matomo.bengtan.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "matomo.bunny.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "matomo.cloud",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "matomo.decid.io",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "matomo.documentfoundation.org",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "matomo.garmin.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "matomo.garmin.com.cdn.cloudflare.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "matomo.internet.nl",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "matomo.internetcleanup.foundation",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "matomo.mdrn.pl",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "matomo.openstreetmap.org",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "matomo.openstreetmaps.org",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "matomo.org",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "matomo.panoramax.xyz",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "matomo.wongcw.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "matomoecsloadbalancer-test-1672124950.us-east-2.elb.amazonaws.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "metrics.documentfoundation.org",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "numbers.mailbox.org",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "piwik.adminforge.de",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "piwik.cdom.de",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "piwik.documentfoundation.org",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "piwik.pro",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "stats.controld.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "stats.docu.info",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "stats.epic.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "stats.ivpn.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "stats1.wpmudev.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "stats2.wpmudev.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "*.home.arpa",
+        "action": {
+          "do": 0,
+          "status": 1
+        }
+      }
+    ]
+  ]
+}

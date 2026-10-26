@@ -1,0 +1,4612 @@
+{
+  "group": {
+    "group": "Unsafe Domains",
+    "action": {
+      "do": 0,
+      "status": 1
+    }
+  },
+  "rules": [
+    [
+      {
+        "PK": "123greetings.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "1kingbet.me",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "1m0uuvcbwx.blob.core.windows.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "1redira.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "2-spyware.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "2avarluy7j.blob.core.windows.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "2no.co",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "38imounzh6.blob.core.windows.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "3utilities.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "5e2d.xyz",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "77kfog3s1d.blob.core.windows.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "87frhilr4r.us",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "888-starz.co.tz",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "ac3filter.b-cdn.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "ac3filter.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "access-authority-2fa45a8bcb.s3.ap-south-1.amazonaws.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "access-authority-7586e00.s3.us-east-1.amazonaws.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "adinross.biz",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "adnoc-uae.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "advancesolar.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "afraid.org",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "afterdawn.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "afterdawn.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "agafurretor.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "ai-agiqt.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "ai-arkm.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "al-saeedbroker.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "allbestrecipes.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "alliedfront.org",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "altapps.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "altynamoan.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "amzblindbox.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "apkcombo.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "apksim.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "apponic.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "aptoide.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "archive.fo",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "archive.is",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "archive.li",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "archive.md",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "archive.ph",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "archive.today",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "archive.vn",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "areserver.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "arsenij-art.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "assets-nextplaysearch.nyc3.cdn.digitaloceanspaces.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "asuscomm.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "atomapplications.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "attlocal.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "aurorastore.org",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "aurorastore.pro",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "auslogics.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "authmycookie.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "awp.io",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "b47t.site",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "babypeipei.meme",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "backeastcarcovers.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "baixaki.com.br",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "baixe.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "baixesoft.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "balclam.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "bankleumi.co.il",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "bankobet-tr.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "banks-presale.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "bapleu.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "betturkeycasinos.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "biofi.run",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "bjscx.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "bjtlm.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "blogsyte.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "blrre.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "bluesmods.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "bmstw.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "bounceme.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "brasilia.me",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "brazillianhardwood.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "brewe.sh",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "bridgingtheaigap.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "brisbanemanagement.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "bromite.org",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "bsnwritingservices.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "budvacar.me",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "bytesin.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "cable-modem.org",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "cablegaurdian.online",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "candytech.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "cargi2024.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "caydenexplores.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "ccm.lb.ccmbg.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "ccm.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "cdburnerxp.se",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "cdt-lozere.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "chanonrypoint.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "charliekirkdata.org",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "charliesmurderers.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "chaussuredetravail.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "chelpus.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "chemistrust.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "choupsee.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "chuwitechnologies.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "ciscofreak.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "citypubofmich.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "clubic.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "cnsolutions.net.cn",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "coineod.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "coinl.vip",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "collegefan.org",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "commentcamarche.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "commentcamarche.com.edgekey.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "commentcamarche.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "commentcamarche.net.edgekey.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "contactline740.xyz",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "convertersuite.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "couchpotatofries.org",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "covacare.org",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "crax.tube",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "cutcaptcha.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "damnserver.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "data-px.services",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "ddns.me",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "ddns.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "ddnsking.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "dealply.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "decoymail.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "decoymail.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "deltawi-fi.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "dermatitisacademy.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "directory-all-websites.us",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "ditchyourip.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "dnserrorassist.att.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "dnserrorassist.att.net.edgekey.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "dnsfor.me",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "dnsiskinky.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "dnsomatic.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "documentconverter.app",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "documentconverter.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "doh-gov.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "doh-gov.ph",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "download.cnet.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "download.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "download.html.it",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "download.it",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "downloadmost.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "downloads.zdnet.de",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "downloadsource.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "doxbin.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "doxbin.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "doxbin.org",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "dropboxbeta.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "dssdsrty.sfo3.digitaloceanspaces.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "duckdns.org",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "dumpsboss.co",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "dumpsboss.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "dvrcam.info",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "dwncdn.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "dyn.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "dyndns.org",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "dynns.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "e-zpass.com-etckyl.xin",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "e-zpass.com-zil.icu",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "e-zpass.wnkac.icu",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "earthview360.org",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "easydrivingdirections.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "easygamestab.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "easymanualsfinder.co",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "easyprintapp.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "eating-organic.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "ebooksearchnow.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "ehz.io",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "electronic.us",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "elink.BloomingtonMN.gov",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "ellalittlebird.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "enfirekitservice.site",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "evilmlm.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "ezdrive.com-frqo.xin",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "ezdrivemjjqi.top",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "ezyphototab.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "ezyspeedtest.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "facebooknavigation.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "faceliftinboston.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "fakeidvendors.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "fantasyleague.cc",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "fccusanetscci.site",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "feathercdn.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "feathermc.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "fecebook.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "fffa88kj.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "fiftenisraqitrffgh.blob.core.windows.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "fileforum.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "filehippo.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "filehorse.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "fileplanet.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "filezilla-project.org",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "fivestarspay.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "fixthephoto.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "flerap.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "fleraprt.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "flighttabpro.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "fluence-network.digital",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "fluence-security001.netlify.app",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "foodanddesire-com-au.mail.protection.outlook.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "foodanddesire.com.au",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "formally-up.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "fortect.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "foxit.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "foxit.com.cdn.cloudflare.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "foxitsoftware.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "foxitsoftware.com.cdn.cloudflare.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "freefilesync.org",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "freshdns.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "frostwire.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "frostwire.wordpress.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "fusajaslta.site",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "fxtm-ai.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "gddomainparking.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "ge0.me",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "geekgalaxy.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "genieosearch.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "gepy1cwl8i.blob.core.windows.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "germains.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "getmeteora.live",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "gettheresult.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "global-gtg.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "gmx.us",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "go0s.biz",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "go1s.biz",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "go2s.biz",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "go3s.biz",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "go4s.biz",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "go5s.biz",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "go6s.biz",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "go7s.biz",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "go8s.biz",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "go9s.biz",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "golffan.us",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "gomlab.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "gonitro.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "googleailesi.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "googlerenewals.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "gotdns.ch",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "gov-xasdx.vip",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "govnyd.mom",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "grabify.link",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "greenxf.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "grgrvrrfry.nyc3.digitaloceanspaces.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "gzcqk.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "hdocumentconverters.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "health-carereform.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "hfreetestnow.app",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "hjgy68.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "hjzjy.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "homesecuritymac.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "homesecuritypc.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "hoolapp.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "hoood.info",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "hopto.me",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "hopto.org",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "howly.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "hqfs1788.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "hsd1.ca.comcast.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "hsd1.co.comcast.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "hsd1.ct.comcast.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "hsd1.dc.comcast.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "hsd1.fl.comcast.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "hsd1.ga.comcast.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "hsd1.il.comcast.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "hsd1.in.comcast.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "hsd1.ma.comcast.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "hsd1.md.comcast.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "hsd1.mi.comcast.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "hsd1.mn.comcast.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "hsd1.mo.comcast.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "hsd1.nh.comcast.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "hsd1.nj.comcast.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "hsd1.nm.comcast.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "hsd1.or.comcast.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "hsd1.pa.comcast.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "hsd1.sc.comcast.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "hsd1.tn.comcast.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "hsd1.tx.comcast.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "hsd1.ut.comcast.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "hsd1.va.comcast.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "hsd1.vt.comcast.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "hsd1.wa.comcast.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "hsd1.wv.comcast.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "hsearchescentral.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "hsearchsmart.co",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "hunterandgatherfoods.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "hushemail.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "hwczd.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "ibr.io",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "idainvestgy.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "idcmu.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "ihars.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "ilovecollege.info",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "image-line.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "imgburn.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "imr.co.kr",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "inbmv.org-udb.cc",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "indoorleader.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "inizolvibakra.tk",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "innfulnalhoto.ml",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "instalki.pl",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "invmerakispa.cl",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "ipgrabber.ru",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "ipgraber.ru",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "iplogger.co",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "iplogger.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "iplogger.info",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "iplogger.org",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "iplogger.ru",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "ipv4-cisco.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "ipyf7q8jmolr8ggkc7bh.s3.amazonaws.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "ispgateway.de",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "italki.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "iyrinhealth.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "j56y.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "j56y.site",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "jack-presale.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "janellevoyages.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "jd56.site",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "jghjgjgyuio.blob.core.windows.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "jk86.xyz",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "jkghsdjfhdqgsg.sfo3.digitaloceanspaces.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "joinhoney.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "juvander.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "kid-sleds.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "kkxx888666.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "kokotrokot.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "kumru.ai",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "laden-78.de",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "laden78.de",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "lalapush.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "laporchetta.cc",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "lasscnsiteus.site",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "line-e.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "line-jp.live",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "livecreativeproject.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "lkaquiov.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "llcanverac.site",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "lo4d.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "loginto.me",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "lonexariva.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "lookingfordating.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "lozere-resa.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "luckypatchers.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "lvrv0gkspz.blob.core.windows.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "malavida.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "malwarewatch.org",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "manualsearch.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "maproutepro.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "mapsassist.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "mapsdrivingdirections.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "mapsme.de",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "marriotwifi.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "maximsc.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "mcdonaldswifi.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "mcuban-coins.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "me.bot",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "microsoftbetastore.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "microsoftdnsdown.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "microsoftdnsupdate.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "midnightsociety-x.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "mirc.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "ml.t-mobile.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "mlbfan.org",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "mmafan.biz",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "mnl.io",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "monad-network.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "mr-kraken.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "msgsafe.io",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "muckcoding.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "murphy4us.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "musk111.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "muskstar.org",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "myactivedirectory.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "mybetterdl.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "myddns.me",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "mydissent.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "myeffect.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "myftp.biz",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "myftp.org",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "mymediapc.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "mynet.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "mypsx.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "mysecuritycamera.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "mysecuritycamera.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "mysecuritycamera.org",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "myvnc.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "nefl.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "net-freaks.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "netflix-support.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "news-back.org",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "newssocial.org",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "nextplaysearch.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "nflfan.org",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "nhlfan.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "no-ip.biz",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "no-ip.ca",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "no-ip.co.uk",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "no-ip.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "no-ip.info",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "no-ip.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "no-ip.org",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "noip.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "noip.me",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "noip.us",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "nonpartisan.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "norikosumiya.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "notevildojo.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "notix.io",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "novelunderground.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "novidash.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "nsogroup.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "nvfmw.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "nxcli.io",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "nxcli.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "ocmhood.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "oklahomatrane.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "olrplrp.us",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "omnatuor.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "onlinecasinoseesti.ee",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "onthewifi.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "opendpi.org",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "opticks.io",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "optimistichackargaius.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "oray.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "orbitdownloader.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "oregonbeaverton.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "ots.io",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "ots7.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "otscorp.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "ouphouch.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "oys.io",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "p78t.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "packagetrackingtab.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "packetforensics.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "packgse-lfv.cc",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "parking.godaddy.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "parkingpage.namecheap.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "parklogic.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "parktons.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "password-internal.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "paytollfni.top",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "paytollrccl.vip",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "pcfreetime.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "pdfarchitect.org",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "pdfforge.org",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "pg31.xyz",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "pgafan.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "photoscape.org",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "plasmanet.work",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "point2this.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "pointto.us",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "poisism.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "pokalive.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "polymarket.digital",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "portraitart4u.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "post.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "primakovreadings.info",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "primopdf.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "priorityvpn.app",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "privatizehealthinsurance.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "programas-gratis.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "ps3cfw.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "ptoahaistais.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "publpush.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "pudgy-penguins.digital",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "pudgy-penguins.shop",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "pudgypenguins.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "pump.fun",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "push-signals.online",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "pushimg.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "pushpong.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "qfind.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "quicklivenews.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "quickrecipehub.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "quicksytes.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "r-tb.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "r2modman.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "read-books.org",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "realphotography.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "redirectme.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "remoteestimation.us",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "revanced.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "ross-tokens.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "rtccvnetserice.site",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "rtmark.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "sabacctable.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "safeplexsearch.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "safety-search.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "sap.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "sara-holding.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "sassasc.co.za",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "scanalert.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "schienevy.lat",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "screenrec.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "searx.work",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "secureleadsforever.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "security-scanner.xyz",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "securitytactics.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "sedoparking.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "selfhost.de",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "senpaistreamapkdl.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "servebeer.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "serveblog.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "servecounterstrike.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "serveexchange.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "serveftp.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "servegame.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "servehalflife.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "servehttp.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "servehumour.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "serveirc.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "serveminecraft.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "servemp3.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "servep2p.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "servepics.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "servequake.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "servesarcasm.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "servidalccsite.site",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "sftcdn.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "share-dns.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "share-dns.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "shopingchina.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "sigil-ebook.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "sjxjd.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "smytp.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "softchamp.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "softfamous.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "softonic.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "softonic.kr",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "softonic.nl",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "softonic.pl",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "softonic.ru",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "softpedia.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "sosyal.teknofest.app",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "sourceforge.io",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "sourceforge.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "speedtestmeter.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "spinsofglory.vip",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "sqznksi.us",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "starlightis.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "storeenscserviddce.site",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "stufftoread.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "sub4sub.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "subscription-alerts.io",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "sunpass.com-6s1d.ink",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "sunpass.com-etc-zbol.top",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "sunpass.com-se65.sbs",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "supportgestion.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "swiss-casino-online.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "synology.me",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "systemconnect.live",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "sytes.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "t45r.site",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "tahaj.sk",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "talent2x.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "talkmarkets.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "tamindir.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "tampabay.rr.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "taskmanagertab.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "taxpa-tax.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "tcaxp.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "techslott.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "techspot.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "tecno-mobile.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "thatstight.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "theamericapac.org",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "thejavaconsultants.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "thewebconsultant.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "thingaholics.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "tikipeter.github.io",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "tiscali.it",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "tke.io",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "tmedicine.org",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "tmweb.ru",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "trendingnews.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "trenqqarix.wiki",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "trillian.im",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "truos.sbs",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "trustcor.co",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "trustcor.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "trustcorsystems.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "tunnelbroker.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "turboconverter.co",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "turtleclient.xyz",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "tutanoto.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "u0020mixwm.blob.core.windows.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "ufcfan.org",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "um6f0ru069.blob.core.windows.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "unplugged.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "unusualperson.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "updatestar.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "uptodown.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "uptodown.com.edgekey.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "uptodown.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "url01.xyz",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "url07.xyz",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "us-usps-xhit.top",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "userspanel.digital",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "usps.com-kmgju.top",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "usps.com-knjla.top",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "uspsvldsoi.top",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "utdstc.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "utorrent.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "uu89.site",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "uuiang.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "vanced.to",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "vectoriservis.ru",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "vedicarehealth.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "veilcurtin.world",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "videohelp.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "viewmanuals.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "viewpdf.org",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "viewrecipes.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "vparaiso.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "vujpo85d1g.blob.core.windows.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "wahyu.org",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "warriorforum.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "wb-usdt.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "weatherauthority.co",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "webdesignmail.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "webdesignoutsourcers.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "webhop.me",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "webroot.me",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "webrootsafe.me",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "websiteconsultantspro.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "whatsapp0.xyz",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "whatsapp7.xyz",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "wifidelta.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "wildafamily.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "winnitacasinotop.it",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "winscp-static-746341.c.cdn77.org",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "winscp.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "withough.biz",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "wongcw.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "workisboring.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "worldmusictherapyfoundation.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "wyy158.fun",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "x-token-platform.io",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "x3os.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "xkcllk.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "xmanagerapp.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "y29v.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "ypdstrck.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "yy45.site",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "yza1rz5q36gm8vot.s3.amazonaws.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "zapto.org",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "zgkem.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "zhaibd.cn",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "zl-ag.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "zolavola.sfo3.digitaloceanspaces.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "zolvemruk.org",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "zoneedit.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "zwbufziw6o4q92.s3.amazonaws.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "*.home.arpa",
+        "action": {
+          "do": 0,
+          "status": 1
+        }
+      }
+    ]
+  ]
+}

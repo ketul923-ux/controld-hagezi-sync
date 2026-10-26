@@ -1,0 +1,230 @@
+{
+  "group": {
+    "group": "Native Tracker Sentry",
+    "action": {
+      "do": 0,
+      "status": 1
+    }
+  },
+  "rules": [
+    [
+      {
+        "PK": "aem-kakao-collector-8g8eydvy.kgslb.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "aem-kakao-collector.onkakao.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "analytics.plaid.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "d-edge.v.dropbox.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "d.dropbox.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "d.v.dropbox.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "error-tracking.reddit.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "errors.figma.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "errors.hackerone.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "errortrace.dev",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "getsentry.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "new-sentry.gitlab.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "portal-sentry-v2.vk.team",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "ravenjs.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "sentry-cdn.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "sentry-new.protontech.ch",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "sentry-public.stripchat.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "sentry.archive.org",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "sentry.as12as.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "sentry.comick.io",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "sentry.dev",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "sentry.fundraiseup.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "sentry.gitlab.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "sentry.hcaptcha.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "sentry.insops.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "sentry.io",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "sentry.nperf.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "sentry.odysee.tv",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "sentry.sc-prod.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "sentry.stripcash.tech",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "*.home.arpa",
+        "action": {
+          "do": 0,
+          "status": 1
+        }
+      }
+    ]
+  ]
+}

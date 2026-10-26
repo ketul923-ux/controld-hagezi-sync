@@ -1,0 +1,139 @@
+{
+  "group": {
+    "group": "Native Tracker Oracle",
+    "action": {
+      "do": 0,
+      "status": 1
+    }
+  },
+  "rules": [
+    [
+      {
+        "PK": "addthis.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "addthis.com.edgekey.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "bkrtx.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "bkrtx.com.edgekey.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "bluekai.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "bluekai.com.edgekey.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "eloqua.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "en25.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "en25.com.edgekey.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "grapeshot.co.uk",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "grapeshot.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "gscontxt.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "moat.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "moatads.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "moatads.com.edgekey.net",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "tms.oracle.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "tms.oracle.com.greylabeldelivery.com",
+        "action": {
+          "status": 1,
+          "do": 0
+        }
+      },
+      {
+        "PK": "*.home.arpa",
+        "action": {
+          "do": 0,
+          "status": 1
+        }
+      }
+    ]
+  ]
+}
