@@ -7,175 +7,173 @@
     }
   },
   "rules": [
-    [
-      {
-        "PK": "ads.unity3d.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "analytics.unity3d.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "cdp.cloud.unity3d.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "cdp.internal.unity3d.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "deltadna.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "deltadna.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "iads.unity3d.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "ironsrc.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "ironsrc.mobi",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "is.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "is.com.ip4.edgesuite.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "isappcloud.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "mediation.unity3d.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "operate-sdk-telemetry.unity3d.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "perf-events.cloud.unity3d.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "soom.la",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "ssacdn.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "supersonicads.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "tapjoy.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "tapjoyads.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "uca.cloud.unity3d.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "uca.internal.unity3d.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "unityads.unity3d.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "*.home.arpa",
-        "action": {
-          "do": 0,
-          "status": 1
-        }
+    {
+      "PK": "ads.unity3d.com",
+      "action": {
+        "status": 1,
+        "do": 0
       }
-    ]
+    },
+    {
+      "PK": "analytics.unity3d.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "cdp.cloud.unity3d.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "cdp.internal.unity3d.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "deltadna.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "deltadna.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "iads.unity3d.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "ironsrc.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "ironsrc.mobi",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "is.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "is.com.ip4.edgesuite.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "isappcloud.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "mediation.unity3d.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "operate-sdk-telemetry.unity3d.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "perf-events.cloud.unity3d.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "soom.la",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "ssacdn.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "supersonicads.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "tapjoy.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "tapjoyads.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "uca.cloud.unity3d.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "uca.internal.unity3d.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "unityads.unity3d.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "*.home.arpa",
+      "action": {
+        "do": 0,
+        "status": 1
+      }
+    }
   ]
 }

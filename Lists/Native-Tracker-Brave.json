@@ -7,399 +7,397 @@
     }
   },
   "rules": [
-    [
-      {
-        "PK": "ads-admin.brave.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "ads-admin.bravesoftware.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "ads-help.brave.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "ads-new.brave.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "ads-serve.brave.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "ads-serve.bravesoftware.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "ads-static.brave.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "ads-static.bravesoftware.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "ads.brave.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "ads.bravesoftware.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "analytics.brave.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "basicattentiontoken.org",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "collector.bsg.brave.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "collector.bsg.bravesoftware.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "creators.brave.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "griffin.brave.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "matomo.brave.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "metrics.brave.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "metrics.brave.software",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "metrics.bravesoftware.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "mobile-data-dev.s3.brave.software",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "mobile-data.s3.brave.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "offers.brave.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "p2a-json-origin.brave.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "p2a-json.brave.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "p2a-json.brave.software",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "p2a-json.bravesoftware.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "p2a-origin.brave.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "p2a.brave.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "p2a.brave.software",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "p2a.bravesoftware.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "p3a-creative.brave.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "p3a-creative.bravesoftware.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "p3a-dev.bravesoftware.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "p3a-json.brave.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "p3a-json.bravesoftware.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "p3a.brave.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "p3a.bravesoftware.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "publishers.brave.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "rewards-stg.bravesoftware.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "rewards.brave.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "rewards.brave.software",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "rewards.bravesoftware.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "search.anonymous.brave.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "search.anonymous.bravesoftware.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "star-randsrv.bsg.brave.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "star-randsrv.bsg.brave.software",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "star-randsrv.bsg.bravesoftware.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "stats.brave.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "stats.bravesoftware.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "stats.bsg.bravesoftware.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "usage-ping.brave.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "variations.brave.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "variations.bravesoftware.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "wdp.brave.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "*.home.arpa",
-        "action": {
-          "do": 0,
-          "status": 1
-        }
+    {
+      "PK": "ads-admin.brave.com",
+      "action": {
+        "status": 1,
+        "do": 0
       }
-    ]
+    },
+    {
+      "PK": "ads-admin.bravesoftware.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "ads-help.brave.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "ads-new.brave.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "ads-serve.brave.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "ads-serve.bravesoftware.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "ads-static.brave.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "ads-static.bravesoftware.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "ads.brave.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "ads.bravesoftware.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "analytics.brave.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "basicattentiontoken.org",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "collector.bsg.brave.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "collector.bsg.bravesoftware.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "creators.brave.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "griffin.brave.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "matomo.brave.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "metrics.brave.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "metrics.brave.software",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "metrics.bravesoftware.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "mobile-data-dev.s3.brave.software",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "mobile-data.s3.brave.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "offers.brave.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "p2a-json-origin.brave.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "p2a-json.brave.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "p2a-json.brave.software",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "p2a-json.bravesoftware.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "p2a-origin.brave.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "p2a.brave.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "p2a.brave.software",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "p2a.bravesoftware.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "p3a-creative.brave.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "p3a-creative.bravesoftware.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "p3a-dev.bravesoftware.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "p3a-json.brave.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "p3a-json.bravesoftware.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "p3a.brave.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "p3a.bravesoftware.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "publishers.brave.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "rewards-stg.bravesoftware.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "rewards.brave.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "rewards.brave.software",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "rewards.bravesoftware.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "search.anonymous.brave.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "search.anonymous.bravesoftware.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "star-randsrv.bsg.brave.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "star-randsrv.bsg.brave.software",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "star-randsrv.bsg.bravesoftware.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "stats.brave.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "stats.bravesoftware.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "stats.bsg.bravesoftware.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "usage-ping.brave.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "variations.brave.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "variations.bravesoftware.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "wdp.brave.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "*.home.arpa",
+      "action": {
+        "do": 0,
+        "status": 1
+      }
+    }
   ]
 }

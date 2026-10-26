@@ -7,1379 +7,1377 @@
     }
   },
   "rules": [
-    [
-      {
-        "PK": "abtesting.roblox.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "action-cards-host-app.rnps.dl.playstation.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "ad.playstation.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "ad.playstation.net.edgekey.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "adconfiguration.roblox.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "adproxy.ndmdhs.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "ads.roblox.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "advertise.roblox.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "alb-prod-invenio-1916515004.us-west-2.elb.amazonaws.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "ams2-128-116-21-3.roblox.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "atl1-128-116-99-3.roblox.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "backtrace-forwarder-2027840751.us-west-1.elb.amazonaws.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "backtrace.rbx.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "client-telemetry.roblox.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "compilation-disc-hub.rnps.dl.playstation.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "connect.epicgames.dev",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "contacts.roblox.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "crash-report.wc.dd1.er.srv.nintendo.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "crash-report.wc.jd1.er.srv.nintendo.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "crash-report.wc.lp1.er.srv.nintendo.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "crash-report.wc.sp1.er.srv.nintendo.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "crash-report.wc.td1.er.srv.nintendo.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "crash-report.wc.xd1.er.srv.nintendo.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "crash-report.wc.yd1.er.srv.nintendo.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "crash.steampowered.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "crashes.rbxinfra.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "crashes.roblox.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "crashreporter.avalanchestudios.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "crepo.ww.dl.playstation.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "crepo.ww.dl.playstation.net.edgekey.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "datarouter-prod-target.ak.epicgames.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "datarouter-prod.ak.epicgames.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "datarouter-public-service-prod06.ol.epicgames.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "datarouter-weighted.ol.epicgames.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "datarouter.cfef.live.use1a.on.epicgames.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "datarouter.ol.epicgames.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "dfw2-128-116-95-3.roblox.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "easybrain.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "ecsv2.roblox.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "eos-gateway-ingressv2-prod-c1-w1.befa.live.use1a.on.epicgames.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "eos-gateway-ingressv2-prod-c1-w2.befa.live.use1a.on.epicgames.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "eos-gateway-ingressv2-prod-c1-w3.befa.live.use1a.on.epicgames.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "eos-gateway-ingressv2-prod-c1-w4.befa.live.use1a.on.epicgames.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "eos-gateway-ingressv2-prod-c1-w5.befa.live.use1a.on.epicgames.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "eos-gateway-ingressv2-prod-c2-w1.befa.live.use1a.on.epicgames.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "eos-gateway-ingressv2-prod-c2-w2.befa.live.use1a.on.epicgames.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "eos-gateway-ingressv2-prod-c2-w3.befa.live.use1a.on.epicgames.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "eos-gateway-ingressv2-prod-c2-w4.befa.live.use1a.on.epicgames.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "eos-gateway-ingressv2-prod-c2-w5.befa.live.use1a.on.epicgames.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "eos-gateway-ingressv2-prod-c3-w1.befa.live.use1a.on.epicgames.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "eos-gateway-ingressv2-prod-c3-w2.befa.live.use1a.on.epicgames.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "eos-gateway-ingressv2-prod-c3-w3.befa.live.use1a.on.epicgames.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "eos-gateway-ingressv2-prod-c3-w4.befa.live.use1a.on.epicgames.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "eos-gateway-ingressv2-prod-c3-w5.befa.live.use1a.on.epicgames.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "ephemeralcounters.api.roblox.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "et.epicgames.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "et2.epicgames.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "experience-lambda.rnps.dl.playstation.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "explore-hub.rnps.dl.playstation.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "feature-discovery-assets-amd.dl.playstation.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "feature-discovery-device-dialog.rnps.dl.playstation.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "feature-discovery-lambda.rnps.dl.playstation.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "feedback-lambda.rnps.dl.playstation.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "freeform-river.data.ea.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "game-hub-post-lambda.rnps.dl.playstation.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "game-hub-pre-lambda.rnps.dl.playstation.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "game-hub-preview-launcher.rnps.dl.playstation.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "game-hub.rnps.dl.playstation.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "game-match-138571769.us-east-1.elb.amazonaws.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "genzero-cdn.avalanchestudios.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "hls-segments-ak.rbxcdn.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "hls-segments.rbxcdn.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "hls-segmentsns1.rbxcdn.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "home-lambda.rnps.dl.playstation.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "home.rnps.dl.playstation.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "idlerestaurant.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "igc-browse.rnps.dl.playstation.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "infoboard.ww.dl.playstation.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "infoboard.xx.dl.playstation.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "jamcity.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "jc-gs.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "k8s-riverpro-captures-9dd19d74e0-169116437.us-east-1.elb.amazonaws.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "killersudoku.zendesk.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "lax2-128-116-116-3.roblox.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "lms-split.roblox.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "lms.roblox.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "lms.simulpong.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "locale.roblox.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "loyalty-hub.rnps.dl.playstation.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "mercury.dl.playstation.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "metrics.aem.playstation.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "metrics.avalanchestudios.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "metrics.nintendo.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "metrics.ol.epicgames.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "metrics.roblox.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "mindjolt-a.akamaihd.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "mobilityware.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "mobilityware.helpshift.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "ncs.roblox.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "nrt1-128-116-120-3.roblox.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "nsx-e.np.dl.playstation.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "nsx-e.np.dl.playstation.net.edgesuite.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "nsx.np.dl.playstation.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "nsx.np.dl.playstation.net.edgekey.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "oldtracking.avalanchestudios.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "ord2-128-116-101-3.roblox.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "pacman-cross-promo.s3.eu-central-1.amazonaws.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "pin-river.data.ea.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "playsimple.co",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "playsimple.games",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "promotions.roblox.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "promotions.roblox.com.edgekey.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "realtime-receive-dd1.dg.srv.nintendo.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "realtime-receive-dp1.dg.srv.nintendo.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "realtime-receive-jd1.dg.srv.nintendo.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "realtime-receive-lp1.dg.srv.nintendo.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "realtime-receive-sd1.dg.srv.nintendo.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "realtime-receive-sp1.dg.srv.nintendo.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "realtime-receive-td1.dg.srv.nintendo.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "realtime-signalr.roblox.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "realtime.roblox.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "receive-dd1.dg.srv.nintendo.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "receive-dd1.er.srv.nintendo.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "receive-dp1.dg.srv.nintendo.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "receive-dp1.er.srv.nintendo.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "receive-jd1.dg.srv.nintendo.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "receive-jd1.er.srv.nintendo.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "receive-lp1.dg.srv.nintendo.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "receive-lp1.er.srv.nintendo.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "receive-sd1.dg.srv.nintendo.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "receive-sd1.er.srv.nintendo.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "receive-sp1.dg.srv.nintendo.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "receive-sp1.er.srv.nintendo.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "receive-td1.dg.srv.nintendo.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "receive-td1.er.srv.nintendo.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "receive.hac.dd1.er.srv.nintendo.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "receive.hac.jd1.er.srv.nintendo.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "receive.hac.lp1.er.srv.nintendo.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "receive.hac.sandbox1.er.srv.nintendo.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "receive.hac.sandbox2.er.srv.nintendo.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "receive.hac.sd1.er.srv.nintendo.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "receive.hac.sp1.er.srv.nintendo.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "receive.hac.td1.er.srv.nintendo.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "receive.hac.xd1.er.srv.nintendo.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "receive.hac.zd1.er.srv.nintendo.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "receive.p01.lp1.dg.srv.nintendo.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "receive.p01.lp1.er.srv.nintendo.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "river-prod-external-non-pin.eadpdata.ddns.ea.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "river-prod-external.eadpdata.ddns.ea.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "river.data.ea.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "river.eadpdata.ddns.ea.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "rnps-feature-discovery-archive.rnps.dl.playstation.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "robloxlabs.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "rpt.msys.playstation.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "sentry-platform.pogospike.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "sgn.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "sgnapps.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "smetrics.aem.playstation.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "smetrics.nintendo.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "sprofile-dd1.cdn.nintendo.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "sprofile-dp1.cdn.nintendo.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "sprofile-jd1.cdn.nintendo.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "sprofile-lp1.cdn.nintendo.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "sprofile-sd1.cdn.nintendo.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "sprofile-sp1.cdn.nintendo.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "sprofile-td1.cdn.nintendo.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "steam-happy.homefront-game.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "steam-telemetry.homefront-game.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "studio-ecsv2.roblox.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "telemetry-cii.api.playstation.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "telemetry-cii.api.playstation.com.edgekey.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "telemetry-console.api.playstation.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "telemetry-console.api.playstation.com-v1.edgekey.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "telemetry-console.api.playstation.com-v2.edgekey.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "telemetry-console.api.playstation.com.edgekey.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "telemetry-schema-app.rnps.dl.playstation.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "telemetry.deeparc.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "timings.aikar.co",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "timings.pl3x.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "titlestore-preview.rnps.dl.playstation.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "tracing.roblox.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "tracking-website-prod-674464163.us-east-1.elb.amazonaws.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "tracking-website-prod07-epic-961842049.us-east-1.elb.amazonaws.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "tracking-website-prod07-epic-96184209.us-east-1.elb.amazonaws.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "tracking.avalanchestudios.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "tracking.epicgames.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "tracking2.avalanchestudios.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "udkprofiler.epicgames.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "unsupported-title-hub.rnps.dl.playstation.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "weighted-epic-connect-manager-prod.epicgames.dev",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "zap.cdn.zynga.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "zwf-s3.s3.us-east-1.amazonaws.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "zynga1-a.akamaihd.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "zynga2-a.akamaihd.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "zynga3-a.akamaihd.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "*.home.arpa",
-        "action": {
-          "do": 0,
-          "status": 1
-        }
+    {
+      "PK": "abtesting.roblox.com",
+      "action": {
+        "status": 1,
+        "do": 0
       }
-    ]
+    },
+    {
+      "PK": "action-cards-host-app.rnps.dl.playstation.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "ad.playstation.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "ad.playstation.net.edgekey.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "adconfiguration.roblox.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "adproxy.ndmdhs.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "ads.roblox.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "advertise.roblox.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "alb-prod-invenio-1916515004.us-west-2.elb.amazonaws.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "ams2-128-116-21-3.roblox.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "atl1-128-116-99-3.roblox.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "backtrace-forwarder-2027840751.us-west-1.elb.amazonaws.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "backtrace.rbx.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "client-telemetry.roblox.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "compilation-disc-hub.rnps.dl.playstation.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "connect.epicgames.dev",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "contacts.roblox.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "crash-report.wc.dd1.er.srv.nintendo.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "crash-report.wc.jd1.er.srv.nintendo.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "crash-report.wc.lp1.er.srv.nintendo.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "crash-report.wc.sp1.er.srv.nintendo.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "crash-report.wc.td1.er.srv.nintendo.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "crash-report.wc.xd1.er.srv.nintendo.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "crash-report.wc.yd1.er.srv.nintendo.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "crash.steampowered.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "crashes.rbxinfra.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "crashes.roblox.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "crashreporter.avalanchestudios.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "crepo.ww.dl.playstation.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "crepo.ww.dl.playstation.net.edgekey.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "datarouter-prod-target.ak.epicgames.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "datarouter-prod.ak.epicgames.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "datarouter-public-service-prod06.ol.epicgames.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "datarouter-weighted.ol.epicgames.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "datarouter.cfef.live.use1a.on.epicgames.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "datarouter.ol.epicgames.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "dfw2-128-116-95-3.roblox.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "easybrain.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "ecsv2.roblox.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "eos-gateway-ingressv2-prod-c1-w1.befa.live.use1a.on.epicgames.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "eos-gateway-ingressv2-prod-c1-w2.befa.live.use1a.on.epicgames.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "eos-gateway-ingressv2-prod-c1-w3.befa.live.use1a.on.epicgames.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "eos-gateway-ingressv2-prod-c1-w4.befa.live.use1a.on.epicgames.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "eos-gateway-ingressv2-prod-c1-w5.befa.live.use1a.on.epicgames.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "eos-gateway-ingressv2-prod-c2-w1.befa.live.use1a.on.epicgames.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "eos-gateway-ingressv2-prod-c2-w2.befa.live.use1a.on.epicgames.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "eos-gateway-ingressv2-prod-c2-w3.befa.live.use1a.on.epicgames.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "eos-gateway-ingressv2-prod-c2-w4.befa.live.use1a.on.epicgames.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "eos-gateway-ingressv2-prod-c2-w5.befa.live.use1a.on.epicgames.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "eos-gateway-ingressv2-prod-c3-w1.befa.live.use1a.on.epicgames.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "eos-gateway-ingressv2-prod-c3-w2.befa.live.use1a.on.epicgames.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "eos-gateway-ingressv2-prod-c3-w3.befa.live.use1a.on.epicgames.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "eos-gateway-ingressv2-prod-c3-w4.befa.live.use1a.on.epicgames.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "eos-gateway-ingressv2-prod-c3-w5.befa.live.use1a.on.epicgames.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "ephemeralcounters.api.roblox.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "et.epicgames.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "et2.epicgames.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "experience-lambda.rnps.dl.playstation.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "explore-hub.rnps.dl.playstation.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "feature-discovery-assets-amd.dl.playstation.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "feature-discovery-device-dialog.rnps.dl.playstation.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "feature-discovery-lambda.rnps.dl.playstation.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "feedback-lambda.rnps.dl.playstation.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "freeform-river.data.ea.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "game-hub-post-lambda.rnps.dl.playstation.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "game-hub-pre-lambda.rnps.dl.playstation.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "game-hub-preview-launcher.rnps.dl.playstation.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "game-hub.rnps.dl.playstation.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "game-match-138571769.us-east-1.elb.amazonaws.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "genzero-cdn.avalanchestudios.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "hls-segments-ak.rbxcdn.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "hls-segments.rbxcdn.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "hls-segmentsns1.rbxcdn.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "home-lambda.rnps.dl.playstation.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "home.rnps.dl.playstation.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "idlerestaurant.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "igc-browse.rnps.dl.playstation.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "infoboard.ww.dl.playstation.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "infoboard.xx.dl.playstation.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "jamcity.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "jc-gs.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "k8s-riverpro-captures-9dd19d74e0-169116437.us-east-1.elb.amazonaws.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "killersudoku.zendesk.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "lax2-128-116-116-3.roblox.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "lms-split.roblox.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "lms.roblox.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "lms.simulpong.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "locale.roblox.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "loyalty-hub.rnps.dl.playstation.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "mercury.dl.playstation.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "metrics.aem.playstation.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "metrics.avalanchestudios.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "metrics.nintendo.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "metrics.ol.epicgames.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "metrics.roblox.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "mindjolt-a.akamaihd.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "mobilityware.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "mobilityware.helpshift.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "ncs.roblox.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "nrt1-128-116-120-3.roblox.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "nsx-e.np.dl.playstation.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "nsx-e.np.dl.playstation.net.edgesuite.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "nsx.np.dl.playstation.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "nsx.np.dl.playstation.net.edgekey.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "oldtracking.avalanchestudios.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "ord2-128-116-101-3.roblox.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "pacman-cross-promo.s3.eu-central-1.amazonaws.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "pin-river.data.ea.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "playsimple.co",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "playsimple.games",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "promotions.roblox.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "promotions.roblox.com.edgekey.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "realtime-receive-dd1.dg.srv.nintendo.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "realtime-receive-dp1.dg.srv.nintendo.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "realtime-receive-jd1.dg.srv.nintendo.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "realtime-receive-lp1.dg.srv.nintendo.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "realtime-receive-sd1.dg.srv.nintendo.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "realtime-receive-sp1.dg.srv.nintendo.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "realtime-receive-td1.dg.srv.nintendo.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "realtime-signalr.roblox.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "realtime.roblox.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "receive-dd1.dg.srv.nintendo.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "receive-dd1.er.srv.nintendo.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "receive-dp1.dg.srv.nintendo.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "receive-dp1.er.srv.nintendo.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "receive-jd1.dg.srv.nintendo.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "receive-jd1.er.srv.nintendo.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "receive-lp1.dg.srv.nintendo.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "receive-lp1.er.srv.nintendo.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "receive-sd1.dg.srv.nintendo.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "receive-sd1.er.srv.nintendo.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "receive-sp1.dg.srv.nintendo.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "receive-sp1.er.srv.nintendo.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "receive-td1.dg.srv.nintendo.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "receive-td1.er.srv.nintendo.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "receive.hac.dd1.er.srv.nintendo.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "receive.hac.jd1.er.srv.nintendo.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "receive.hac.lp1.er.srv.nintendo.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "receive.hac.sandbox1.er.srv.nintendo.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "receive.hac.sandbox2.er.srv.nintendo.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "receive.hac.sd1.er.srv.nintendo.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "receive.hac.sp1.er.srv.nintendo.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "receive.hac.td1.er.srv.nintendo.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "receive.hac.xd1.er.srv.nintendo.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "receive.hac.zd1.er.srv.nintendo.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "receive.p01.lp1.dg.srv.nintendo.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "receive.p01.lp1.er.srv.nintendo.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "river-prod-external-non-pin.eadpdata.ddns.ea.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "river-prod-external.eadpdata.ddns.ea.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "river.data.ea.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "river.eadpdata.ddns.ea.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "rnps-feature-discovery-archive.rnps.dl.playstation.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "robloxlabs.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "rpt.msys.playstation.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "sentry-platform.pogospike.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "sgn.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "sgnapps.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "smetrics.aem.playstation.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "smetrics.nintendo.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "sprofile-dd1.cdn.nintendo.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "sprofile-dp1.cdn.nintendo.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "sprofile-jd1.cdn.nintendo.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "sprofile-lp1.cdn.nintendo.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "sprofile-sd1.cdn.nintendo.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "sprofile-sp1.cdn.nintendo.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "sprofile-td1.cdn.nintendo.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "steam-happy.homefront-game.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "steam-telemetry.homefront-game.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "studio-ecsv2.roblox.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "telemetry-cii.api.playstation.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "telemetry-cii.api.playstation.com.edgekey.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "telemetry-console.api.playstation.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "telemetry-console.api.playstation.com-v1.edgekey.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "telemetry-console.api.playstation.com-v2.edgekey.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "telemetry-console.api.playstation.com.edgekey.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "telemetry-schema-app.rnps.dl.playstation.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "telemetry.deeparc.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "timings.aikar.co",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "timings.pl3x.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "titlestore-preview.rnps.dl.playstation.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "tracing.roblox.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "tracking-website-prod-674464163.us-east-1.elb.amazonaws.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "tracking-website-prod07-epic-961842049.us-east-1.elb.amazonaws.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "tracking-website-prod07-epic-96184209.us-east-1.elb.amazonaws.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "tracking.avalanchestudios.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "tracking.epicgames.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "tracking2.avalanchestudios.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "udkprofiler.epicgames.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "unsupported-title-hub.rnps.dl.playstation.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "weighted-epic-connect-manager-prod.epicgames.dev",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "zap.cdn.zynga.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "zwf-s3.s3.us-east-1.amazonaws.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "zynga1-a.akamaihd.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "zynga2-a.akamaihd.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "zynga3-a.akamaihd.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "*.home.arpa",
+      "action": {
+        "do": 0,
+        "status": 1
+      }
+    }
   ]
 }

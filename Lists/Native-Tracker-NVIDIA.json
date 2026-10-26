@@ -7,63 +7,61 @@
     }
   },
   "rules": [
-    [
-      {
-        "PK": "events.gfe.nvidia.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "events.nvidia.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "metrics.nvidia.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "nvmos.nvidia.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "smetrics.nvidia.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "telemetry.gfe.nvidia.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "telemetry.nvidia.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "*.home.arpa",
-        "action": {
-          "do": 0,
-          "status": 1
-        }
+    {
+      "PK": "events.gfe.nvidia.com",
+      "action": {
+        "status": 1,
+        "do": 0
       }
-    ]
+    },
+    {
+      "PK": "events.nvidia.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "metrics.nvidia.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "nvmos.nvidia.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "smetrics.nvidia.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "telemetry.gfe.nvidia.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "telemetry.nvidia.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "*.home.arpa",
+      "action": {
+        "do": 0,
+        "status": 1
+      }
+    }
   ]
 }

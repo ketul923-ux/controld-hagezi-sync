@@ -7,273 +7,271 @@
     }
   },
   "rules": [
-    [
-      {
-        "PK": "ad.yandex.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "adfox.ru",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "adfox.yandex.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "adfox.yandex.ru",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "adfstat.yandex.ru",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "ads.yandex.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "ads.yandex.ru",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "advertising.yandex.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "advertising.yandex.ru",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "an.yandex.ru",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "analytics.mobile.yandex.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "appmetrica.yandex.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "appmetrica.yandex.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "appmetrica.yandex.ru",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "appmetrika.yandex.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "appmetrika.yandex.ru",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "csp.yandex.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "extmaps-api.yandex.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "mads.yandex.ru",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "mc.yandex.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "mc.yandex.ru",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "metrica.yandex.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "metrica.yandex.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "metrica.yandex.ru",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "metrika.yandex.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "metrika.yandex.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "metrika.yandex.ru",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "offerwall.yandex.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "startup.mobile.yandex.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "suggest.yandex.by",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "suggest.yandex.com",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "suggest.yandex.com.tr",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "suggest.yandex.kz",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "suggest.yandex.ru",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "suggest.yandex.ua",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "webvisor.org",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "yandexadexchange.net",
-        "action": {
-          "status": 1,
-          "do": 0
-        }
-      },
-      {
-        "PK": "*.home.arpa",
-        "action": {
-          "do": 0,
-          "status": 1
-        }
+    {
+      "PK": "ad.yandex.com",
+      "action": {
+        "status": 1,
+        "do": 0
       }
-    ]
+    },
+    {
+      "PK": "adfox.ru",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "adfox.yandex.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "adfox.yandex.ru",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "adfstat.yandex.ru",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "ads.yandex.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "ads.yandex.ru",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "advertising.yandex.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "advertising.yandex.ru",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "an.yandex.ru",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "analytics.mobile.yandex.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "appmetrica.yandex.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "appmetrica.yandex.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "appmetrica.yandex.ru",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "appmetrika.yandex.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "appmetrika.yandex.ru",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "csp.yandex.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "extmaps-api.yandex.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "mads.yandex.ru",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "mc.yandex.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "mc.yandex.ru",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "metrica.yandex.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "metrica.yandex.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "metrica.yandex.ru",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "metrika.yandex.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "metrika.yandex.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "metrika.yandex.ru",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "offerwall.yandex.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "startup.mobile.yandex.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "suggest.yandex.by",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "suggest.yandex.com",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "suggest.yandex.com.tr",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "suggest.yandex.kz",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "suggest.yandex.ru",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "suggest.yandex.ua",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "webvisor.org",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "yandexadexchange.net",
+      "action": {
+        "status": 1,
+        "do": 0
+      }
+    },
+    {
+      "PK": "*.home.arpa",
+      "action": {
+        "do": 0,
+        "status": 1
+      }
+    }
   ]
 }
