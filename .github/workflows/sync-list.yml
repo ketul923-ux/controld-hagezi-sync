@@ -108,12 +108,11 @@ jobs:
                 --argjson do_val "$action_do" \
                 --slurpfile rules temp_rules.json \
                 '{
-                   group: {
+                   group: ({
                      group: $group_title,
-                     action: (if $group_title == "Control D Bypass" then { status: 1 } else { do: $do_val, status: 1 } end),
-                     (if $group_title == "Control D Bypass" then "is_magic" else empty end): 1
-                   },
-                   rules: $rules[0]
+                     action: (if $group_title == "Control D Bypass" then { status: 1 } else { do: $do_val, status: 1 } end)
+                   } + (if $group_title == "Control D Bypass" then { is_magic: 1 } else {} end)),
+                   rules: $rules
                  }' > "Lists/$filename"
             fi
             
