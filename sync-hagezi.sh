@@ -872,7 +872,7 @@ import_with_validation() {
                         elif [[ "$name" == "Control D Bypass" ]]; then
                             log "  Configuring special group settings for '$name'..."
                             local payload_bypass
-                            payload_bypass=$(jq -n '{"status": 1, "is_magic": 1, "do": 1}')
+                            payload_bypass=$(jq -n '{"status": 1, "is_magic": 1}')
                             
                             if ! api_call_with_retry "PUT" "${API_BASE}/profiles/${pid}/groups/${new_pk}" "$payload_bypass" >/dev/null; then
                                 log "  WARN: Failed to update settings for '$name'"
