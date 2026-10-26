@@ -112,7 +112,7 @@ jobs:
                      group: $group_title,
                      action: (if $group_title == "Control D Bypass" then { status: 1 } else { do: $do_val, status: 1 } end)
                    } + (if $group_title == "Control D Bypass" then { is_magic: 1 } else {} end)),
-                   rules: $rules
+                   rules: $rules[0]
                  }' > "Lists/$filename"
             fi
             
