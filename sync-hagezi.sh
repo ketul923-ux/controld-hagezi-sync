@@ -1117,7 +1117,7 @@ enable_bump_tls_all_devices() {
             "--data-urlencode" "learn_ip=1"
             "--data-urlencode" "restricted=0"
             "--data-urlencode" "bump_tls=0"
-            "--data-urlencode" "ddns_status=1"
+            "--data-urlencode" "ddns_status=0"
             "--data-urlencode" "ddns_subdomain=$sanitized_subdomain"
             "--data-urlencode" "ddns_ext_host=$sanitized_subdomain.controld.live"
             "--data-urlencode" "ddns_ext_status=0"
