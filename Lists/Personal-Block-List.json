@@ -22,6 +22,27 @@
       }
     },
     {
+      "PK": "redirector.googlevideo.com",
+      "action": {
+        "do": 0,
+        "status": 1
+      }
+    },
+    {
+      "PK": "click.mailchimp.com",
+      "action": {
+        "do": 0,
+        "status": 1
+      }
+    },
+    {
+      "PK": "widget.intercom.io",
+      "action": {
+        "do": 0,
+        "status": 1
+      }
+    },
+    {
       "PK": "us.i.posthog.com",
       "action": {
         "do": 0,
