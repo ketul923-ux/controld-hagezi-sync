@@ -43,6 +43,41 @@
       }
     },
     {
+      "PK": "eu.i.posthog.com",
+      "action": {
+        "do": 0,
+        "status": 1
+      }
+    },
+    {
+      "PK": "d.line-scdn.net",
+      "action": {
+        "do": 0,
+        "status": 1
+      }
+    },
+    {
+      "PK": "s.pinimg.com",
+      "action": {
+        "do": 0,
+        "status": 1
+      }
+    },
+    {
+      "PK": "us-assets.i.posthog.com",
+      "action": {
+        "do": 0,
+        "status": 1
+      }
+    },
+    {
+      "PK": "www.redditstatic.com",
+      "action": {
+        "do": 0,
+        "status": 1
+      }
+    },
+    {
       "PK": "us.i.posthog.com",
       "action": {
         "do": 0,
@@ -179,7 +214,7 @@
       "PK": "!#CA",
       "action": {
         "do": 0,
-        "status": 1
+        "status": 0
       }
     },
     {
