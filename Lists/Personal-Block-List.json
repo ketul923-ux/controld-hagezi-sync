@@ -78,13 +78,6 @@
       }
     },
     {
-      "PK": "www.redditstatic.com",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
       "PK": "us.i.posthog.com",
       "action": {
         "do": 0,
@@ -289,20 +282,6 @@
     },
     {
       "PK": "pagead2.googlesyndication.com",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
-      "PK": "www.googletagmanager.com",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
-      "PK": "www.google-analytics.com",
       "action": {
         "do": 0,
         "status": 1
