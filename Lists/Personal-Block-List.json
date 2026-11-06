@@ -22,6 +22,13 @@
       }
     },
     {
+      "PK": "fcmatch.youtube.com",
+      "action": {
+        "do": 0,
+        "status": 1
+      }
+    },
+    {
       "PK": "redirector.googlevideo.com",
       "action": {
         "do": 0,
