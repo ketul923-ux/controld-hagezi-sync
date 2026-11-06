@@ -218,13 +218,6 @@
       }
     },
     {
-      "PK": "!#CA",
-      "action": {
-        "do": 0,
-        "status": 0
-      }
-    },
-    {
       "PK": "use-application-dns.net",
       "action": {
         "do": 0,
