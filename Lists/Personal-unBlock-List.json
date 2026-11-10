@@ -169,6 +169,13 @@
       }
     },
     {
+      "PK": "doximity.sng.link",
+      "action": {
+        "do": 1,
+        "status": 1
+      }
+    },
+    {
       "PK": "wa.me",
       "action": {
         "do": 1,
