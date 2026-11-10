@@ -155,6 +155,20 @@
       }
     },
     {
+      "PK": "yt.be",
+      "action": {
+        "do": 1,
+        "status": 1
+      }
+    },
+    {
+      "PK": "c.gle",
+      "action": {
+        "do": 1,
+        "status": 1
+      }
+    },
+    {
       "PK": "wa.me",
       "action": {
         "do": 1,
