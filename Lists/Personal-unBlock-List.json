@@ -92,7 +92,28 @@
       }
     },
     {
-      "PK": "1drv.ms",
+      "PK": "citimobile.app.link",
+      "action": {
+        "do": 1,
+        "status": 1
+      }
+    },
+    {
+      "PK": "em.thalamusgme.com",
+      "action": {
+        "do": 1,
+        "status": 1
+      }
+    },
+    {
+      "PK": "doximity.onelink.me",
+      "action": {
+        "do": 1,
+        "status": 1
+      }
+    },
+    {
+      "PK": "mypurina.onelink.me",
       "action": {
         "do": 1,
         "status": 1
