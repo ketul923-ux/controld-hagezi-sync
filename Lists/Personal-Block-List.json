@@ -561,6 +561,13 @@
       }
     },
     {
+      "PK": "*file.bin",
+      "action": {
+        "do": 0,
+        "status": 1
+      }
+    },
+    {
       "PK": "216.58.202.4.in-addr.arpa",
       "action": {
         "do": 0,
