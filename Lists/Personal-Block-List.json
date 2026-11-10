@@ -603,7 +603,7 @@
       }
     },
     {
-      "PK": "event",
+      "PK": "ads.gle",
       "action": {
         "do": 0,
         "status": 1
