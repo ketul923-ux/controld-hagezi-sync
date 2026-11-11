@@ -218,20 +218,6 @@
       }
     },
     {
-      "PK": "mask.icloud.com",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
-      "PK": "mask-h2.icloud.com",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
       "PK": "dns-tunnel-check.googlezip.net",
       "action": {
         "do": 0,
