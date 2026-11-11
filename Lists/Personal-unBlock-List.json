@@ -225,6 +225,27 @@
       }
     },
     {
+      "PK": "g.co",
+      "action": {
+        "do": 1,
+        "status": 1
+      }
+    },
+    {
+      "PK": "am.app.link",
+      "action": {
+        "do": 1,
+        "status": 1
+      }
+    },
+    {
+      "PK": "spotify.link",
+      "action": {
+        "do": 1,
+        "status": 1
+      }
+    },
+    {
       "PK": "mqtt.us.petlibro.com",
       "action": {
         "do": 1,
