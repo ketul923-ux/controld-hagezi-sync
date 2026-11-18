@@ -8,13 +8,6 @@
   },
   "rules": [
     {
-      "PK": "dns.resolver.arpa",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
       "PK": "africa-mask.wrr.mask.apple-dns.net",
       "action": {
         "do": 0,
@@ -99,6 +92,13 @@
       }
     },
     {
+      "PK": "mask.apple-dns.net",
+      "action": {
+        "do": 0,
+        "status": 1
+      }
+    },
+    {
       "PK": "mask-boot.icloud.com",
       "action": {
         "do": 0,
@@ -114,13 +114,6 @@
     },
     {
       "PK": "mask-h2.icloud.com",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
-      "PK": "mask.apple-dns.net",
       "action": {
         "do": 0,
         "status": 1
