@@ -8,7 +8,7 @@
   },
   "rules": [
     {
-      "PK": "_dns.resolver.arpa",
+      "PK": "dns.resolver.arpa",
       "action": {
         "do": 0,
         "status": 1
