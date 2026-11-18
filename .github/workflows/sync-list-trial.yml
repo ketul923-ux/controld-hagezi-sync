@@ -39,7 +39,7 @@ jobs:
           curl -sL "https://hagezi-mirror.dnsbunker.org/controld/apple-private-relay-allow-folder.json" -o Lists/Apple-Private-Relay-Block.json
 
           # Extract domains from HaGeZi's AdGuard Apple Private Relay list as well
-          curl -sL "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adguard/native.apple.txt" | awk '
+          curl -sL "https://hagezi-mirror.dnsbunker.org/adguard/apple-private-relay.txt" | awk '
             /^[!#]|^$/ { next }
             {
               sub(/\r$/, "")
@@ -152,7 +152,7 @@ jobs:
           # =========================================================================
           echo "Processing list: HaGeZi Wildcard Rules -> Lists/HaGeZi-Wildcards.json"
 
-          DYNAMIC_WILDCARDS=$(curl -sL "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/wildcard/wildcard.txt" | awk '
+          DYNAMIC_WILDCARDS=$(curl -sL "https://hagezi-mirror.dnsbunker.org/adguard/regex-wildcard-rules.txt" | awk '
             /^\|\*.*\*\^$/ {
               sub(/\r$/, "")
               sub(/^\|/, "")
@@ -187,7 +187,7 @@ jobs:
           # =========================================================================
           echo "Processing list: HaGeZi DNS Rebind Domains -> Lists/HaGeZi-DNS-Rebind-Domains.json"
 
-          curl -sL "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/dns-rebind.txt" | awk '
+          curl -sL "https://hagezi-mirror.dnsbunker.org/adguard/dns-rebind-protection.txt" | awk '
             /^[!#]|^$/ { next }
             {
               sub(/\r$/, "")
