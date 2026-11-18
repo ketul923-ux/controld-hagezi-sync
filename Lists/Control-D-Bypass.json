@@ -330,6 +330,13 @@
       }
     },
     {
+      "PK": "3gppnetwork.org",
+      "action": {
+        "do": 1,
+        "status": 1
+      }
+    },
+    {
       "PK": "aa.entertainment.viasat.com",
       "action": {
         "status": 1,
@@ -890,6 +897,20 @@
       }
     },
     {
+      "PK": "avqs.mcafee.com",
+      "action": {
+        "do": 1,
+        "status": 1
+      }
+    },
+    {
+      "PK": "avts.mcafee.com",
+      "action": {
+        "do": 1,
+        "status": 1
+      }
+    },
+    {
       "PK": "awn.wifi.viasat.com",
       "action": {
         "status": 1,
@@ -897,10 +918,38 @@
       }
     },
     {
+      "PK": "b.barracudacentral.org",
+      "action": {
+        "do": 1,
+        "status": 1
+      }
+    },
+    {
+      "PK": "backscatterer.org",
+      "action": {
+        "do": 1,
+        "status": 1
+      }
+    },
+    {
       "PK": "bap.aws.opennetworkexchange.net",
       "action": {
         "status": 1,
         "do": 1
+      }
+    },
+    {
+      "PK": "bl.blocklist.de",
+      "action": {
+        "do": 1,
+        "status": 1
+      }
+    },
+    {
+      "PK": "bl.spamcop.net",
+      "action": {
+        "do": 1,
+        "status": 1
       }
     },
     {
@@ -1296,6 +1345,13 @@
       }
     },
     {
+      "PK": "corp",
+      "action": {
+        "do": 1,
+        "status": 1
+      }
+    },
+    {
       "PK": "cp-app-east.wifi-dev.connected.xfinity.com",
       "action": {
         "status": 1,
@@ -1520,6 +1576,13 @@
       }
     },
     {
+      "PK": "direct.quickconnect.to",
+      "action": {
+        "do": 1,
+        "status": 1
+      }
+    },
+    {
       "PK": "directaccess.viasat.com",
       "action": {
         "status": 1,
@@ -1548,6 +1611,13 @@
       }
     },
     {
+      "PK": "dnsbl.dronebl.org",
+      "action": {
+        "do": 1,
+        "status": 1
+      }
+    },
+    {
       "PK": "dnscheck.grapheneos.org",
       "action": {
         "status": 1,
@@ -1555,10 +1625,24 @@
       }
     },
     {
+      "PK": "dnswl.org",
+      "action": {
+        "do": 1,
+        "status": 1
+      }
+    },
+    {
       "PK": "doubletree.hiltonwifi.com",
       "action": {
         "status": 1,
         "do": 1
+      }
+    },
+    {
+      "PK": "dq.spamhaus.net",
+      "action": {
+        "do": 1,
+        "status": 1
       }
     },
     {
@@ -1681,6 +1765,13 @@
       }
     },
     {
+      "PK": "fritz.box",
+      "action": {
+        "do": 1,
+        "status": 1
+      }
+    },
+    {
       "PK": "fritz.nas",
       "action": {
         "status": 1,
@@ -1688,10 +1779,24 @@
       }
     },
     {
+      "PK": "fritz.powerline",
+      "action": {
+        "do": 1,
+        "status": 1
+      }
+    },
+    {
       "PK": "fritz.repeater",
       "action": {
         "status": 1,
         "do": 1
+      }
+    },
+    {
+      "PK": "fritz.smartgateway",
+      "action": {
+        "do": 1,
+        "status": 1
       }
     },
     {
@@ -1758,6 +1863,13 @@
       }
     },
     {
+      "PK": "hash.cymru.com",
+      "action": {
+        "do": 1,
+        "status": 1
+      }
+    },
+    {
       "PK": "hi.link",
       "action": {
         "status": 1,
@@ -1793,10 +1905,31 @@
       }
     },
     {
+      "PK": "home",
+      "action": {
+        "do": 1,
+        "status": 1
+      }
+    },
+    {
+      "PK": "home.arpa",
+      "action": {
+        "do": 1,
+        "status": 1
+      }
+    },
+    {
       "PK": "homerouter.cpe",
       "action": {
         "status": 1,
         "do": 1
+      }
+    },
+    {
+      "PK": "hostkarma.junkemailfilter.com",
+      "action": {
+        "do": 1,
+        "status": 1
       }
     },
     {
@@ -1870,6 +2003,13 @@
       }
     },
     {
+      "PK": "internal",
+      "action": {
+        "do": 1,
+        "status": 1
+      }
+    },
+    {
       "PK": "internal.central.arubanetworks.com",
       "action": {
         "status": 1,
@@ -1905,6 +2045,27 @@
       }
     },
     {
+      "PK": "intranet",
+      "action": {
+        "do": 1,
+        "status": 1
+      }
+    },
+    {
+      "PK": "ip6-localhost",
+      "action": {
+        "do": 0,
+        "status": 1
+      }
+    },
+    {
+      "PK": "ip6-loopback",
+      "action": {
+        "do": 0,
+        "status": 1
+      }
+    },
+    {
       "PK": "ipv4.connman.net",
       "action": {
         "status": 1,
@@ -1916,6 +2077,13 @@
       "action": {
         "status": 1,
         "do": 1
+      }
+    },
+    {
+      "PK": "ipv4only.arpa",
+      "action": {
+        "do": 1,
+        "status": 1
       }
     },
     {
@@ -2003,6 +2171,13 @@
       }
     },
     {
+      "PK": "lan",
+      "action": {
+        "do": 1,
+        "status": 1
+      }
+    },
+    {
       "PK": "landing.sbb.ch",
       "action": {
         "status": 1,
@@ -2017,10 +2192,31 @@
       }
     },
     {
+      "PK": "local",
+      "action": {
+        "do": 1,
+        "status": 1
+      }
+    },
+    {
       "PK": "localbattle.net",
       "action": {
         "status": 1,
         "do": 1
+      }
+    },
+    {
+      "PK": "localdomain",
+      "action": {
+        "do": 1,
+        "status": 1
+      }
+    },
+    {
+      "PK": "localhost",
+      "action": {
+        "do": 0,
+        "status": 1
       }
     },
     {
@@ -2157,6 +2353,20 @@
       }
     },
     {
+      "PK": "mail.abusix.zone",
+      "action": {
+        "do": 1,
+        "status": 1
+      }
+    },
+    {
+      "PK": "mailspike.net",
+      "action": {
+        "do": 1,
+        "status": 1
+      }
+    },
+    {
       "PK": "managedwifi.xfinity.com",
       "action": {
         "status": 1,
@@ -2259,6 +2469,13 @@
       "action": {
         "status": 1,
         "do": 1
+      }
+    },
+    {
+      "PK": "myunraid.net",
+      "action": {
+        "do": 1,
+        "status": 1
       }
     },
     {
@@ -2378,6 +2595,13 @@
       "action": {
         "status": 1,
         "do": 1
+      }
+    },
+    {
+      "PK": "nordspam.com",
+      "action": {
+        "do": 1,
+        "status": 1
       }
     },
     {
@@ -2703,10 +2927,24 @@
       }
     },
     {
+      "PK": "private",
+      "action": {
+        "do": 1,
+        "status": 1
+      }
+    },
+    {
       "PK": "prod.detectportal.prod.cloudops.mozgcp.net",
       "action": {
         "status": 1,
         "do": 1
+      }
+    },
+    {
+      "PK": "psbl.surriel.com",
+      "action": {
+        "do": 1,
+        "status": 1
       }
     },
     {
@@ -2913,10 +3151,38 @@
       }
     },
     {
+      "PK": "sophosxl.net",
+      "action": {
+        "do": 1,
+        "status": 1
+      }
+    },
+    {
       "PK": "southwestwifi.com",
       "action": {
         "status": 1,
         "do": 1
+      }
+    },
+    {
+      "PK": "spameatingmonkey.net",
+      "action": {
+        "do": 1,
+        "status": 1
+      }
+    },
+    {
+      "PK": "spamhaus.org",
+      "action": {
+        "do": 1,
+        "status": 1
+      }
+    },
+    {
+      "PK": "spamrats.com",
+      "action": {
+        "do": 1,
+        "status": 1
       }
     },
     {
@@ -3004,6 +3270,13 @@
       }
     },
     {
+      "PK": "surbl.org",
+      "action": {
+        "do": 1,
+        "status": 1
+      }
+    },
+    {
       "PK": "swa.mychasecreditcards.com",
       "action": {
         "status": 1,
@@ -3053,6 +3326,20 @@
       }
     },
     {
+      "PK": "tor.dan.me.uk",
+      "action": {
+        "do": 1,
+        "status": 1
+      }
+    },
+    {
+      "PK": "torexit.dan.me.uk",
+      "action": {
+        "do": 1,
+        "status": 1
+      }
+    },
+    {
       "PK": "tplinkap.net",
       "action": {
         "status": 1,
@@ -3064,6 +3351,13 @@
       "action": {
         "status": 1,
         "do": 1
+      }
+    },
+    {
+      "PK": "tplinklogin.net",
+      "action": {
+        "do": 1,
+        "status": 1
       }
     },
     {
@@ -3102,6 +3396,13 @@
       }
     },
     {
+      "PK": "uceprotect.net",
+      "action": {
+        "do": 1,
+        "status": 1
+      }
+    },
+    {
       "PK": "unitedprivatescreening.com",
       "action": {
         "status": 1,
@@ -3127,6 +3428,13 @@
       "action": {
         "status": 1,
         "do": 1
+      }
+    },
+    {
+      "PK": "uribl.com",
+      "action": {
+        "do": 1,
+        "status": 1
       }
     },
     {
