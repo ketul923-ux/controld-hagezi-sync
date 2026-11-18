@@ -52,7 +52,7 @@ jobs:
             | map({PK: ., action: { do: 0, status: 1 }})
           ' > temp_apr_adguard.json
 
-          # Merge both sources, flip all rules to block (do: 0), deduplicate, and exclude doh.dns.apple.com
+          # Merge both sources, flip all rules to block (do: 0), deduplicate, and update _dns.resolver.arpa to *dns.resolver.arpa
           jq --slurpfile extra temp_apr_adguard.json '
             .group.group = "Apple Private Relay Block" |
             .group.action.do = 0 |
@@ -60,7 +60,7 @@ jobs:
             .rules += $extra[0] |
             .rules |= unique_by(.PK) |
             del(.rules[] | select(.PK == "doh.dns.apple.com" or .PK == "doh.dns.apple.com.v.aaplimg.com" or .PK == "doh-dns-apple-com.v.aaplimg.com")) |
-            (.rules[] | select(.PK == "_dns.resolver.arpa") | .PK) = "*dns.resolver.arpa"
+            .rules |= map(if .PK == "_dns.resolver.arpa" then .PK = "*dns.resolver.arpa" else . end)
           ' Lists/Apple-Private-Relay-Block.json > Lists/Apple-Private-Relay-Block.json.tmp && \
             mv Lists/Apple-Private-Relay-Block.json.tmp Lists/Apple-Private-Relay-Block.json
 
@@ -147,9 +147,9 @@ jobs:
           done
 
           # =========================================================================
-          # TASK 3: HaGeZi DNS Rebind Protection (Domain Rules Only)
+          # TASK 3: DNS Rebind Protection (Appended to Control-D-Bypass.json)
           # =========================================================================
-          echo "Processing list: DNS Rebind Domains"
+          echo "Processing list: DNS Rebind Domains (Appending to Control-D-Bypass.json)"
 
           curl -sL "https://hagezi-mirror.dnsbunker.org/adguard/dns-rebind-protection.txt" | awk '
             /^[!#]|^$/ { next }
@@ -174,14 +174,14 @@ jobs:
               PK: .[1],
               action: { do: (.[0] | tonumber), status: 1 }
             })
-            | {
-                group: {
-                  group: "Control D Bypass",
-                  action: { status: 1 }
-                },
-                rules: .
-              }
-          ' > Lists/Control-D-Bypass.json
+          ' > temp_rebind_rules.json
+
+          if [ -f "Lists/Control-D-Bypass.json" ]; then
+            jq --slurpfile new_rules temp_rebind_rules.json '.rules += $new_rules[0] | .rules |= unique_by(.PK)' Lists/Control-D-Bypass.json > Lists/Control-D-Bypass.json.tmp && \
+              mv Lists/Control-D-Bypass.json.tmp Lists/Control-D-Bypass.json
+          fi
+
+          rm -f temp_rebind_rules.json
 
       - name: Commit and Push changes
         run: |
