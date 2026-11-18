@@ -2,7 +2,7 @@ name: Sync and Modify Adblock Lists
 
 on:
   schedule:
-    # Runs at 30 minutes past the hour every 2 hours (e.g., 12:30, 2:30, 4:30...)
+    # Runs at minute 15 every 23 hours
     - cron: '15 */23 * * *'
   workflow_dispatch: # Allows you to run this manually from the Actions tab
 
@@ -17,28 +17,55 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v7
 
-      - name: Download and Process File
+      - name: Download and Process Files
         run: |
           # Create the directory if it doesn't exist
           mkdir -p Lists
-          
-          # =========================================================================
-          # TASK 1: Apple Private Relay List Processing (Unique JSON Transformation)
-          # =========================================================================
-          curl -sL "https://hagezi-mirror.dnsbunker.org/controld/apple-private-relay-allow-folder.json" -o Lists/Apple-Private-Relay-Block.json
-          
-          jq '.group.group = "Apple Private Relay Block" | 
-            .group.action.do = 0 | 
-            (.rules[].action.do) = 0 | 
-            del(.rules[] | select(.PK == "doh.dns.apple.com" or .PK == "doh.dns.apple.com.v.aaplimg.com"))' \
-            Lists/Apple-Private-Relay-Block.json > Lists/Apple-Private-Relay-Block.json.tmp && \
-            mv Lists/Apple-Private-Relay-Block.json.tmp Lists/Apple-Private-Relay-Block.json
 
           # =========================================================================
           # CRITICAL FIX: Wipe existing dynamically generated target files first
           # This stops files from stacking rules on top of old cron histories.
           # =========================================================================
-          rm -f Lists/Native-Tracker-*.json Lists/Control-D-Bypass.json Lists/Unsafe-Domains.json
+          rm -f Lists/Native-Tracker-*.json \
+                Lists/Control-D-Bypass.json \
+                Lists/Unsafe-Domains.json \
+                Lists/Apple-Private-Relay-Block.json \
+                Lists/DNS-Rebind-Domains.json
+
+          # =========================================================================
+          # TASK 1: Apple Private Relay List Processing (JSON + AdGuard Merge)
+          # =========================================================================
+          curl -sL "https://hagezi-mirror.dnsbunker.org/controld/apple-private-relay-allow-folder.json" -o Lists/Apple-Private-Relay-Block.json
+
+          # Extract domains from HaGeZi's AdGuard Apple Private Relay list correctly
+          curl -sL "https://hagezi-mirror.dnsbunker.org/adguard/apple-private-relay.txt" | awk '
+            /^[!#]|^$/ { next }
+            {
+              sub(/\r$/, "")
+              sub(/\$.*$/, "")
+              sub(/\^.*$/, "")
+              sub(/^\|\|/, "")
+              if ($0 != "") print $0
+            }
+          ' | jq -R -s '
+            split("\n")
+            | map(select(. != ""))
+            | map({PK: ., action: { do: 0, status: 1 }})
+          ' > temp_apr_adguard.json
+
+          # Merge both sources, flip all rules to block (do: 0), deduplicate, and exclude doh.dns.apple.com
+          jq --slurpfile extra temp_apr_adguard.json '
+            .group.group = "Apple Private Relay Block" |
+            .group.action.do = 0 |
+            (.rules[].action.do) = 0 |
+            .rules += $extra[0] |
+            .rules |= unique_by(.PK) |
+            del(.rules[] | select(.PK == "doh.dns.apple.com" or .PK == "doh.dns.apple.com.v.aaplimg.com" or .PK == "doh-dns-apple-com.v.aaplimg.com")) |
+            (.rules[] | select(.PK == "_dns.resolver.arpa") | .PK) = "dns.resolver.arpa"
+          ' Lists/Apple-Private-Relay-Block.json > Lists/Apple-Private-Relay-Block.json.tmp && \
+            mv Lists/Apple-Private-Relay-Block.json.tmp Lists/Apple-Private-Relay-Block.json
+
+          rm -f temp_apr_adguard.json
 
           # =========================================================================
           # TASK 2: Dynamic Loop for Text Domain Lists (Blocks & Bypasses)
@@ -66,11 +93,11 @@ jobs:
 
           for item in "${LISTS[@]}"; do
             IFS="|" read -r url filename title action_do <<< "$item"
-            
+
             echo "Processing list: $title (Action: $action_do) -> Lists/$filename"
-            
+
             RAW_DATA=$(curl -sL "$url")
-            
+
             # 1. Filter clean domains down to a temporary text file
             if echo "$RAW_DATA" | grep -q '\[\]string'; then
               echo "Go language string array layout detected. Extracting quoted tokens..."
@@ -78,7 +105,7 @@ jobs:
             else
               echo "$RAW_DATA" | grep -v -E '^[#|!]' | grep -v '^$' > temp_domains.txt
             fi
-            
+
             # Wildcard Fix: Rewrite leading periods (like .domain.com) into proper asterisks (*.domain.com)
             sed -i -E 's/^\./\*\./' temp_domains.txt
 
@@ -115,18 +142,53 @@ jobs:
                    rules: $rules[0]
                  }' > "Lists/$filename"
             fi
-            
+
             # Clean up temporary scratchpad files
             rm -f temp_domains.txt temp_rules.json
           done
+
+          # =========================================================================
+          # TASK 3: HaGeZi DNS Rebind Protection (Domain Rules Only)
+          # =========================================================================
+          echo "Processing list: DNS Rebind Domains -> Lists/DNS-Rebind-Domains.json"
+
+          curl -sL "https://hagezi-mirror.dnsbunker.org/adguard/dns-rebind-protection.txt" | awk '
+            /^[!#]|^$/ { next }
+            {
+              sub(/\r$/, "")
+              sub(/\$.*$/, "")
+              sub(/\^.*$/, "")
+              if ($0 ~ /^@@\|\|/) {
+                sub(/^@@\|\|/, "")
+                if ($0 != "" && $0 != "/") print "1|" $0
+              } else if ($0 ~ /^\|\|/) {
+                sub(/^\|\|/, "")
+                if ($0 != "" && $0 != "/") print "0|" $0
+              } else {
+                if ($0 != "" && $0 != "/") print "0|" $0
+              }
+            }
+          ' | sort -u | jq -R -s '
+            split("\n")
+            | map(select(. != ""))
+            | map(split("|") | {
+              PK: .[1],
+              action: { do: (.[0] | tonumber), status: 1 }
+            })
+            | {
+                group: {
+                  group: "DNS Rebind Domains",
+                  action: { do: 1, status: 1 }
+                },
+                rules: .
+              }
+          ' > Lists/DNS-Rebind-Domains.json
 
       - name: Commit and Push changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          
           git add Lists/*.json
-          
           if git diff --staged --quiet; then
             echo "No changes detected. Skipping commit."
           else
@@ -141,4 +203,3 @@ jobs:
         run: |
           echo "Scheduled run detected. Deleting this workflow run log..."
           gh api -X DELETE /repos/${{ github.repository }}/actions/runs/${{ github.run_id }} || true
-
