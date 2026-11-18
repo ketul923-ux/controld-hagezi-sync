@@ -1,0 +1,39 @@
+{
+  "group": {
+    "group": "HaGeZi Wildcard Rules",
+    "action": {
+      "do": 0,
+      "status": 1
+    }
+  },
+  "rules": [
+    {
+      "PK": "*-tagging-*.run.app",
+      "action": {
+        "do": 0,
+        "status": 1
+      }
+    },
+    {
+      "PK": "gtm-*.appspot.com",
+      "action": {
+        "do": 0,
+        "status": 1
+      }
+    },
+    {
+      "PK": "gtm-*.fps.goog",
+      "action": {
+        "do": 0,
+        "status": 1
+      }
+    },
+    {
+      "PK": "gtm-*.run.app",
+      "action": {
+        "do": 0,
+        "status": 1
+      }
+    }
+  ]
+}

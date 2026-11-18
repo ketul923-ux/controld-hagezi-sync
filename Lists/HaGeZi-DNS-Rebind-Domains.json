@@ -1,0 +1,10 @@
+{
+  "group": {
+    "group": "HaGeZi DNS Rebind Domains",
+    "action": {
+      "do": 1,
+      "status": 1
+    }
+  },
+  "rules": []
+}
