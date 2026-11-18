@@ -15,140 +15,91 @@
       }
     },
     {
-      "PK": "*0-0-0-0*",
+      "PK": "/(^|.+\\-|.+\\.)(piwik|matomo|plausible|posthog|utiq|umami|sentry|bugsnag)\\d*(\\-[^.]+)?\\.[^.]+\\.[^.]+.*$/",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "*0ff1ce*",
+      "PK": "/(^|\\.)(0x)?(?=[0-9a-f]*[a-f])(?=[0-9a-f]*[0-9])[0-9a-f]{10,64}\\.[a-z]{2,}$/",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "*0ffice*",
+      "PK": "/(^|\\.)[0-9a-fA-F]{8}(-[0-9a-fA-F]{4}){3}-[0-9a-fA-F]{12}\\.[a-z]{2,}$/",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "*app1e*",
+      "PK": "/\\-tagging\\-.*\\.run\\.app$/",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "*faceb00k*",
+      "PK": "/^(tags|tagging|tagmanager)\\.[a-z0-9-]+\\.([a-z]{2,}|[a-z]{2,3}\\.[a-z]{2,})$/",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "*faceb0ok*",
+      "PK": "/^103\\.218\\.242\\.[0-9]+$/",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "*facebo0k*",
+      "PK": "/^172\\.241\\.7\\.[0-9]+$/",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "*g00gle*",
+      "PK": "/^216\\.21\\.13\\.(14|15)$/",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "*g0ogle*",
+      "PK": "/^23\\.109\\.135\\.[0-9]+$/",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "*go0gle*",
+      "PK": "/^69\\.41\\.166\\.[0-9]+$/",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "*inslagram*",
+      "PK": "/^94\\.242\\.247\\.(2[0-9]|3[0-2])$/",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "*ipfs*",
+      "PK": "/^gtm\\-.*\\.(appspot\\.com|fps\\.goog|run\\.app)$/",
       "action": {
         "do": 0,
         "status": 1
       }
     },
     {
-      "PK": "*lnslagram*",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
-      "PK": "*lnstagram*",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
-      "PK": "*off1ce*",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
-      "PK": "*qltuh*",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
-      "PK": "*tw1tter*",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
-      "PK": "*y0ulube*",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
-      "PK": "*y0utube*",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
-      "PK": "*youlube*",
+      "PK": "/^s?s?gtm\\.[a-z0-9-]+\\.([a-z]{2,}|[a-z]{2,3}\\.[a-z]{2,})$/",
       "action": {
         "do": 0,
         "status": 1
@@ -170,6 +121,146 @@
     },
     {
       "PK": "gtm-*.run.app",
+      "action": {
+        "do": 0,
+        "status": 1
+      }
+    },
+    {
+      "PK": "|*0-0-0-0*^",
+      "action": {
+        "do": 0,
+        "status": 1
+      }
+    },
+    {
+      "PK": "|*0ff1ce*^",
+      "action": {
+        "do": 0,
+        "status": 1
+      }
+    },
+    {
+      "PK": "|*0ffice*^",
+      "action": {
+        "do": 0,
+        "status": 1
+      }
+    },
+    {
+      "PK": "|*app1e*^",
+      "action": {
+        "do": 0,
+        "status": 1
+      }
+    },
+    {
+      "PK": "|*faceb00k*^",
+      "action": {
+        "do": 0,
+        "status": 1
+      }
+    },
+    {
+      "PK": "|*faceb0ok*^",
+      "action": {
+        "do": 0,
+        "status": 1
+      }
+    },
+    {
+      "PK": "|*facebo0k*^",
+      "action": {
+        "do": 0,
+        "status": 1
+      }
+    },
+    {
+      "PK": "|*g00gle*^",
+      "action": {
+        "do": 0,
+        "status": 1
+      }
+    },
+    {
+      "PK": "|*g0ogle*^",
+      "action": {
+        "do": 0,
+        "status": 1
+      }
+    },
+    {
+      "PK": "|*go0gle*^",
+      "action": {
+        "do": 0,
+        "status": 1
+      }
+    },
+    {
+      "PK": "|*inslagram*^",
+      "action": {
+        "do": 0,
+        "status": 1
+      }
+    },
+    {
+      "PK": "|*ipfs*^",
+      "action": {
+        "do": 0,
+        "status": 1
+      }
+    },
+    {
+      "PK": "|*lnslagram*^",
+      "action": {
+        "do": 0,
+        "status": 1
+      }
+    },
+    {
+      "PK": "|*lnstagram*^",
+      "action": {
+        "do": 0,
+        "status": 1
+      }
+    },
+    {
+      "PK": "|*off1ce*^",
+      "action": {
+        "do": 0,
+        "status": 1
+      }
+    },
+    {
+      "PK": "|*qltuh*^",
+      "action": {
+        "do": 0,
+        "status": 1
+      }
+    },
+    {
+      "PK": "|*tw1tter*^",
+      "action": {
+        "do": 0,
+        "status": 1
+      }
+    },
+    {
+      "PK": "|*y0ulube*^",
+      "action": {
+        "do": 0,
+        "status": 1
+      }
+    },
+    {
+      "PK": "|*y0utube*^",
+      "action": {
+        "do": 0,
+        "status": 1
+      }
+    },
+    {
+      "PK": "|*youlube*^",
       "action": {
         "do": 0,
         "status": 1
