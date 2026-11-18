@@ -38,7 +38,7 @@ jobs:
           # =========================================================================
           curl -sL "https://hagezi-mirror.dnsbunker.org/controld/apple-private-relay-allow-folder.json" -o Lists/Apple-Private-Relay-Block.json
 
-          # Extract domains from HaGeZi's AdGuard Apple Private Relay list as well
+          # Extract domains from HaGeZi's AdGuard Apple Private Relay list correctly
           curl -sL "https://hagezi-mirror.dnsbunker.org/adguard/apple-private-relay.txt" | awk '
             /^[!#]|^$/ { next }
             {
@@ -153,10 +153,9 @@ jobs:
           echo "Processing list: HaGeZi Wildcard Rules -> Lists/HaGeZi-Wildcards.json"
 
           DYNAMIC_WILDCARDS=$(curl -sL "https://hagezi-mirror.dnsbunker.org/adguard/regex-wildcard-rules.txt" | awk '
-            /^\|\*.*\*\^$/ {
+            /^[!#]|^$/ { next }
+            {
               sub(/\r$/, "")
-              sub(/^\|/, "")
-              sub(/\^.*$/, "")
               if ($0 != "") print $0
             }
           ')
@@ -192,11 +191,14 @@ jobs:
             {
               sub(/\r$/, "")
               sub(/\$.*$/, "")
+              sub(/\^.*$/, "")
               if ($0 ~ /^@@\|\|/) {
                 sub(/^@@\|\|/, "")
                 if ($0 != "") print "1|" $0
               } else if ($0 ~ /^\|\|/) {
                 sub(/^\|\|/, "")
+                if ($0 != "") print "0|" $0
+              } else {
                 if ($0 != "") print "0|" $0
               }
             }
@@ -235,4 +237,3 @@ jobs:
         run: |
           echo "Scheduled run detected. Deleting this workflow run log..."
           gh api -X DELETE /repos/${{ github.repository }}/actions/runs/${{ github.run_id }} || true
-          
