@@ -61,7 +61,8 @@ jobs:
             (.rules[].action.do) = 0 |
             .rules += $extra[0] |
             .rules |= unique_by(.PK) |
-            del(.rules[] | select(.PK == "doh.dns.apple.com" or .PK == "doh.dns.apple.com.v.aaplimg.com" or .PK == "doh-dns-apple-com.v.aaplimg.com"))
+            del(.rules[] | select(.PK == "doh.dns.apple.com" or .PK == "doh.dns.apple.com.v.aaplimg.com" or .PK == "doh-dns-apple-com.v.aaplimg.com")) |
+            (.rules[] | select(.PK == "_dns.resolver.arpa") | .PK) = "dns.resolver.arpa"
           ' Lists/Apple-Private-Relay-Block.json > Lists/Apple-Private-Relay-Block.json.tmp && \
             mv Lists/Apple-Private-Relay-Block.json.tmp Lists/Apple-Private-Relay-Block.json
 
@@ -150,13 +151,17 @@ jobs:
           # =========================================================================
           # TASK 3: HaGeZi Wildcards & Convertible Tagging Rules
           # =========================================================================
-          echo "Processing list: HaGeZi Wildcard Rules -> Lists/HaGeZi-Wildcards.json"
+          echo "Processing list: Wildcard Rules -> Lists/HaGeZi-Wildcards.json"
 
           DYNAMIC_WILDCARDS=$(curl -sL "https://hagezi-mirror.dnsbunker.org/adguard/regex-wildcard-rules.txt" | awk '
             /^[!#]|^$/ { next }
             {
               sub(/\r$/, "")
-              if ($0 != "") print $0
+              sub(/\$.*$/, "")
+              sub(/\^.*$/, "")
+              sub(/^\|\|/, "")
+              sub(/^\|/, "")
+              if ($0 != "" && $0 !~ /^\/.+\/$/) print $0
             }
           ')
 
@@ -174,7 +179,7 @@ jobs:
               | map({ PK: ., action: { do: 0, status: 1 } })
               | {
                   group: {
-                    group: "HaGeZi Wildcard Rules",
+                    group: "Wildcard Rules",
                     action: { do: 0, status: 1 }
                   },
                   rules: .
@@ -184,7 +189,7 @@ jobs:
           # =========================================================================
           # TASK 4: HaGeZi DNS Rebind Protection (Domain Rules Only)
           # =========================================================================
-          echo "Processing list: HaGeZi DNS Rebind Domains -> Lists/HaGeZi-DNS-Rebind-Domains.json"
+          echo "Processing list: DNS Rebind Domains -> Lists/HaGeZi-DNS-Rebind-Domains.json"
 
           curl -sL "https://hagezi-mirror.dnsbunker.org/adguard/dns-rebind-protection.txt" | awk '
             /^[!#]|^$/ { next }
@@ -194,12 +199,12 @@ jobs:
               sub(/\^.*$/, "")
               if ($0 ~ /^@@\|\|/) {
                 sub(/^@@\|\|/, "")
-                if ($0 != "") print "1|" $0
+                if ($0 != "" && $0 != "/") print "1|" $0
               } else if ($0 ~ /^\|\|/) {
                 sub(/^\|\|/, "")
-                if ($0 != "") print "0|" $0
+                if ($0 != "" && $0 != "/") print "0|" $0
               } else {
-                if ($0 != "") print "0|" $0
+                if ($0 != "" && $0 != "/") print "0|" $0
               }
             }
           ' | sort -u | jq -R -s '
@@ -211,7 +216,7 @@ jobs:
             })
             | {
                 group: {
-                  group: "HaGeZi DNS Rebind Domains",
+                  group: "DNS Rebind Domains",
                   action: { do: 1, status: 1 }
                 },
                 rules: .
