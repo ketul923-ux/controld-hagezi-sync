@@ -29,8 +29,7 @@ jobs:
           rm -f Lists/Native-Tracker-*.json \
                 Lists/Control-D-Bypass.json \
                 Lists/Unsafe-Domains.json \
-                Lists/Apple-Private-Relay-Block.json \
-                Lists/DNS-Rebind-Domains.json
+                Lists/Apple-Private-Relay-Block.json
 
           # =========================================================================
           # TASK 1: Apple Private Relay List Processing (JSON + AdGuard Merge)
@@ -61,7 +60,7 @@ jobs:
             .rules += $extra[0] |
             .rules |= unique_by(.PK) |
             del(.rules[] | select(.PK == "doh.dns.apple.com" or .PK == "doh.dns.apple.com.v.aaplimg.com" or .PK == "doh-dns-apple-com.v.aaplimg.com")) |
-            (.rules[] | select(.PK == "_dns.resolver.arpa") | .PK) = "dns.resolver.arpa"
+            (.rules[] | select(.PK == "_dns.resolver.arpa") | .PK) = "*dns.resolver.arpa"
           ' Lists/Apple-Private-Relay-Block.json > Lists/Apple-Private-Relay-Block.json.tmp && \
             mv Lists/Apple-Private-Relay-Block.json.tmp Lists/Apple-Private-Relay-Block.json
 
@@ -150,7 +149,7 @@ jobs:
           # =========================================================================
           # TASK 3: HaGeZi DNS Rebind Protection (Domain Rules Only)
           # =========================================================================
-          echo "Processing list: DNS Rebind Domains -> Lists/DNS-Rebind-Domains.json"
+          echo "Processing list: DNS Rebind Domains"
 
           curl -sL "https://hagezi-mirror.dnsbunker.org/adguard/dns-rebind-protection.txt" | awk '
             /^[!#]|^$/ { next }
@@ -177,12 +176,12 @@ jobs:
             })
             | {
                 group: {
-                  group: "DNS Rebind Domains",
-                  action: { do: 1, status: 1 }
+                  group: "Control D Bypass",
+                  action: { status: 1 }
                 },
                 rules: .
               }
-          ' > Lists/DNS-Rebind-Domains.json
+          ' > Lists/Control-D-Bypass.json
 
       - name: Commit and Push changes
         run: |
