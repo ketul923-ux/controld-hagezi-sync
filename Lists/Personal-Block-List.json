@@ -176,20 +176,6 @@
       }
     },
     {
-      "PK": "cdn.optimizely.com",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
-      "PK": "securepubads.g.doubleclick.net",
-      "action": {
-        "do": 0,
-        "status": 1
-      }
-    },
-    {
       "PK": "pubads.g.doubleclick.net",
       "action": {
         "do": 0,
