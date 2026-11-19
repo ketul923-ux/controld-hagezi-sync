@@ -858,7 +858,7 @@ import_with_validation() {
                     if [[ "$actual_count" -eq "$total_rules" ]]; then
                         log "  New group imported with PK: $new_pk"
                         # =========================================================================
-                        if [[ "$name" == "Block List via Redirect to Custom" ]]; then
+                        if [[ "$name" == "Redirect to Custom" ]]; then
                             log "  Configuring special group settings for '$name'..."
                             local payload_null
                             payload_null=$(jq -n '{"do": 2, "via": "23.171.240.158", "via_v6": "[2606:1a40:3000:4800::158]:443", "status": 1}')
