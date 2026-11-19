@@ -858,10 +858,10 @@ import_with_validation() {
                     if [[ "$actual_count" -eq "$total_rules" ]]; then
                         log "  New group imported with PK: $new_pk"
                         # =========================================================================
-                        if [[ "$name" == "Block List via Redirect to Null" ]]; then
+                        if [[ "$name" == "Block List via Redirect to Custom" ]]; then
                             log "  Configuring special group settings for '$name'..."
                             local payload_null
-                            payload_null=$(jq -n '{"do": 2, "via": "0.0.0.0", "via_v6": "0000:0000:0000:0000:0000:0000:0000:0000", "status": 1}')
+                            payload_null=$(jq -n '{"do": 2, "via": "23.171.240.158", "via_v6": "[2606:1a40:3000:4800::158]:443", "status": 1}')
                             
                             # Rely on the function return status (0 = success) rather than a local variable leak
                             if ! api_call_with_retry "PUT" "${API_BASE}/profiles/${pid}/groups/${new_pk}" "$payload_null" >/dev/null; then
