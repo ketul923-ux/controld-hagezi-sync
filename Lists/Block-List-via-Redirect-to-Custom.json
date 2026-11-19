@@ -1,6 +1,6 @@
 {
   "group": {
-    "group": "Block List via Redirect to Custom",
+    "group": "Redirect to Custom",
     "action": {
       "status": 1,
       "do": 2,
